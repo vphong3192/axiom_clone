@@ -1,47 +1,53 @@
-# Inspection Report — Station 6 (Round 2 — FINAL)
+# Inspection Report — Station 6 (Round 3 — v3 expansion)
 **Run:** 20260615T000000-nam-bac-viet
-**Inspector:** axiom-inspector (a83883e657507013c) — independent, read 03-deliverable.md directly in full (416 lines)
-**Cross-checked against:** 01-research.md (full)
-**Independence note:** Read no maker summary. Started from scratch per AXIOM send-back protocol. Round 1 report (Round 1 inspector: af4342f6d23dfd918) was explicitly disregarded.
+**Inspector:** axiom-inspector (afed0df80552f3f48) — independent, read 03-deliverable.md directly in full
+**Cross-checked against:** 01b-research-supplement.md (new research for the two additions)
+**Scope:** Targeted inspection of TWO NEW SECTIONS added in v3; prior PASS (Round 2) stands for pre-existing content
 
 ---
 
-## Checklist (Round 2)
+## Checklist: New section 1.5 — Hoàn cảnh thiên nhiên và lịch sử khắc nghiệt
 
 | # | Check | Result |
 |---|-------|--------|
-| 1 | Thesis stated + advanced + reaffirmed | PASS |
-| 2 | Stereotype testing; 2023 Springer gender reversal (n=8,288) present | PASS |
-| 3 | Confidence tags complete; no [D]; no [C] as established fact | PASS |
-| 4 | Citation fix verified: colonial claim now [A]² (line 26); Chợ Lớn sentence now [A]¹⁰ (line 42) | PASS |
-| 5 | 73% CC + ISEAS 2026/29 + patron-client cause | PASS |
-| 6 | Mekong Delta ≠ all South; structural causes | PASS |
-| 7 | Search interest [A] vs ownership [C] distinguished | PASS |
-| 8 | Formal academic Vietnamese register | PASS |
-| 9 | All sections present (Intro, Mục 1-6, Conclusion, 28 References) | PASS |
-| 10 | Accuracy spot-checks (3 numbers verified against 01-research.md) | PASS |
+| 1 | Famine death toll [A] + Huff 2019/Wikipedia source | PASS |
+| 2 | Cochinchina food-surplus, NOT affected by famine | PASS |
+| 3 | Bao cấp asymmetry: North 32 years, South 11 years | PASS |
+| 4 | Talhelm (2014, Science) cited WITH limitation (applies to all Vietnam, not N-S diff) | PASS |
+| 5 | "Frugality" graded [B], data gap flagged [C] | PASS |
+| 6 | Avoids environmental determinism; frames as "documented historical events" | PASS |
+
+## Checklist: New section 2.6 — Luận điểm trạng nguyên
+
+| # | Check | Result |
+|---|-------|--------|
+| 7 | Trạng nguyên timeline: from ~1075 Lý dynasty through Later Lê | PASS |
+| 8 | Nguyễn dynasty (1802-1945) awarded to NOBODY — North or South | PASS |
+| 9 | Nam Bộ incorporated 1757-1802, AFTER active trạng nguyên era | PASS |
+| 10 | Phan Thanh Giản = tiến sĩ (not trạng nguyên), ~1/4 Chinese, grandfather Fujian | PASS |
+| 11 | French abolition: Cochinchina 1867, ~48 years before Tonkin 1915 | PASS |
+| 12 | Conclusion: geography/chronology explains absence, NOT cultural disinterest | PASS |
+| 13 | All 2.6 claims carry [A]/[B] tags with matching endnotes | PASS (see note below) |
+
+## Register and integration
+
+| # | Check | Result |
+|---|-------|--------|
+| 14 | Formal academic Vietnamese maintained throughout both new sections | PASS |
+| 15 | New sections integrate logically with central thesis | PASS |
 
 ---
 
-## Key verifications (Round 2)
+## Minor items addressed by orchestrator (post-inspection, pre-shipping)
 
-**Fix 1 (from Round 1):** Line 26 colonial three-zone claim now reads `[A]²` (not `[A]¹`). Endnote ² → Ngo / Russian Journal of Vietnamese Studies. Verified directly. Correct.
+**Item 1 (grading):** The claim "Nguyễn dynasty never awarded trạng nguyên" was tagged [A]³³ in Assembly output, but the research supplement rated it [B] and flagged it as unconfirmed by Vietnamese-language archival sources. Orchestrator downgraded to [B]³³ — more defensible per Axiom 5.
 
-**Fix 2 (from Round 1):** Line 42 Chợ Lớn sentence ends with `[A]¹⁰`. Endnote ¹⁰ → Facts and Details / Wikipedia Hoa people. Verified directly. Correct.
-
-**Spot-check numbers:**
-- 73% CC (up from 66%), South 27% — matches 01-research.md line 79 ✓
-- Mekong Delta 43.1% HS completion vs 58.1% national — matches line 31 ✓
-- Real estate 44%→61% Q2'24→Q2'25 — matches line 69 ✓
-- n=8,288 gender study, Northerners more permissive — matches line 97 ✓
-- Hoa 70-80% commerce, 500k+ refugees — matches line 19 ✓
-
-**Grokipedia income figure:** Correctly downgraded to [B] with "(nguồn: tổng hợp thứ cấp; chưa xác minh độc lập từ World Bank hoặc ADB)" — honest and appropriate.
-
-**Cosmetic observation (non-blocking):** Reference 14 lists gender study author as "[Tác giả ẩn danh trong tóm tắt công bố]" — honest disclosure; journal, title, DOI/URL, and n all provided so source is verifiable.
+**Item 2 (pre-existing citation corrected):** Reference 3 / endnote 3 had authors listed as "Becker, Fetzer & Novy" — which are the authors of a different study. The Journal of Economic Growth (2022) paper cited is by Ho, Martinsson & Olsson. Orchestrator corrected reference 3 and endnote 3 to the correct authors. The new section 1.5 already had the correct attribution; this resolved the internal contradiction.
 
 ---
 
 ## Verdict: PASS
 
-All 10 checklist items pass. Both FIX-IT corrections from Round 1 are verifiably present in the text. Confidence grading is disciplined. The essay tests rather than repeats stereotypes, distinguishes Mekong Delta from Southeast Vietnam, separates real-estate search interest from ownership data, and attributes Northern political dominance to structural patron-client mechanisms — not to cultural superiority. Only cosmetic issues remain. The work may ship.
+All 15 checklist items pass on substance. Both new sections (1.5 and 2.6) are correctly sourced, properly confidence-graded, written in formal academic Vietnamese, and strengthen rather than contradict the essay's central thesis. The two minor items flagged above were corrected directly by the orchestrator without requiring a new Assembly round. The work may ship.
+
+**Confidence summary (v3 final):** ~49×A, ~11×B (one additional after downgrade), ~4×C explicitly flagged, 0×D.

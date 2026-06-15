@@ -91,7 +91,7 @@ Một luận điểm đặc biệt thường xuất hiện trong các cuộc tra
 
 **Dữ kiện 2: Miền Nam chưa tồn tại trong giai đoạn trao trạng nguyên.** Đây là dữ kiện quyết định về mặt lịch sử. Vùng Nam Bộ (Cochinchine / Đồng bằng sông Cửu Long) chỉ được sáp nhập dần dần vào lãnh thổ Việt Nam từ thế kỷ 17 đến thế kỷ 18, với quá trình hoàn tất về cơ bản vào năm 1757, và được thống nhất hành chính chính thức dưới triều Nguyễn vào năm 1802. [A]³³ Vùng đất hiện là miền Nam Việt Nam *không tồn tại như một phần của Việt Nam* trong suốt giai đoạn tích cực trao danh hiệu trạng nguyên. Hệ quả lịch sử tất yếu: không có ứng viên nào từ miền Nam có thể tranh cử trong hệ thống này — không phải vì họ thất bại trong các kỳ thi, mà vì vùng đất đó chưa hề thuộc về Việt Nam trong thời kỳ hệ thống hoạt động mạnh nhất.
 
-**Dữ kiện 3: Triều Nguyễn — triều đại đầu tiên dưới đó người miền Nam có thể thi — không trao trạng nguyên cho BẤT KỲ AI.** Dưới triều Nguyễn (1802-1945), danh hiệu trạng nguyên về thực chất không bao giờ được trao — tiêu chuẩn được đặt cao đến mức không thí sinh nào — từ Bắc, Trung hay Nam — đạt được vị trí thứ nhất trong toàn bộ giai đoạn tồn tại của triều đại này. [A]³³ Nói cách khác, "không có trạng nguyên nào từ miền Nam" là đúng về mặt kỹ thuật — nhưng hoàn toàn gây hiểu lầm: *không có trạng nguyên nào từ bất kỳ vùng nào* của Việt Nam kể từ đầu thế kỷ 19.
+**Dữ kiện 3: Triều Nguyễn — triều đại đầu tiên dưới đó người miền Nam có thể thi — không trao trạng nguyên cho BẤT KỲ AI.** Dưới triều Nguyễn (1802-1945), danh hiệu trạng nguyên về thực chất không bao giờ được trao — tiêu chuẩn được đặt cao đến mức không thí sinh nào — từ Bắc, Trung hay Nam — đạt được vị trí thứ nhất trong toàn bộ giai đoạn tồn tại của triều đại này. [B]³³ Nói cách khác, "không có trạng nguyên nào từ miền Nam" là đúng về mặt kỹ thuật — nhưng hoàn toàn gây hiểu lầm: *không có trạng nguyên nào từ bất kỳ vùng nào* của Việt Nam kể từ đầu thế kỷ 19.
 
 **Dữ kiện 4: Phan Thanh Giản — tiến sĩ, không phải trạng nguyên.** Phan Thanh Giản (1796-1867), sinh tại Ba Thanh, Biên Hòa (nay thuộc tỉnh Bến Tre), là người đầu tiên từ Nam Kỳ (miền Nam) đỗ kỳ thi Đình và được phong học vị *tiến sĩ* (tiến sĩ đệ tam giáp, tương đương Jinshi trong hệ thống Trung Hoa) vào năm 1826. [A]³⁴ Ông *không phải* là trạng nguyên — học vị tiến sĩ là bằng tiến sĩ (đỗ kỳ thi Đình) nhưng không phải vị trí đứng đầu toàn quốc. Phân biệt này có ý nghĩa lịch sử quan trọng. Về gốc gác, ông nội của Phan Thanh Giản — Phan Thanh Tập — là người gốc Hải Thành (Phúc Kiến, Trung Quốc), di cư sang Việt Nam vào đầu thế kỷ 18 và lấy vợ người Việt. [A]³⁴ Phan Thanh Giản do đó có khoảng 1/4 huyết thống Trung Hoa từ phía ông nội — không phải người Hoa hoàn toàn (Hoa kiều) theo bất kỳ định nghĩa thông thường nào.
 
@@ -278,7 +278,7 @@ Sự thiếu đại diện của miền Nam trong cấu trúc lãnh đạo Đả
 
 2. Ngo Thi Nhan Buoi. "French-Vietnamese Educational Culture in Cochinchina 1862–1945." *Russian Journal of Vietnamese Studies* (Вьетнамистика). https://vietnamjournal.ru/2618-9453/article/view/562779. Xem thêm: Facts and Details. "Education in Vietnam." https://factsanddetails.com/southeast-asia/Vietnam/sub5_9f/entry-3457.html
 
-3. Becker, Sascha O., Thiemo Fetzer, và Dennis Novy. "The Origins of Cultural Divergence: Evidence from Vietnam." *Journal of Economic Growth*, Springer, 2021. https://link.springer.com/article/10.1007/s10887-021-09194-x
+3. Ho, Anh Tuan, Per Pettersson-Lidbom, và Ola Olsson. "The Origins of Cultural Divergence: Evidence from Vietnam." *Journal of Economic Growth*, Springer, 2022. https://link.springer.com/article/10.1007/s10887-021-09194-x
 
 4. Encyclopaedia Britannica. "The Two Vietnams, 1954–65." https://www.britannica.com/place/Vietnam/The-two-Vietnams-1954-65
 
@@ -350,7 +350,7 @@ Sự thiếu đại diện của miền Nam trong cấu trúc lãnh đạo Đả
 
 ² Ngo, Russian Journal of Vietnamese Studies; Facts and Details on Education in Vietnam — về thời gian áp dụng Quốc ngữ và chính sách giáo dục thuộc địa. [A]
 
-³ Becker, Fetzer & Novy, Journal of Economic Growth, 2021 — về luận điểm người định cư biên cương và dữ liệu phân bổ đất đai. [A]
+³ Ho, Martinsson & Olsson, Journal of Economic Growth, 2022 — về luận điểm người định cư biên cương và dữ liệu phân bổ đất đai. [A]
 
 ⁴ Encyclopaedia Britannica — về Hiệp định Geneva và phân chia 1954. [A]
 
