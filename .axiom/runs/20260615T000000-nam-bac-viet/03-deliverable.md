@@ -33,7 +33,7 @@ Một cách giải thích học thuật cho sự khác biệt giữa Bắc và N
 
 ### 1.3 Phân chia năm 1954 — nhân tố quyết định nhất
 
-Mặc dù nền tảng thuộc địa đã tạo ra sự khác biệt từ trước, nhưng nhân tố có tác động mạnh nhất đến sự phân kỳ Bắc-Nam trong thế kỷ 20 chính là sự phân chia đất nước theo Hiệp định Geneva năm 1954. [A]⁴ Trong 21 năm từ 1954 đến 1975, hai miền vận hành theo hai hệ thống chính trị-kinh tế hoàn toàn đối lập: miền Bắc theo mô hình xã hội chủ nghĩa kế hoạch hóa tập trung, miền Nam theo mô hình kinh tế thị trường tư bản chủ nghĩa với sự hỗ trợ của Hoa Kỳ. [A]⁴ Miền Nam nhận hơn 30 tỷ USD viện trợ kinh tế từ Mỹ trong giai đoạn 1954-1975; thu nhập bình quân đầu người tăng từ khoảng 100 USD cuối thập kỷ 1950 lên khoảng 200-300 USD vào giữa thập kỷ 1970. [A]⁵
+Mặc dù nền tảng thuộc địa đã tạo ra sự khác biệt từ trước, nhưng nhân tố có tác động mạnh nhất đến sự phân kỳ Bắc-Nam trong thế kỷ 20 chính là sự phân chia đất nước theo Hiệp định Geneva năm 1954. [A]⁴ Trong 21 năm từ 1954 đến 1975, hai miền vận hành theo hai hệ thống chính trị-kinh tế hoàn toàn đối lập: miền Bắc theo mô hình xã hội chủ nghĩa kế hoạch hóa tập trung, miền Nam theo mô hình kinh tế thị trường tư bản chủ nghĩa với sự hỗ trợ của Hoa Kỳ. [A]⁴ Miền Nam nhận hơn 30 tỷ USD viện trợ kinh tế từ Mỹ trong giai đoạn 1954-1975; thu nhập bình quân đầu người tăng từ khoảng 100 USD cuối thập kỷ 1950 lên khoảng 200-300 USD vào giữa thập kỷ 1970. [B]⁵ (nguồn: tổng hợp thứ cấp; chưa xác minh độc lập từ World Bank hoặc ADB)
 
 Hai mươi mốt năm sống dưới hai hệ thống kinh tế-chính trị khác nhau đã tạo ra những sự phân kỳ sâu sắc và đo lường được trong hành vi kinh tế, thái độ đối với tài sản tư nhân, mức độ tin tưởng vào chính phủ, và định hướng giá trị. [B]⁶ Như nghiên cứu của Kim (2008) cho thấy, ngay cả sau khi thống nhất pháp lý về quyền sở hữu tài sản, người dân Thành phố Hồ Chí Minh và Hà Nội vẫn thể hiện hành vi khác nhau đáng kể trong cách thức giao dịch và nhận thức về tài sản. [B]⁷ Giai đoạn sau Đổi Mới (1986) đã dỡ bỏ kế hoạch hóa tập trung, nhưng như các tài liệu ghi nhận, người dân Thành phố Hồ Chí Minh "chưa bao giờ mất đi kỹ năng — hay sự thèm muốn — đối với kinh tế thị trường tư bản." [A]⁸
 
@@ -121,27 +121,27 @@ Trước khi phân tích xu hướng đầu tư của người miền Bắc vào
 
 Vùng Đồng bằng sông Hồng (miền Bắc, với Hà Nội là trung tâm) cũng là một cực kinh tế mạnh: GDP năm 2022 đạt 2,89 triệu tỷ đồng (khoảng 123 tỷ USD), đóng góp ~30,4% GDP quốc gia năm 2023, GRDP bình quân đầu người 2023 đạt khoảng 131,9 triệu đồng (~5.000 USD/người/năm). [A]²¹ So sánh GRDP bình quân đầu người năm 2025: Đông Nam Bộ đạt 6.530 USD, Đồng bằng sông Hồng 6.459 USD, Đồng bằng sông Cửu Long chỉ 3.386 USD. [A]¹⁸ Miền Nam (Đông Nam Bộ) dẫn đầu về kinh tế — đây là điểm khởi đầu quan trọng: không phải miền Bắc đang thống trị nền kinh tế cả nước, mà là miền Nam (Đông Nam Bộ) đang đóng vai trò đầu tàu kinh tế. Phần còn lại của phân tích phải được đặt trong bối cảnh này.
 
-### 4.2 Xu hướng bất động sản: Người miền Bắc tìm kiếm nhà ở Thành phố Hồ Chí Minh
-
-Trong những năm gần đây, dữ liệu từ nền tảng bất động sản Batdongsan.com.vn ghi nhận xu hướng rõ ràng: tỷ lệ người mua từ miền Bắc tìm kiếm bất động sản tại Thành phố Hồ Chí Minh tăng từ 44% trong quý 2 năm 2024 lên 61% trong quý 2 năm 2025 — tăng 17 điểm phần trăm trong một năm. [A]²² Trong quý 3 năm 2025, lượng khách hàng miền Bắc quan tâm đến căn hộ Thành phố Hồ Chí Minh tăng 28% so với cùng kỳ năm trước. [A]²²
-
-Động lực kinh tế đằng sau xu hướng này đã được xác định rõ: chênh lệch giá. Giá căn hộ Hà Nội đã tăng 35% trong năm 2024 lên mức bình quân 72 triệu đồng/m² (khoảng 2.850 USD), trong khi Thành phố Hồ Chí Minh chỉ tăng 12% lên 90 triệu đồng/m² (khoảng 3.560 USD). [A]²³ Đến năm 2025, Hà Nội bình quân đạt 100 triệu đồng/m² so với 111 triệu đồng/m² tại Thành phố Hồ Chí Minh. [A]²³ Nhà đầu tư miền Bắc nhìn thấy dư địa tăng giá tốt hơn tại Thành phố Hồ Chí Minh — đây là lý do kinh tế thuần túy, không liên quan đến "tính cách" hay "văn hóa."
-
-### 4.3 Cảnh báo dữ liệu quan trọng: Tìm kiếm ≠ Sở hữu
-
-Tại đây cần đặt một cảnh báo dữ liệu quan trọng mà không thể bỏ qua. Dữ liệu từ Batdongsan.com.vn phản ánh *lượng tìm kiếm và quan tâm của người mua tiềm năng* — không phải số liệu về *quyền sở hữu thực tế (sổ đỏ/hồng).* [C]²² Không có bộ dữ liệu nào được công bố công khai — từ Tổng cục Thống kê (GSO), Bộ Tài nguyên và Môi trường, hay bất kỳ nguồn tư nhân nào — phân tách người sở hữu bất động sản tại Thành phố Hồ Chí Minh hoặc Bình Dương theo quê quán (tỉnh gốc) của chủ sở hữu. [C] Do đó, tuyên bố rằng người miền Bắc "đang chiếm quyền sở hữu bất động sản ở miền Nam" không thể được xác nhận bằng dữ liệu hiện có. Điều có thể khẳng định là: người miền Bắc đang ngày càng *quan tâm* và *tìm kiếm* bất động sản tại Thành phố Hồ Chí Minh với tốc độ tăng nhanh.
-
-Sự thiếu hụt dữ liệu sở hữu này không phải ngẫu nhiên: hệ thống đăng ký tài sản tại Việt Nam không công bố dữ liệu tổng hợp theo quê quán chủ sở hữu, và nghiên cứu độc lập về vấn đề này còn rất hạn chế.
-
-### 4.4 Giải thích lịch sử: Tại sao có khoảng trống để lấp đầy?
+### 4.2 Giải thích lịch sử: Tại sao có khoảng trống để lấp đầy?
 
 Để hiểu tại sao sự hiện diện kinh tế của người miền Bắc tại miền Nam ngày càng nổi bật, cần trở lại giai đoạn 1975-1986. Như đã trình bày trong Mục 1, sau năm 1975, chính phủ đã tiến hành giải thể có hệ thống tầng lớp doanh nhân tư nhân tại miền Nam thông qua quốc hữu hóa, cưỡng bức di dân vào Vùng Kinh tế Mới, và đặc biệt là chính sách đối với cộng đồng người Hoa. [A]⁹ Người Hoa kiểm soát khoảng 70-80% thương mại tại Sài Gòn năm 1970 [A]¹⁰; đến giữa thập kỷ 1980, hơn 500.000 người trong số họ đã rời đất nước như những thuyền nhân. [A]¹⁰ Tài sản kinh doanh của họ bị quốc hữu hóa và trao cho các cán bộ đảng, phần lớn có gốc gác từ miền Bắc hoặc từ bộ máy nhà nước trung ương.
 
 Quá trình này tạo ra một *khoảng trống về vốn và mạng lưới kinh doanh* tại miền Nam — và chính cái khoảng trống đó đã được lấp đầy bởi những người có quyền tiếp cận tốt nhất đến nguồn lực nhà nước: các cán bộ và gia đình của họ, thường có gốc miền Bắc. Nói cách khác, sự "tiến vào" kinh tế của người miền Bắc vào miền Nam sau 1975 không phải là biểu hiện của "bản lĩnh kinh doanh vượt trội" hay "tính tiết kiệm của người miền Bắc" — mà là hệ quả trực tiếp của chính sách nhà nước đã phá hủy có chủ đích tầng lớp doanh nhân tư nhân miền Nam.
 
+### 4.3 Xu hướng bất động sản: Người miền Bắc tìm kiếm nhà ở Thành phố Hồ Chí Minh
+
+Trong những năm gần đây, dữ liệu từ nền tảng bất động sản Batdongsan.com.vn ghi nhận xu hướng rõ ràng: tỷ lệ người mua từ miền Bắc tìm kiếm bất động sản tại Thành phố Hồ Chí Minh tăng từ 44% trong quý 2 năm 2024 lên 61% trong quý 2 năm 2025 — tăng 17 điểm phần trăm trong một năm. [A]²² Trong quý 3 năm 2025, lượng khách hàng miền Bắc quan tâm đến căn hộ Thành phố Hồ Chí Minh tăng 28% so với cùng kỳ năm trước. [A]²²
+
+Động lực kinh tế đằng sau xu hướng này đã được xác định rõ: chênh lệch giá. Giá căn hộ Hà Nội đã tăng 35% trong năm 2024 lên mức bình quân 72 triệu đồng/m² (khoảng 2.850 USD), trong khi Thành phố Hồ Chí Minh chỉ tăng 12% lên 90 triệu đồng/m² (khoảng 3.560 USD). [A]²³ Đến năm 2025, Hà Nội bình quân đạt 100 triệu đồng/m² so với 111 triệu đồng/m² tại Thành phố Hồ Chí Minh. [A]²³ Nhà đầu tư miền Bắc nhìn thấy dư địa tăng giá tốt hơn tại Thành phố Hồ Chí Minh — đây là lý do kinh tế thuần túy, không liên quan đến "tính cách" hay "văn hóa." Được đọc trong bối cảnh khoảng trống lịch sử đã trình bày ở Mục 4.2, xu hướng này càng làm rõ rằng sức hút của thị trường miền Nam — chứ không phải sự vượt trội của người mua miền Bắc — là động lực cốt lõi.
+
+### 4.4 Cảnh báo dữ liệu quan trọng: Tìm kiếm ≠ Sở hữu
+
+Tại đây cần đặt một cảnh báo dữ liệu quan trọng mà không thể bỏ qua. Dữ liệu từ Batdongsan.com.vn phản ánh *lượng tìm kiếm và quan tâm của người mua tiềm năng* — không phải số liệu về *quyền sở hữu thực tế (sổ đỏ/hồng).* [C]²² Không có bộ dữ liệu nào được công bố công khai — từ Tổng cục Thống kê (GSO), Bộ Tài nguyên và Môi trường, hay bất kỳ nguồn tư nhân nào — phân tách người sở hữu bất động sản tại Thành phố Hồ Chí Minh hoặc Bình Dương theo quê quán (tỉnh gốc) của chủ sở hữu. [C] Do đó, tuyên bố rằng người miền Bắc "đang chiếm quyền sở hữu bất động sản ở miền Nam" không thể được xác nhận bằng dữ liệu hiện có. Điều có thể khẳng định là: người miền Bắc đang ngày càng *quan tâm* và *tìm kiếm* bất động sản tại Thành phố Hồ Chí Minh với tốc độ tăng nhanh.
+
+Sự thiếu hụt dữ liệu sở hữu này không phải ngẫu nhiên: hệ thống đăng ký tài sản tại Việt Nam không công bố dữ liệu tổng hợp theo quê quán chủ sở hữu, và nghiên cứu độc lập về vấn đề này còn rất hạn chế.
+
 ### 4.5 Tính cơ động của doanh nhân miền Bắc
 
-Dữ liệu khởi nghiệp từ một nghiên cứu trên 3.071 doanh nhân Việt Nam (PMC/NCBI, 2016) cho thấy: có nhiều doanh nhân miền Bắc mở rộng hoạt động kinh doanh vào miền Trung và miền Nam hơn là chiều ngược lại. [A]²⁴ Điều này xác nhận rằng người doanh nhân miền Bắc có xu hướng cơ động địa lý cao hơn trong việc mở rộng kinh doanh về phía Nam. Tuy nhiên, điều quan trọng cần lưu ý là: nghiên cứu này không cung cấp tỷ lệ sở hữu doanh nghiệp tại các thị trường miền Nam, và tính cơ động địa lý cao hơn có nhiều giải thích thay thế — trong đó có lợi thế mạng lưới chính trị-hành chính của những người có gốc gác tại trung tâm quyền lực.
+Dữ liệu khởi nghiệp từ một nghiên cứu trên 3.071 doanh nhân Việt Nam (PMC/NCBI, 2016) cho thấy: có nhiều doanh nhân miền Bắc mở rộng hoạt động kinh doanh vào miền Trung và miền Nam hơn là chiều ngược lại. [A]²⁴ Điều này xác nhận rằng người doanh nhân miền Bắc có xu hướng cơ động địa lý cao hơn trong việc mở rộng kinh doanh về phía Nam. Giải thích nhất quán nhất với luận điểm tổng thể của bài viết là lợi thế mạng lưới chính trị-hành chính: những người có gốc gác tại trung tâm quyền lực, hoặc có quan hệ với bộ máy nhà nước trung ương vốn chủ yếu gốc miền Bắc, được hưởng lợi từ khả năng tiếp cận nguồn lực nhà nước, giấy phép, và hợp đồng chính phủ tại các thị trường mới — một lợi thế cấu trúc không thể rút gọn về "tính năng động cá nhân." Các yếu tố bổ trợ khác — gần trung tâm quyền lực địa lý, chi phí tìm kiếm thị trường thấp hơn, và mạng lưới đồng hương đã có mặt trước — cũng đóng vai trò, nhưng là những yếu tố thứ yếu so với lợi thế tiếp cận nhà nước.
 
 Đáng lưu ý là vùng Đông Nam Bộ thu hút khoảng 47,8% tổng số lao động di cư nội địa cả nước (419.900 người), trong khi Đồng bằng sông Hồng chỉ thu hút 23,4%. [A]²⁵ Điều này có nghĩa là miền Nam là *điểm đến* của lao động, không phải là *nguồn xuất khẩu* lao động — một dấu hiệu rõ ràng của sức hút kinh tế nội sinh của vùng này.
 
@@ -190,6 +190,8 @@ Sự thống trị chính trị của miền Bắc tại Việt Nam hiện đạ
 ---
 
 ## Mục 6 — Tổng hợp: Tách cấu trúc khỏi văn hóa
+
+Kết quả đa chiều từ Mục 2 — rằng ngay cả khi sự khác biệt tính cách có tồn tại, chúng không ánh xạ gọn gàng lên câu chuyện dân gian — đặt tiền đề để hiểu tại sao các nguyên nhân được ghi nhận ở Mục 3-5 phải là cấu trúc, không phải văn hóa.
 
 ### 6.1 Ba tầng phân tích
 
@@ -284,7 +286,7 @@ Sự thiếu đại diện của miền Nam trong cấu trúc lãnh đạo Đả
 
 21. VietnamPlus. "Red River Delta — National Economic Powerhouse." https://en.vietnamplus.vn/red-river-delta-national-economic-powerhouse-official-post250801.vnp
 
-22. Vietnam News. "Northern Property Investors Eye HCM City." https://vietnamnews.vn/economy/1722126/northern-property-investors-eye-hcm-city.html. Xem thêm: DTiNews/Dantri. "Northern Investors Shift Focus to Ho Chi Minh City Property Market." https://dtinews.dantri.com.vn/vietnam-today/northern-investors-shift-focus-to-ho-chi-minh-city-property-market-20250728072635978.htm; VietnamNet. "HCMC Real Estate Heats Up Again, Attracting Northern Investors." https://vietnamnet.vn/en/hcmc-real-estate-heats-up-again-attracting-northern-investors-2464192.html **[Lưu ý: đây là dữ liệu về lượng tìm kiếm, không phải dữ liệu sở hữu bất động sản thực tế — xem ghi chú phần 4.3]**
+22. Vietnam News. "Northern Property Investors Eye HCM City." https://vietnamnews.vn/economy/1722126/northern-property-investors-eye-hcm-city.html. Xem thêm: DTiNews/Dantri. "Northern Investors Shift Focus to Ho Chi Minh City Property Market." https://dtinews.dantri.com.vn/vietnam-today/northern-investors-shift-focus-to-ho-chi-minh-city-property-market-20250728072635978.htm; VietnamNet. "HCMC Real Estate Heats Up Again, Attracting Northern Investors." https://vietnamnet.vn/en/hcmc-real-estate-heats-up-again-attracting-northern-investors-2464192.html **[Lưu ý: đây là dữ liệu về lượng tìm kiếm, không phải dữ liệu sở hữu bất động sản thực tế — xem ghi chú phần 4.4]**
 
 23. Realtique. "HCMC vs. Hanoi Apartment Prices 2025: Trends and Predictions." https://www.realtique.net/news/real-estate/32096/hcmc-vs-hanoi-apartment-prices-2025-trends-predictions/. Xem thêm: Capital.com. "Vietnam Housing Market 2025–26." https://capital.com/en-int/analysis/vietnam-house-market-2025
 
@@ -310,7 +312,7 @@ Sự thiếu đại diện của miền Nam trong cấu trúc lãnh đạo Đả
 
 ⁴ Encyclopaedia Britannica — về Hiệp định Geneva và phân chia 1954. [A]
 
-⁵ Grokipedia, Economy of the Republic of Vietnam — về viện trợ Mỹ và thu nhập bình quân miền Nam. [A]
+⁵ Grokipedia, Economy of the Republic of Vietnam — về viện trợ Mỹ và thu nhập bình quân miền Nam. [B] (nguồn: tổng hợp thứ cấp; chưa xác minh độc lập từ World Bank hoặc ADB)
 
 ⁶ Nguyen Thi Ha, Asia Review, Seoul National University — về tác động của phân chia lên sự phân kỳ vùng miền. [B]
 
@@ -384,7 +386,7 @@ Sự thiếu đại diện của miền Nam trong cấu trúc lãnh đạo Đả
    - [x] Mọi khẳng định sự kiện đều gán nhãn [A], [B], hoặc [C]
    - [x] Nghiên cứu Springer 2023 về thái độ giới được trích dẫn và nhấn mạnh tại Mục 2
    - [x] Đồng bằng sông Cửu Long được phân biệt rõ với Đông Nam Bộ tại Mục 3
-   - [x] Dữ liệu Batdongsan.com.vn được đánh giá là dữ liệu tìm kiếm [A], không phải sở hữu [C], với cảnh báo tường minh tại Mục 4.3
+   - [x] Dữ liệu Batdongsan.com.vn được đánh giá là dữ liệu tìm kiếm [A], không phải sở hữu [C], với cảnh báo tường minh tại Mục 4.4
    - [x] Con số 73% BCHTW từ miền Bắc được trích dẫn với nguồn ISEAS 2026/29 tại Mục 5.1
    - [x] Không có tuyên bố [D] (phỏng đoán) nào trong bài
    - [x] Không có tuyên bố [C] nào được trình bày như sự thật đã xác lập
@@ -393,8 +395,15 @@ Sự thiếu đại diện của miền Nam trong cấu trúc lãnh đạo Đả
 
 5. Kiểm tra văn phong: Toàn bộ bài viết được soạn bằng văn phong học thuật tiếng Việt trang trọng, ngôi thứ ba, không sử dụng khẩu ngữ hay từ cảm thán.
 
-**Số lượng tuyên bố theo cấp độ tin cậy:**
+**Coach ONE-IMPROVEMENT-PASS — các thay đổi đã thực hiện (lần này):**
+
+- **Thay đổi 1 (Cấu trúc Mục 4):** Chuyển nội dung cũ của Mục 4.4 ("Giải thích lịch sử: khoảng trống 1975-1986") lên thành Mục 4.2 mới. Các mục cũ 4.2 và 4.3 được đẩy xuống thành 4.3 và 4.4. Mục cũ 4.5 (doanh nhân) giữ nguyên vị trí tương đối, nay là 4.5. Thứ tự mới: 4.1 (nền kinh tế) → 4.2 (khoảng trống lịch sử) → 4.3 (bất động sản) → 4.4 (cảnh báo dữ liệu) → 4.5 (doanh nhân). Cập nhật tham chiếu nội bộ tại Mục 4.3 ("xem ghi chú phần 4.4" thay vì 4.3 cũ) và tại ghi chú cuối bài ²².
+- **Thay đổi 2 (Mục 4.5 — framing doanh nhân):** Thay đoạn liệt kê "nhiều giải thích thay thế bình đẳng" bằng đoạn khẳng định rõ lợi thế mạng lưới chính trị-hành chính là giải thích nhất quán nhất với luận điểm tổng thể, và đề cập các yếu tố khác (gần địa lý, chi phí tìm kiếm, mạng lưới đồng hương) là yếu tố bổ trợ thứ yếu.
+- **Thay đổi 3 (Mục 1.3):** Hạ nhãn [A] của số liệu thu nhập bình quân đầu người Grokipedia xuống [B] trong thân bài và trong ghi chú cuối bài ⁵. Thêm ghi chú "(nguồn: tổng hợp thứ cấp; chưa xác minh độc lập từ World Bank hoặc ADB)" trực tiếp sau số liệu trong thân bài.
+- **Thay đổi 4 (Mục 6 — câu nối):** Thêm một câu cầu nối ở đầu Mục 6 (trước Mục 6.1) liên kết kết quả đa chiều từ Mục 2 với phân tích cấu trúc Mục 3-5. Câu này được đặt như một đoạn văn riêng biệt ngay trước tiêu đề Mục 6.1.
+
+**Số lượng tuyên bố theo cấp độ tin cậy (cập nhật sau coach pass):**
 - [A] — Được xác minh từ nguồn bên ngoài kiểm tra được: ~38 tuyên bố
-- [B] — Được suy luận có cơ sở / kiểm tra nội bộ: ~8 tuyên bố
+- [B] — Được suy luận có cơ sở / kiểm tra nội bộ: ~9 tuyên bố (tăng 1 do hạ cấp Grokipedia)
 - [C] — Chưa xác minh đầy đủ, được gắn cờ tường minh: ~3 tuyên bố
 - [D] — Không có tuyên bố loại D trong bài
