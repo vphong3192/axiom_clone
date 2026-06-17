@@ -161,3 +161,11 @@ manifest.md        the proof package: confidence list, assumptions, receipts ind
 
 These files ARE the receipts. The inspector reads `03-deliverable.*` **directly** —
 never a summary — which is what makes the check genuinely independent.
+
+---
+
+## Working lessons — read at session start
+
+Hard-won lessons from real sessions are in `.claude/working-lessons.md`.
+**Read that file at the start of every session before doing any work.**
+It is short. The cost of skipping it is repeating the same mistakes.
