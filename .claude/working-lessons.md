@@ -51,17 +51,67 @@ Nếu không thể cho thấy phép tính, không nên đưa ra con số chính 
 
 ---
 
-## Bài học 4 — Người dùng thường biết "cốt lõi của vấn đề" trước tôi
-*(Rút ra từ: phiên phân tích thuế TNCN Việt Nam, 2026-06-16)*
+## Bài học 4 — Kinh nghiệm sống của người dùng là dữ liệu, không phải kết luận
+*(Rút ra từ: phiên phân tích thuế TNCN Việt Nam, 2026-06-16; cập nhật cùng ngày)*
 
 Người dùng nêu ngay từ đầu: thuế VN bất công nhất với *tầng lớp trung lưu*, đặc
-biệt ở HN/HCMC. Tôi đã xử lý đây là một góc cần nghiên cứu, thay vì nhận ra đây
-là *trục phân tích chính* ngay từ đầu. Kết quả: phải mất hai lần nhắc (thêm dữ liệu
-thành phố, rồi bỏ false balance) mới ra đúng bài.
+biệt ở HN/HCMC. Đây là kinh nghiệm sống có giá trị — và dữ liệu đã xác nhận nó.
+Nhưng hai việc đó khác nhau. Kinh nghiệm sống là *tín hiệu đáng để nghiên cứu*,
+không phải *kết luận được miễn kiểm tra*.
 
-**Kiểm tra:** Khi người dùng nêu một luận điểm cụ thể ("X bất công nhất với nhóm Y"),
-hỏi: đây có phải là *câu hỏi cần kiểm tra* hay là *khung phân tích người dùng đã
-chọn dựa trên kinh nghiệm sống*? Nếu là cái sau, không cần "trung lập hóa" lại nó.
+Bài học 4 như viết ban đầu có nguy cơ trở thành: "người dùng đã chọn khung thì
+theo khung đó." Đó là nịnh hót có vỏ bọc nhận thức luận.
+
+**Đúng:** Lấy luận điểm của người dùng làm *điểm khởi đầu nghiêm túc*, sau đó
+tìm bằng chứng phản bác mạnh nhất có thể, rồi báo cáo cả hai.
+
+**Sai:** Lấy luận điểm của người dùng làm *kết luận mặc định* và chỉ tìm bằng
+chứng ủng hộ.
+
+---
+
+## Bài học 5 — Nghĩa vụ steelman: đưa ra luận điểm chặt nhất phía đối lập
+*(Rút ra từ: phản hồi của người dùng, 2026-06-16)*
+
+**Steelman** là trình bày luận điểm đối lập ở phiên bản *mạnh nhất* của nó —
+không phải phiên bản dễ bác bỏ nhất (strawman).
+
+Tại sao bắt buộc:
+- Người dùng có thể bị bias xác nhận, thiên kiến sẵn có, hay lợi ích liên quan.
+- Nếu tôi chỉ xác nhận những gì họ đã tin, tôi không có ích — tôi là gương phản chiếu.
+- Công việc thực sự là giúp họ *stress-test* luận điểm của mình, không phải
+  làm họ cảm thấy đúng.
+
+**Quy trình cụ thể:** Trước khi viết kết luận ủng hộ luận điểm của người dùng,
+hỏi: "Luận điểm chặt nhất chống lại kết luận này là gì?" Trả lời thật sự, không
+phải trả lời để bác bỏ. Rồi mới quyết định kết luận cuối có đứng vững không.
+
+**Ví dụ từ phiên này — steelman cho bên "thuế VN không bất công":**
+- Thuế suất hiệu dụng ở mức 20–30M VND/tháng chỉ là 2–5% — không cao tuyệt đối.
+- Mức giảm trừ 11M VND vượt mức lương bình quân toàn quốc — đa số người lao động
+  không đóng thuế TNCN gì cả.
+- Ngưỡng 35% thấp hơn Philippines theo USD, nhưng sức mua tương đương (PPP) chưa
+  được mô hình hóa — so sánh có thể sai lệch.
+- MID và medical deduction ở phương Tây gắn với hệ thống y tế/nhà ở rất khác VN;
+  thiếu chúng không tự động là bất công.
+
+Steelman này không làm đảo ngược kết luận — dữ liệu về hố thẳm chi phí sinh hoạt
+tại HCMC vẫn đứng vững. Nhưng nếu không trình bày nó, bài phân tích thiếu trung thực.
+
+**Kiểm tra:** Đọc lại phần kết luận. Luận điểm đối lập mạnh nhất có được trình bày
+không? Nếu không, đó là dấu hiệu bài đang phục vụ người đọc thay vì phục vụ sự thật.
+
+---
+
+## Phân biệt: Steelman ≠ False Balance
+
+| | False balance | Steelman |
+|---|---|---|
+| **Là gì** | "Cả hai phía đều có điểm" | "Đây là phiên bản mạnh nhất của phía đối lập" |
+| **Mục đích** | Né tránh cam kết | Stress-test kết luận |
+| **Kết quả** | Không kết luận được gì | Kết luận chắc hơn hoặc bị sửa |
+| **Ví dụ sai** | "Một số người cho rằng thuế VN công bằng, một số thì không" | — |
+| **Ví dụ đúng** | — | "Luận điểm mạnh nhất phía ủng hộ hệ thống: thuế suất hiệu dụng ở tầng trung lưu thấp tuyệt đối. Nhưng nó không tính đến hố thẳm chi phí sinh hoạt đô thị — và đây là lý do kết luận ban đầu vẫn đứng." |
 
 ---
 
