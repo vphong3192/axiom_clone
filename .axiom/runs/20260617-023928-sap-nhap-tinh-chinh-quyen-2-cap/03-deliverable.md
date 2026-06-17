@@ -87,6 +87,9 @@ Vẽ lại bản đồ tỉnh = vẽ lại bản đồ ghế chính trị (mỗi
 
 ### 6.2 Đếm thô theo đầu nước: lập luận có cơ sở
 Theo tổng hợp UCLG/giới nghiên cứu: **>50% quốc gia chỉ có 2 cấp địa phương**; ~50 nước có 3 cấp; ~10 nước có 4 cấp. *(Grade B)*
+
+> *Lưu ý: con số tuyên truyền "~80% nước có 3 cấp" đếm theo **tổng cấp** (gồm TƯ), còn con số ">50% nước có 2 cấp" ở đây đếm theo **cấp địa phương** (không gồm TƯ). Hai con số đo hai thứ khác nhau — đều chỉ nên đọc là "bậc độ lớn", không đối chiếu trực tiếp.*
+
 → Bỏ bớt một cấp đúng là kéo VN từ thiểu số (4 cấp) về gần "đa số". **Phần này không sai.** Nhưng "đa số" bị **lệch vì rất nhiều nước nhỏ** chỉ cần 2 cấp.
 
 ### 6.3 So đúng nhóm (nước ~100 triệu dân): VN thành ngoại lệ tinh gọn
@@ -141,4 +144,7 @@ Nói gọn: chủ trương **mượn tính chính danh từ "thông lệ quốc 
 - [RFA — To Lam plans to redraw Vietnam's provincial lines](https://www.rfa.org/english/vietnam/2025/03/10/local-government-reform-to-lam-national-assembly/)
 - [UCLG — Global Observatory of Local Finance](https://www.uclg.org/sites/default/files/global_observatory_of_local_finance_part_i-ii.pdf)
 - [Wikipedia — Local government (phân bố số tầng)](https://en.wikipedia.org/wiki/Local_government)
-- [Administrative divisions of China / Indonesia / Philippines / Japan — Wikipedia]
+- [County-level divisions of China — Wikipedia](https://en.wikipedia.org/wiki/County-level_divisions_of_China)
+- [Five levels of government in Indonesia](https://australiaindonesia.com/politics/the-five-levels-of-government-in-indonesia/)
+- [Administrative divisions of the Philippines — Wikipedia](https://en.wikipedia.org/wiki/Administrative_divisions_of_the_Philippines)
+- [Administrative divisions of Japan — Wikipedia](https://en.wikipedia.org/wiki/Administrative_divisions_of_Japan)
