@@ -25,3 +25,38 @@
 - Sửa câu "không có lý do kinh tế nào…" thành phát biểu trung thực hơn về khác biệt cơ cấu ngân sách TP.HCM vs các tỉnh.
 
 *(Coach là read-only; file này do orchestrator ghi lại nguyên văn kết luận của Coach làm receipt.)*
+
+---
+
+## Receipts — Assembly đã xử lý (ghi bởi assembly station sau khi nhận ONE-IMPROVEMENT-PASS)
+
+Tất cả sửa đổi thực hiện trực tiếp trên `03-deliverable.md`. Không thêm claim mới ngoài `01-research.md`. Không thay đổi scope hay cấu trúc 9 phần.
+
+### Cải thiện 1 đã xử lý:
+
+**1a — Phép tính hoàn vốn hai kịch bản:**
+Thay đoạn đơn "559 ÷ 12 ≈ 46,5 tháng" bằng bảng hai kịch bản:
+- Mức thấp 10M/tháng: 559 ÷ 10 = 56 tháng (~4,7 năm) [B]
+- Mức cao 12,5M/tháng: 559 ÷ 12,5 = 45 tháng (~3,7 năm) [B]
+Ghi rõ cả hai dùng "tổng thu nhập có phụ cấp" [A], không phải lương cơ bản.
+
+**1b — Phép tính ngân sách steelman 1 bổ sung bước trung gian:**
+Thêm bước: nhập học mới (1.500–2.000/năm) × 3 khóa = tổng đang học ≈ 4.500–6.000 [B].
+Chi phí miễn học phí/năm tính trên tổng đang học: 4.500 × 60M = 270 tỷ (cận dưới), 6.000 × 75M = 450 tỷ (cận trên) [B].
+Gắn nhãn [B] cho giả định số nhập học toàn quốc vì research không có con số chính xác.
+
+### Cải thiện 2 đã xử lý:
+
+**2a — Thêm Luận điểm 5 (filter tài chính):**
+Trình bày nghiêm túc: học phí tạo rào cản có thể giảm tỷ lệ bỏ dở.
+Ghi nhận thẳng: "không có dữ liệu Việt Nam nào trong nghiên cứu này về tỷ lệ bỏ dở BSNT... luận điểm này chưa được kiểm chứng trong bối cảnh Việt Nam" [C].
+Phản biện công bằng: filter tài chính lọc theo khả năng chi trả gia đình, không phải năng lực lâm sàng.
+
+**2b — Sửa câu tuyệt đối:**
+Câu cũ: "không có lý do kinh tế nào khiến điều đó không thể mở rộng"
+Câu mới: ghi rõ TP.HCM có cơ cấu thu ngân sách đặc thù (mạnh hơn phần lớn tỉnh); nhân rộng toàn quốc cần ngân sách trung ương; vẫn giữ kết luận chính (đây là bài toán ưu tiên, không phải bất khả thi, với Indonesia là bằng chứng).
+
+### Chỉnh nhỏ giọng văn:
+- "Điều cần phân biệt rõ:" → câu văn liền mạch "Nhưng có một điểm quan trọng cần phân biệt ngay:"
+- "Quan trọng:" → câu dẫn tự nhiên "Một con số thỉnh thoảng xuất hiện trên báo chí và cần nói rõ:"
+- Hệ số 2,67 → thêm giải thích ngắn "(hệ số trong thang lương nhà nước — nhân với mức lương cơ sở để ra số tiền thực nhận)"
