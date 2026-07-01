@@ -57,9 +57,10 @@ This is the difference between "looks done" (R2) and "is done."
 
 ## On a FIX-IT send-back
 
-If you are re-invoked after a FIX-IT verdict: read `05-inspection.md`, address
-**every** finding, and note in the receipts exactly what you changed. Do not argue
-with the inspector — fix the work.
+If you are re-invoked after a FIX-IT verdict: read `05-inspection.md` (or every
+`05-inspection-<axis>.md` when inspection was fanned out), address **every** finding
+from every axis, and note in the receipts exactly what you changed. Do not argue with
+the inspector — fix the work.
 
 ## Output
 

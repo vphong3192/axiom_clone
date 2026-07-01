@@ -163,5 +163,28 @@ câu không? Nếu có, gộp lại.
 
 ---
 
+## Bài học 8 — "Kiểm khi nào tiện" để lọt nguồn chết và số gán nhầm
+*(Rút ra từ: đối chiếu axiom_clone với chương "Hậu ký" của sách gốc, 2026-07-01)*
+
+Inspector của clone ban đầu chỉ verify nguồn "where you can" — tùy chọn. Nhưng
+đúng những lỗi mà kiểm định gốc bắt được lại là loại chỉ lộ ra khi *thật sự* mở
+nguồn: **link chết 404**, số "70/30" **gán nhầm tác giả**, một núm an toàn **mô tả
+ngược nghĩa**. Nhãn grade-A nghĩa là "đã đối chiếu nguồn sống, tự kiểm được" — nếu
+inspector không mở nguồn ra thì nhãn A chỉ là lời hứa, không phải bằng chứng.
+
+Hậu ký còn cho thấy kiểm định gốc chạy **nhiều lớp theo trục**: một vòng tổng, rồi
+20+ agent tách 3 trục (nhất quán · câu chữ · chính xác kỹ thuật), rồi mắt người.
+Đây *không* phải R6 — đó là phân công lao động kiểm định thật.
+
+**Sửa:** inspector giờ **bắt buộc** re-fetch mọi nguồn grade-A + check link sống +
+đối chiếu mọi số/trích dẫn với nguồn gốc (không còn "where you can"). Task
+`full`/`high-stakes` chạy 3 inspector song song theo trục, ghi
+`05-inspection-<trục>.md`; orchestrator hợp nhất (bất kỳ trục nào FIX-IT → FIX-IT).
+
+**Kiểm tra:** Một claim grade-A vừa PASS — inspector đã thực sự mở link đó ra chưa,
+hay chỉ tin nhãn? Nếu chưa mở, chưa được coi là đã kiểm.
+
+---
+
 *File này chỉ có giá trị nếu được đọc. Nếu một bài học bị vi phạm lại, ghi thêm
 vào đây — đừng xóa bài cũ.*

@@ -51,20 +51,26 @@ $ARGUMENTS
    `ONE-IMPROVEMENT-PASS`, send the deliverable back to `axiom-assembly` **once**
    with the coach's specific notes, then continue. (One pass, not a loop.)
 
-7. **Station 6 — Inspection.** Delegate to `axiom-inspector`. **Critical for
-   independence:** do NOT pass the inspector a summary of the work or argue the
-   maker's case. Just point it at the run folder and let it read
-   `03-deliverable.*` itself (R5). Read its `05-inspection.md` verdict.
+7. **Station 6 — Inspection.** **Critical for independence:** never pass an inspector
+   a summary or argue the maker's case — point it at the run folder and let it read
+   `03-deliverable.*` itself (R5).
+   - `normal`/`tiny`: delegate one `axiom-inspector` writing `05-inspection.md`.
+   - `full`/`high-stakes`: delegate **three `axiom-inspector` in parallel**, one per
+     axis — `consistency`, `wording`, `technical-accuracy` — each reading the artifact
+     directly and writing `05-inspection-<axis>.md`. Merge the verdicts yourself: PASS
+     only if **all** axes PASS; any FIX-IT → FIX-IT; any REJECT → REJECT.
 
-   - **FIX-IT** → send back to `axiom-assembly` with the inspector's full findings,
-     then run inspection **again from scratch**. Repeat until PASS or REJECT. Cap
-     at 3 rounds; if still failing, treat as REJECT and report why.
+   Then act on the (merged) verdict:
+   - **FIX-IT** → send back to `axiom-assembly` with the **combined** findings from
+     every axis, then run inspection **again from scratch**. Repeat until PASS or
+     REJECT. Cap at 3 rounds; if still failing, treat as REJECT and report why.
    - **REJECT** → stop the line. Report the failure honestly to the user. Do not ship.
    - **PASS** → proceed to the gate.
 
 8. **The Safety Gate.** Before shipping, verify with your own eyes:
-   - `05-inspection.md` exists and was written by the inspector,
-   - its verdict is PASS, and
+   - the inspection artifact(s) exist and were written by the inspector —
+     `05-inspection.md`, or all three `05-inspection-<axis>.md` when fanned out,
+   - every inspection verdict is PASS, and
    - the human principal has signed off (step 8b).
    If any is missing, the gate stays shut — do not ship. (The gate confirms an
    inspection happened and that a human approved; it does not vouch that either was

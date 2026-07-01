@@ -63,6 +63,7 @@ Write `.axiom/runs/<timestamp>-<slug>/02-plan.md`:
 ## Inspection plan
 - The inspector will read: <which artifact file(s)>
 - Checks: correctness · sources · every step ran · plan followed
+- Axes: <single | consistency + wording + technical-accuracy> — because <effort/size>
 - Independence safeguard: <how a biased hand-off is prevented>
 
 ## Risks / what could break the plan

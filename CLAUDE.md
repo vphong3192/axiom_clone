@@ -110,7 +110,7 @@ When unsure, choose the more careful path.
 | 3 | Design | `axiom-design` | Write the plan down. Decide the smallest team. Plan the inspection. |
 | 4 | Assembly | `axiom-assembly` | Do the work at full effort. Label confidence, cite sources, leave receipts. |
 | 5 | Coach | `axiom-coach` | Ask once: "Is this really the best?" Never gives the answer. |
-| 6 | Inspection | `axiom-inspector` | An **independent** check of the real artifact. Verdict: PASS / FIX-IT / REJECT. |
+| 6 | Inspection | `axiom-inspector` | An **independent** check of the real artifact — re-fetches grade-A sources, fans into consistency/wording/technical axes for big jobs. Verdict: PASS / FIX-IT / REJECT. |
 | — | Gate | (orchestrator) | Won't open unless a real inspection happened, the verdict came from the inspector, **and the human principal signed off**. |
 | 7 | Shipping | (orchestrator) | Deliver only what passed, with its full proof package attached. |
 
@@ -168,7 +168,8 @@ Each pipeline run writes artifacts to `.axiom/runs/<timestamp>-<slug>/`:
 03-deliverable.*   the actual work (essay, paper, report, draft…); stitched from
                    03-deliverable-<part>.* when assembly is fanned out
 04-coach.md        the single "can this be better?" pass
-05-inspection.md   the inspector's verdict and findings (written by the inspector)
+05-inspection.md   the inspector's verdict and findings (written by the inspector);
+                   split into 05-inspection-<axis>.md when inspection is fanned out
 06-signoff.md      the human principal's approval (or change requests) before shipping
 manifest.md        the proof package: confidence list, assumptions, receipts index
 ```
