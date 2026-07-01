@@ -186,5 +186,24 @@ hay chỉ tin nhãn? Nếu chưa mở, chưa được coi là đã kiểm.
 
 ---
 
+## Bài học 9 — Cổng phải kiểm ĐÚNG bản đã kiểm định, không phải một bản cũ
+*(Rút ra từ: siết Safety Gate của axiom_clone, 2026-07-01)*
+
+Vòng FIX-IT có một lỗ hổng im lặng: assembly sửa `03-deliverable.*`, nhưng nếu quên
+kiểm định lại, gate vẫn thấy `05-inspection.md` PASS (của *bản trước khi sửa*) và
+cho ship. "Đã kiểm định" trở thành lời nói dối theo thời gian — bản được ship khác
+bản đã soi.
+
+**Sửa (cưỡng chế được, do orchestrator chạy Bash — không tin agent tự tính):** ngay
+trước khi kiểm, chụp vân tay `sha256sum 03-deliverable.* > 05-inspection.sha`. Tại
+gate, tính lại sha và so khớp; lệch → deliverable đã đổi sau khi kiểm → gate đóng,
+kiểm lại từ đầu. Chạy lại lệnh chụp mỗi lần re-inspect nên nó luôn ghim đúng bytes
+mới nhất.
+
+**Kiểm tra:** Trước khi ship, sha của `03-deliverable.*` hiện tại có bằng
+`05-inspection.sha` không? Nếu không, chưa được mở gate — dù verdict có ghi PASS.
+
+---
+
 *File này chỉ có giá trị nếu được đọc. Nếu một bài học bị vi phạm lại, ghi thêm
 vào đây — đừng xóa bài cũ.*

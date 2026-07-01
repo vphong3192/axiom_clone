@@ -124,7 +124,9 @@ line. **PASS** (only tiny issues remain) proceeds to the Gate.
 ## The Safety Gate
 
 An automatic checkpoint between Inspection and Shipping. It will **not open** unless:
-1. A real inspection actually ran (an inspection artifact exists),
+1. A real inspection of the **current** artifact ran — an inspection artifact exists
+   and its recorded fingerprint (`05-inspection.sha`) matches the bytes about to ship,
+   so a post-FIX-IT edit can't slip past on a stale report,
 2. The verdict came from the **inspector**, not from the maker's own words, and
 3. The **human principal has signed off** on the proof package.
 
@@ -170,6 +172,8 @@ Each pipeline run writes artifacts to `.axiom/runs/<timestamp>-<slug>/`:
 04-coach.md        the single "can this be better?" pass
 05-inspection.md   the inspector's verdict and findings (written by the inspector);
                    split into 05-inspection-<axis>.md when inspection is fanned out
+05-inspection.sha  sha256 of the exact 03-deliverable.* bytes that were inspected —
+                   the gate re-checks it so a post-FIX-IT edit can't ship unchecked
 06-signoff.md      the human principal's approval (or change requests) before shipping
 manifest.md        the proof package: confidence list, assumptions, receipts index
 ```

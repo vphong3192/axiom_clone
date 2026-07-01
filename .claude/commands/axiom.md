@@ -53,7 +53,9 @@ $ARGUMENTS
 
 7. **Station 6 — Inspection.** **Critical for independence:** never pass an inspector
    a summary or argue the maker's case — point it at the run folder and let it read
-   `03-deliverable.*` itself (R5).
+   `03-deliverable.*` itself (R5). Before dispatching, snapshot the exact bytes about
+   to be inspected: `sha256sum 03-deliverable.* > 05-inspection.sha`. (Re-run this
+   every time you re-inspect, including after a FIX-IT — it re-pins to the new bytes.)
    - `normal`/`tiny`: delegate one `axiom-inspector` writing `05-inspection.md`.
    - `full`/`high-stakes`: delegate **three `axiom-inspector` in parallel**, one per
      axis — `consistency`, `wording`, `technical-accuracy` — each reading the artifact
@@ -70,7 +72,11 @@ $ARGUMENTS
 8. **The Safety Gate.** Before shipping, verify with your own eyes:
    - the inspection artifact(s) exist and were written by the inspector —
      `05-inspection.md`, or all three `05-inspection-<axis>.md` when fanned out,
-   - every inspection verdict is PASS, and
+   - every inspection verdict is PASS,
+   - the inspected bytes are the bytes about to ship — recompute
+     `sha256sum 03-deliverable.*` and confirm it matches `05-inspection.sha`. If it
+     differs, the deliverable changed since inspection (e.g. an un-re-inspected
+     FIX-IT), so the gate stays shut — re-inspect from step 7, and
    - the human principal has signed off (step 8b).
    If any is missing, the gate stays shut — do not ship. (The gate confirms an
    inspection happened and that a human approved; it does not vouch that either was
