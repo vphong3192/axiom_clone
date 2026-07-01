@@ -23,9 +23,11 @@ $ARGUMENTS
 
 3. **Station 2 — Research.** For `normal`/`tiny`, delegate one `axiom-research`
    writing `01-research.md`. For `full`/`high-stakes` whose task spans distinct
-   topics, split it into up to **5 research strands** (each a `slug` + scope) and
-   delegate one `axiom-research` per strand **in parallel**, each writing
-   `01-research-<slug>.md`. Then consolidate them yourself into a single canonical
+   topics, split it into **as many research strands as the topic genuinely has**
+   (each a `slug` + scope) — scale the count to the task's weight and breadth, not a
+   fixed number; a sprawling brief may warrant many strands, a focused one just a
+   couple. Delegate one `axiom-research` per strand **in parallel** (batch large
+   fan-outs), each writing `01-research-<slug>.md`. Then consolidate them yourself into a single canonical
    `01-research.md` — the shared fact store every later station reads: dedupe, keep
    every source and grade, and flag any conflict between strands rather than silently
    picking one. Split only when topics are genuinely independent; don't fan out to
@@ -37,9 +39,10 @@ $ARGUMENTS
 
 5. **Station 4 — Assembly.** Read the plan's assembly team. For a single part,
    delegate one `axiom-assembly` writing `03-deliverable.*`. If the plan fans into
-   parts, delegate one `axiom-assembly` per part **in parallel** (cap 5), each reading
-   the canonical `01-research.md` and the plan's **House style**, writing
-   `03-deliverable-<slug>.*`. If the plan calls for an integration pass, then run one
+   parts, delegate one `axiom-assembly` per part **in parallel** (as many as the plan
+   lists — the count scales with the deliverable, not a fixed cap; batch large
+   fan-outs), each reading the canonical `01-research.md` and the plan's **House
+   style**, writing `03-deliverable-<slug>.*`. If the plan calls for an integration pass, then run one
    more `axiom-assembly` in **integration mode** to stitch the parts into a coherent
    `03-deliverable.*` (harmonize voice and transitions; no new unsourced claims).
    Honour the plan's team size — do not inflate it (R6).

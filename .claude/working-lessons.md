@@ -150,10 +150,12 @@ Sai lầm cần tránh: tưởng "một pipeline tuần tự đẹp" là đủ. 
 hơn bản gốc, không phải gọn hơn.
 
 **Sửa:** `full`/`high-stakes` giờ fan-out được — orchestrator chia research thành
-tối đa 5 strand song song rồi hợp nhất thành `01-research.md` canonical (kho dữ kiện
-chung); design chia deliverable thành parts, assembly viết song song rồi một
-integration pass ghép lại cho liền mạch. Vẫn giữ smallest-team: mặc định 1 pass,
-chỉ tách khi công việc *thật sự* độc lập (đừng fan-out cho oai — R6).
+số strand **tùy theo độ nặng/độ rộng của task** (không giới hạn cứng) rồi hợp nhất
+thành `01-research.md` canonical (kho dữ kiện chung); design chia deliverable thành
+parts, assembly viết song song rồi một integration pass ghép lại cho liền mạch. Cái
+chặn không phải con số trần mà là quy tắc smallest-team: mặc định 1 pass, mỗi nhánh
+phải tự biện minh trong một câu, chỉ tách khi công việc *thật sự* độc lập (đừng
+fan-out cho oai — R6).
 
 **Kiểm tra:** Với một task `full` nhiều mảng, đã cân nhắc fan-out chưa, hay mặc định
 nhét hết vào một agent? Ngược lại: có nhánh nào không tự biện minh được trong một

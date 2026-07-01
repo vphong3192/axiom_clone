@@ -24,8 +24,10 @@ Read `00-intake.md` and `01-research.md`, then produce a written plan covering:
      written separately. Each part must earn its place in one sentence.
    - Never add branches to look powerful — that is R6 ("too many cooks").
    - When you fan out, list the parts explicitly, each with a short **slug** and a
-     scope line — the orchestrator dispatches one agent per part, in parallel (capped
-     at 5 at a time).
+     scope line — the orchestrator dispatches one agent per part, in parallel. Let the
+     **count follow the work**, not a fixed number: a big multi-part deliverable may
+     warrant many parts, a short piece just one. The one-sentence justification per
+     part — not a cap — is what keeps the team smallest (R6).
    - Prose that must read as one voice needs a final **integration pass** to stitch
      the parts together — say whether one is required, so parts don't ship as a
      patchwork.
