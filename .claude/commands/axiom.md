@@ -46,16 +46,37 @@ $ARGUMENTS
    - **PASS** → proceed to the gate.
 
 8. **The Safety Gate.** Before shipping, verify with your own eyes:
-   - `05-inspection.md` exists and was written by the inspector, and
-   - its verdict is PASS.
-   If either is missing, the gate stays shut — do not ship. (The gate confirms an
-   inspection happened; it does not vouch that it was thorough — that was step 6's job.)
+   - `05-inspection.md` exists and was written by the inspector,
+   - its verdict is PASS, and
+   - the human principal has signed off (step 8b).
+   If any is missing, the gate stays shut — do not ship. (The gate confirms an
+   inspection happened and that a human approved; it does not vouch that either was
+   thorough — that was step 6's job and the person's at sign-off.)
 
-9. **Station 7 — Shipping.** Only now, assemble the proof package. Write
+   **8b — Human sign-off (the last gate).** Every check so far was run by
+   *same-family* models, which removes only part of a shared blind spot — so the
+   final approval is the human's, not yours. STOP here and present the proof package
+   for sign-off. Show the user:
+   - overall confidence, and any claim still graded C / held back;
+   - the open assumptions;
+   - the honest limitation, in plain words: "independent checks were run by
+     same-family models; a different-vendor model or your own eyes remain the last
+     valuable gate";
+   - 2–3 specific things worth a human spot-check (the load-bearing numbers, a cited
+     source, anything irreversible).
+   Do NOT deliver the final work until the user explicitly approves. Record their
+   decision in `06-signoff.md`. If they request changes, send the deliverable back to
+   `axiom-assembly`, then re-inspect from scratch (step 7) before returning here — do
+   not ship a version the human did not approve.
+
+9. **Station 7 — Shipping.** Only after sign-off, assemble the proof package. Write
    `manifest.md` in the run folder containing:
    - **Confidence list** — every claim, its grade (A/B/C/D), its source.
    - **Assumptions list** — everything assumed but not proven.
-   - **Receipts index** — the list of artifacts (`00`…`05`) that prove each step ran.
+   - **Receipts index** — the list of artifacts (`00`…`06`) that prove each step ran.
+   - **Verification limits & sign-off** — note that the checks were same-family
+     models (shared blind spot only partly removed) and record the human sign-off
+     from `06-signoff.md`.
 
    Then deliver to the user: the finished work plus a short cover note linking the
    manifest. State the overall confidence and any open assumptions plainly.

@@ -111,7 +111,7 @@ When unsure, choose the more careful path.
 | 4 | Assembly | `axiom-assembly` | Do the work at full effort. Label confidence, cite sources, leave receipts. |
 | 5 | Coach | `axiom-coach` | Ask once: "Is this really the best?" Never gives the answer. |
 | 6 | Inspection | `axiom-inspector` | An **independent** check of the real artifact. Verdict: PASS / FIX-IT / REJECT. |
-| — | Gate | (orchestrator) | Won't open unless a real inspection happened and the verdict came from the inspector. |
+| — | Gate | (orchestrator) | Won't open unless a real inspection happened, the verdict came from the inspector, **and the human principal signed off**. |
 | 7 | Shipping | (orchestrator) | Deliver only what passed, with its full proof package attached. |
 
 ### The send-back loop
@@ -124,11 +124,19 @@ line. **PASS** (only tiny issues remain) proceeds to the Gate.
 ## The Safety Gate
 
 An automatic checkpoint between Inspection and Shipping. It will **not open** unless:
-1. A real inspection actually ran (an inspection artifact exists), and
-2. The verdict came from the **inspector**, not from the maker's own words.
+1. A real inspection actually ran (an inspection artifact exists),
+2. The verdict came from the **inspector**, not from the maker's own words, and
+3. The **human principal has signed off** on the proof package.
 
-Honest limit: the gate can confirm an inspection *took place* — not that it was
-thorough or fair. That's the job of the independent inspector at step 6.
+Why the human gate: every check in this pipeline is run by models of the *same
+family*, which removes only part of a shared blind spot. A different-vendor model —
+or the human's own eyes — is the last valuable gate. So the final sign-off belongs to
+a person, not to the orchestrator. The leverage of the principal is at the two ends:
+defining the work (before) and approving it (after).
+
+Honest limit: the gate can confirm an inspection *took place* and that a human
+approved — not that either was thorough or fair. That's the job of the independent
+inspector at step 6 and the person at sign-off.
 
 ---
 
@@ -140,6 +148,9 @@ Nothing ships bare. Every delivery carries its own paperwork:
 - **Assumptions list** — anything assumed but not proven, stated openly.
 - **Receipts / trace** — the artifacts left by each step (in `.axiom/runs/<id>/`),
   so anyone can confirm each step truly happened.
+- **Verification limits & sign-off** — a plain note that the independent checks were
+  run by same-family models (a shared blind spot is only partly removed), plus a
+  record that the human principal signed off before shipping.
 
 The product is its own proof: the reader can trust it *and* check it.
 
@@ -156,6 +167,7 @@ Each pipeline run writes artifacts to `.axiom/runs/<timestamp>-<slug>/`:
 03-deliverable.*   the actual work (essay, paper, report, draft…)
 04-coach.md        the single "can this be better?" pass
 05-inspection.md   the inspector's verdict and findings (written by the inspector)
+06-signoff.md      the human principal's approval (or change requests) before shipping
 manifest.md        the proof package: confidence list, assumptions, receipts index
 ```
 

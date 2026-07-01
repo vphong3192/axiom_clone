@@ -58,7 +58,7 @@ là điểm khiến cuộc kiểm tra thật sự độc lập.
 |---|---|
 | 7 trạm nhà máy | 6 subagent (trạm 1–6) + trạm 7 (Giao hàng) do orchestrator làm |
 | Các "robot" (worker, carrier, research, verifier, coach) | Mapping vào subagent + cơ chế delegate của Claude Code |
-| Cổng An toàn | Bước kiểm tra trong `/axiom` (không mở nếu chưa có kết quả kiểm định thật) |
+| Cổng An toàn | Bước kiểm tra trong `/axiom` (không mở nếu chưa có kết quả kiểm định thật **và người dùng chưa ký duyệt** — vì mọi lớp kiểm đều cùng dòng model) |
 | 9 quy tắc (AXIOMS) | Mục "The 9 Axioms" trong `CLAUDE.md` |
 | 6 lỗi cần tránh (FMS R1–R6) | Mục "The 6 failure modes" trong `CLAUDE.md` |
 | 4 mức độ chắc chắn A–D | Bảng chấm độ tin cậy trong `CLAUDE.md`, áp dụng ở mọi trạm |
