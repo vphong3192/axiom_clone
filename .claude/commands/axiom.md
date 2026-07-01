@@ -110,6 +110,21 @@ $ARGUMENTS
    Then deliver to the user: the finished work plus a short cover note linking the
    manifest. State the overall confidence and any open assumptions plainly.
 
+## Robustness (check between every station)
+The line runs on file handoffs, so a station that *looks* done but wrote nothing
+breaks everything downstream silently. Before moving on from any station — and before
+merging any fan-out — verify with your own eyes:
+- **The artifact exists and has its shape.** The expected file(s) are present and hold
+  the required sections (a research file has sourced facts; an inspection file has a
+  `## Verdict`). A missing or empty file means the step did not really run — do not
+  proceed on faith (R4).
+- **Every fan-out branch produced a result.** "I launched N agents" ≠ "I have N
+  outputs." A subagent can die mid-run (session limit, error) and return nothing;
+  re-run that branch before merging its (missing) verdict.
+- **Write-fallback.** If an agent returns its report as text instead of writing the
+  file, persist it yourself to the correct path so the receipt exists — then note the
+  gap rather than pretending the step wrote itself.
+
 ## Reporting style
 After each station, give the user a one-line status (e.g. "✓ Research: 11 facts,
 all sourced"). Keep the final delivery focused on the work and its proof — not on

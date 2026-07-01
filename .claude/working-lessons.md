@@ -3,6 +3,21 @@
 Đọc file này ở đầu mỗi phiên. Những bài học này được rút ra từ sai lầm thực tế,
 không phải nguyên tắc lý thuyết.
 
+## Nguyên tắc đã chưng cất (đọc nhanh — mỗi dòng nối tới một bài học bên dưới)
+File này sẽ dài dần; đọc checklist này trước, xuống phần chi tiết khi cần đào sâu.
+
+1. **Trung lập ≠ nhút nhát** — dữ liệu đã chỉ hướng thì kết luận thẳng, đừng "đặt ra câu hỏi".
+2. **Nhãn tin cậy để nói MẠNH hơn**, không phải khiên né cam kết.
+3. **Kết luận số học chưa trình bày phép tính thì chưa phải kết luận.**
+4. **Kinh nghiệm người dùng là dữ liệu** (tín hiệu để nghiên cứu), không phải kết luận miễn kiểm.
+5. **Nghĩa vụ steelman** — trình bày phía đối lập ở bản mạnh nhất rồi mới kết luận.
+6. **Cổng cuối là của CON NGƯỜI** — mọi lớp kiểm đều cùng dòng model, chung điểm mù.
+7. **Sức mạnh AXIOM ở CHIỀU RỘNG song song + kho dữ kiện chung**, không chỉ chiều sâu.
+8. **Verify nguồn grade-A là bắt buộc** — "kiểm khi nào tiện" để lọt link chết/số gán nhầm.
+9. **Gate kiểm ĐÚNG bytes đã kiểm định** (fingerprint), không phải bản cũ.
+10. **Agent được giao ghi file thì phải có tool Write.**
+11. **Subagent có thể chết giữa chừng** — kiểm mỗi nhánh ra kết quả thật, đừng tin "đã launch = xong".
+
 ---
 
 ## Bài học 1 — Trung lập ≠ nhút nhát
