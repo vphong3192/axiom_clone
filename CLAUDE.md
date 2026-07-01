@@ -142,6 +142,13 @@ team, and approves or edits before a word is written — cheap to redirect here,
 later. The *after* gate is the sign-off at step 8b. Skipping the outline gate is
 allowed only on the tiny/quick lane, and must be said out loud (R4).
 
+**Maker ≠ inspector (model independence).** For the same shared-blind-spot reason,
+keep the **maker and the inspector on different models**. A checker that shares the
+maker's model shares its blind spots, so the independent check at step 6 is only as
+real as the distance between the two models. The inspector should be the *stronger and
+different* model — never the one that wrote the deliverable. `/axiom` enforces this
+when it tiers models by effort and task type.
+
 Honest limit: the gate can confirm an inspection *took place* and that a human
 approved — not that either was thorough or fair. That's the job of the independent
 inspector at step 6 and the person at sign-off.

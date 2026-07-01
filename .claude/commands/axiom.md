@@ -119,6 +119,35 @@ $ARGUMENTS
    Then deliver to the user: the finished work plus a short cover note linking the
    manifest. State the overall confidence and any open assumptions plainly.
 
+## Model tiering (pick per effort + task type when you delegate)
+Each agent's frontmatter sets a sensible **default** model. But effort
+(tiny→high-stakes) and task *type* (analytical vs literary) vary per job, and a fixed
+model can't adapt — so **override the model per delegation** via the Agent tool's
+`model` parameter. One hard rule governs the rest:
+
+> **Maker ≠ inspector.** Never run `axiom-assembly` and `axiom-inspector` on the *same*
+> model — a checker that shares the maker's model shares its blind spots, and the
+> independent check is the whole point (R5). The inspector should be the stronger and
+> *different* model.
+
+Tiers:
+- **`tiny` / `normal`:** use the frontmatter defaults (intake haiku;
+  research/design/assembly/coach sonnet; inspector opus). Assembly sonnet ≠ inspector
+  opus — good.
+- **`full` / `high-stakes`, analytical/academic:** bump `coach` → opus (taste-heavy,
+  cheap output). Keep `assembly` sonnet with `inspector` opus (strong, *different*
+  checker). If the writing itself must be top-tier, you may raise `assembly` → opus —
+  but then move `inspector` to a different model (e.g. sonnet) so maker ≠ inspector.
+- **`full` / `high-stakes`, literary/creative:** `assembly` → **fable** (the
+  creative-writing model); `inspector` → opus or sonnet (any model *other than* fable);
+  `coach` → opus. AXIOM covers "academic to literary" — match the maker to the craft.
+- **Ambiguous or high-stakes intake:** raise `intake` → sonnet; misreading the ask is
+  the most expensive early error (Axiom 1).
+
+Also: the orchestrator itself (this session) does real work — consolidating the
+canonical fact store, merging verdicts, presenting the outline/sign-off. Run `/axiom`
+on a strong session model (opus / sonnet); don't drive the line from a weak one.
+
 ## Robustness (check between every station)
 The line runs on file handoffs, so a station that *looks* done but wrote nothing
 breaks everything downstream silently. Before moving on from any station — and before
