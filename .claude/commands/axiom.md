@@ -21,14 +21,28 @@ $ARGUMENTS
    effort is *tiny*, you may run a compressed line (research-lite → assembly →
    inspection) — but say so explicitly (no hidden shortcuts, R4).
 
-3. **Station 2 — Research.** Delegate to `axiom-research`. Do not proceed to design
-   until facts with sources exist. Never let later stations build from memory.
+3. **Station 2 — Research.** For `normal`/`tiny`, delegate one `axiom-research`
+   writing `01-research.md`. For `full`/`high-stakes` whose task spans distinct
+   topics, split it into up to **5 research strands** (each a `slug` + scope) and
+   delegate one `axiom-research` per strand **in parallel**, each writing
+   `01-research-<slug>.md`. Then consolidate them yourself into a single canonical
+   `01-research.md` — the shared fact store every later station reads: dedupe, keep
+   every source and grade, and flag any conflict between strands rather than silently
+   picking one. Split only when topics are genuinely independent; don't fan out to
+   look busy (R6). Do not proceed to design until the canonical `01-research.md`
+   exists. Never let later stations build from memory.
 
 4. **Station 3 — Design.** Delegate to `axiom-design`. Honour its chosen team size.
    Do not silently inflate it (R6).
 
-5. **Station 4 — Assembly.** Delegate to `axiom-assembly` to produce
-   `03-deliverable.*`.
+5. **Station 4 — Assembly.** Read the plan's assembly team. For a single part,
+   delegate one `axiom-assembly` writing `03-deliverable.*`. If the plan fans into
+   parts, delegate one `axiom-assembly` per part **in parallel** (cap 5), each reading
+   the canonical `01-research.md` and the plan's **House style**, writing
+   `03-deliverable-<slug>.*`. If the plan calls for an integration pass, then run one
+   more `axiom-assembly` in **integration mode** to stitch the parts into a coherent
+   `03-deliverable.*` (harmonize voice and transitions; no new unsourced claims).
+   Honour the plan's team size — do not inflate it (R6).
 
 6. **Station 5 — Coach.** Delegate to `axiom-coach`. If its verdict is
    `ONE-IMPROVEMENT-PASS`, send the deliverable back to `axiom-assembly` **once**

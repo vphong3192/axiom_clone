@@ -137,5 +137,29 @@ ký duyệt chưa? Nếu orchestrator tự quyết "đủ tốt rồi, giao thô
 
 ---
 
+## Bài học 7 — Sức mạnh của AXIOM gốc nằm ở CHIỀU RỘNG song song, không chỉ chiều sâu
+*(Rút ra từ: đối chiếu axiom_clone với chương "Hậu ký" của sách gốc, 2026-07-01)*
+
+Bản clone ban đầu gộp mỗi trạm thành một agent đơn chạy tuần tự. Nhưng Hậu ký cho
+thấy hệ gốc *rộng*: 7 agent nghiên cứu song song (mỗi agent một mảng, 100+ lượt tra
+web), 17 "cây bút" viết song song (mỗi người một chương, chung một sổ tay), rồi
+20+ agent kiểm định. Đặc trưng "wow" đến từ fan-out + kho dữ kiện chung, không phải
+từ một dây chuyền một-agent-mỗi-trạm.
+
+Sai lầm cần tránh: tưởng "một pipeline tuần tự đẹp" là đủ. Với task lớn, nó *mỏng*
+hơn bản gốc, không phải gọn hơn.
+
+**Sửa:** `full`/`high-stakes` giờ fan-out được — orchestrator chia research thành
+tối đa 5 strand song song rồi hợp nhất thành `01-research.md` canonical (kho dữ kiện
+chung); design chia deliverable thành parts, assembly viết song song rồi một
+integration pass ghép lại cho liền mạch. Vẫn giữ smallest-team: mặc định 1 pass,
+chỉ tách khi công việc *thật sự* độc lập (đừng fan-out cho oai — R6).
+
+**Kiểm tra:** Với một task `full` nhiều mảng, đã cân nhắc fan-out chưa, hay mặc định
+nhét hết vào một agent? Ngược lại: có nhánh nào không tự biện minh được trong một
+câu không? Nếu có, gộp lại.
+
+---
+
 *File này chỉ có giá trị nếu được đọc. Nếu một bài học bị vi phạm lại, ghi thêm
 vào đây — đừng xóa bài cũ.*

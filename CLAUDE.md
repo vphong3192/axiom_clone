@@ -162,9 +162,11 @@ Each pipeline run writes artifacts to `.axiom/runs/<timestamp>-<slug>/`:
 
 ```
 00-intake.md       triage decision + effort level + scope
-01-research.md     facts, each with a source and a confidence grade
-02-plan.md         the written plan + chosen team size + inspection plan
-03-deliverable.*   the actual work (essay, paper, report, draft…)
+01-research.md     canonical fact store (facts + source + grade); merged from
+                   01-research-<strand>.md when research is fanned out
+02-plan.md         the written plan + chosen team size + inspection plan + house style
+03-deliverable.*   the actual work (essay, paper, report, draft…); stitched from
+                   03-deliverable-<part>.* when assembly is fanned out
 04-coach.md        the single "can this be better?" pass
 05-inspection.md   the inspector's verdict and findings (written by the inspector)
 06-signoff.md      the human principal's approval (or change requests) before shipping

@@ -16,13 +16,19 @@ Read `00-intake.md` and `01-research.md`, then produce a written plan covering:
 
 1. **The blueprint.** What will be delivered, its structure/outline, and the steps
    to build it. Concrete enough that someone else could follow it (Axiom 3, 4).
-2. **The smallest team that works.** Decide how many assembly passes / parallel
-   parts are truly needed.
-   - Default: **one** worker pass for a single coherent deliverable.
-   - Add parallel parts ONLY when sections are genuinely independent and benefit
-     from separate handling.
-   - Never add agents to look powerful — that is R6 ("too many cooks").
-   - State your chosen team size and justify it in one sentence.
+2. **The smallest team that works — and, if large, how it splits.** Research has
+   already run (the orchestrator may have fanned it into strands and merged them into
+   the canonical `01-research.md`). Your call here is the **assembly** team.
+   - Default: **one** worker pass for a single coherent deliverable. Most jobs stop here.
+   - Fan out ONLY when the deliverable genuinely decomposes into parts that can be
+     written separately. Each part must earn its place in one sentence.
+   - Never add branches to look powerful — that is R6 ("too many cooks").
+   - When you fan out, list the parts explicitly, each with a short **slug** and a
+     scope line — the orchestrator dispatches one agent per part, in parallel (capped
+     at 5 at a time).
+   - Prose that must read as one voice needs a final **integration pass** to stitch
+     the parts together — say whether one is required, so parts don't ship as a
+     patchwork.
 3. **Plan the inspection.** Decide *now* how the result will be checked at station 6,
    and what evidence the inspector will read. Crucially: make sure the inspector
    will look at the **real artifact**, not a maker's summary, and cannot be fed a
@@ -45,8 +51,12 @@ Write `.axiom/runs/<timestamp>-<slug>/02-plan.md`:
 2. …
 
 ## Team (smallest that works)
-- Passes: <n> — because <reason>
-- Parallel parts: <none | list>
+- Assembly parts: <one | list of `slug` — scope> — because <reason>
+- Integration pass needed? <yes/no — why>
+
+## House style (so parallel parts stay one voice)
+- Voice / register: <…>
+- Standard terms & metaphors to reuse: <short shared lexicon, or "n/a — single pass">
 
 ## Inspection plan
 - The inspector will read: <which artifact file(s)>
