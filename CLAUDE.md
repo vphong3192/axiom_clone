@@ -107,7 +107,7 @@ When unsure, choose the more careful path.
 |---|---------|-------|-----|
 | 1 | Reception | `axiom-intake` | Triage: full process or quick lane? effort level? what "done fully" means. |
 | 2 | Research | `axiom-research` | Gather real, current facts **with sources**. Never build from memory. |
-| 3 | Design | `axiom-design` | Write the plan down. Decide the smallest team. Plan the inspection. |
+| 3 | Design | `axiom-design` | Write the plan down. Decide the smallest team. Plan the inspection. **→ outline approved by the human before Assembly.** |
 | 4 | Assembly | `axiom-assembly` | Do the work at full effort. Label confidence, cite sources, leave receipts. |
 | 5 | Coach | `axiom-coach` | Ask once: "Is this really the best?" Never gives the answer. |
 | 6 | Inspection | `axiom-inspector` | An **independent** check of the real artifact — re-fetches grade-A sources, fans into consistency/wording/technical axes for big jobs. Verdict: PASS / FIX-IT / REJECT. |
@@ -135,6 +135,12 @@ family*, which removes only part of a shared blind spot. A different-vendor mode
 or the human's own eyes — is the last valuable gate. So the final sign-off belongs to
 a person, not to the orchestrator. The leverage of the principal is at the two ends:
 defining the work (before) and approving it (after).
+
+These are **two human gates**, not one. The *before* gate is **outline approval**
+after Design (step 4b in `/axiom`): the human sees the structure, angle, length, and
+team, and approves or edits before a word is written — cheap to redirect here, costly
+later. The *after* gate is the sign-off at step 8b. Skipping the outline gate is
+allowed only on the tiny/quick lane, and must be said out loud (R4).
 
 Honest limit: the gate can confirm an inspection *took place* and that a human
 approved — not that either was thorough or fair. That's the job of the independent

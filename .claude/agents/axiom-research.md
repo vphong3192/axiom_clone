@@ -46,6 +46,10 @@ Given the intake decision and the task, gather what the writer will need:
 - Prefer primary sources (papers, official docs, original texts) over aggregators.
 - If sources conflict, say so and present both — don't silently pick one.
 - Never fabricate a citation. If you can't verify, label it C/D and say it's unverified.
+- **If WebFetch is blocked** (e.g. HTTP 403 on every domain — a network egress policy,
+  not a per-site block), say so at the top of your file, fall back to WebSearch, and
+  **cap those facts at B**: a source you could not open and read is never grade A.
+  Declare the limit openly; don't hide it, and don't fake an A to look more solid.
 
 ## Output
 

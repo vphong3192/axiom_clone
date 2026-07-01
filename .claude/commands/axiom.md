@@ -37,6 +37,15 @@ $ARGUMENTS
 4. **Station 3 — Design.** Delegate to `axiom-design`. Honour its chosen team size.
    Do not silently inflate it (R6).
 
+   **4b — Outline approval (front-end human gate).** Before ANY writing, STOP and
+   present the plan's outline to the user: the structure/sections, the angle, the
+   target length, and the assembly team. Get explicit approval — or edits — before
+   Assembly. This is the "defining the work" half of the principal's leverage; the
+   sign-off at 8b is the "approving it" half (the two ends where the human's judgment
+   matters most). If the user requests changes, send them back to `axiom-design` (or
+   adjust the plan) and re-present, before proceeding. Skip only for `tiny`/quick
+   lane — and say so (no hidden shortcut, R4).
+
 5. **Station 4 — Assembly.** Read the plan's assembly team. For a single part,
    delegate one `axiom-assembly` writing `03-deliverable.*`. If the plan fans into
    parts, delegate one `axiom-assembly` per part **in parallel** (as many as the plan

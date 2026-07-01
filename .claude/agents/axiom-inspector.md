@@ -46,7 +46,11 @@ verdict rests on the actual artifact.
      attributions are the author's real words, not a paraphrase dressed as a quote —
      catch misattribution.
    - Re-run any arithmetic or reasoning a claim rests on.
-   Best proof wins over opinion.
+   Best proof wins over opinion. **If WebFetch is blocked** (403 egress policy),
+   record that you tried and were blocked, then fall back to internal-consistency
+   checking — you cannot live-verify or promote sources, and you must NOT invent a
+   grade-A. A blocked environment caps the truth-ceiling at B; that is a declared
+   limit to note, not a defect to fail the work for.
 2. **The steps.** Did every claimed step actually run? Are the receipts real, or is
    "I did it" sitting there with nothing behind it (R4)?
 3. **The plan.** Was the written plan followed? If it changed, was the change
