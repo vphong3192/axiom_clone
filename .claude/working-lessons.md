@@ -205,5 +205,39 @@ mới nhất.
 
 ---
 
+## Bài học 10 — Agent được giao GHI file thì phải có tool Write
+*(Rút ra từ: chạy thử /axiom thật đầu tiên — bài sáp nhập tỉnh, 2026-07-01)*
+
+Lần chạy end-to-end đầu tiên lộ ra: `axiom-coach` và `axiom-inspector` được prompt
+bảo *ghi* `04-coach.md` / `05-inspection-*.md`, nhưng frontmatter chỉ cấp
+`Read/Glob/Grep` — **không có Write**. Cả 3 lần (coach + 2 inspector) agent phải trả
+nội dung ra tin nhắn cuối để orchestrator ghi hộ. Đây đúng loại lỗi "một bước được
+kể lại ≠ một bước đã làm": agent *nói* nó ghi file nhưng không có quyền.
+
+Gốc rễ: nhầm giữa hai loại "read-only". Coach cần read-only *trên deliverable* (không
+được sửa bài) — nhưng nó *phải* ghi được báo cáo của chính nó. Bỏ luôn Write là chặn
+nhầm.
+
+**Sửa:** cấp `Write` cho cả coach và inspector, kèm guard trong body: chỉ được ghi
+file báo cáo của chính mình (`04-coach.md` / `05-inspection*.md`), **không bao giờ**
+đụng `03-deliverable.*` hay artifact khác (inspector phán, không sửa; FIX-IT về
+Assembly).
+
+**Kiểm tra:** Mỗi agent trong prompt có động từ "ghi/Write file X" thì frontmatter có
+tool Write chưa? Nếu không, hoặc cấp Write, hoặc sửa prompt để orchestrator ghi hộ —
+đừng để mâu thuẫn âm thầm.
+
+## Bài học 11 — Subagent có thể chết giữa chừng; orchestrator phải chịu lỗi
+*(Rút ra từ: cùng phiên, 2026-07-01)*
+
+Một inspector (trục consistency) bị "session limit" ngắt giữa chừng, chỉ trả 23 token,
+không ra verdict. Nếu orchestrator tin mù rằng "đã giao là xong", trục đó sẽ trống mà
+gate vẫn tưởng đủ. Thực tế phải phát hiện subagent lỗi và **chạy lại** trục đó.
+
+**Kiểm tra:** Trước khi hợp nhất verdict/artifact, mỗi nhánh fan-out có thực sự tạo ra
+file + verdict hợp lệ chưa? Đừng đếm "đã launch N nhánh" là "có N kết quả".
+
+---
+
 *File này chỉ có giá trị nếu được đọc. Nếu một bài học bị vi phạm lại, ghi thêm
 vào đây — đừng xóa bài cũ.*
