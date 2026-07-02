@@ -270,11 +270,15 @@ Ba điều rút ra:
    quốc tế, meta-analysis, steelman bằng dữ liệu) và **receipts cưỡng chế được**.
 2. **Đo trước khi tin.** Trực giác "nhiều lớp kiểm ⇒ tốt hơn" là chưa được chứng minh cho
    task một-chủ-đề. Nếu không có eval, mọi phần "thêm agent" là R6 trá hình.
-3. **Confound phải khai, không được lấy làm cớ.** Run pipeline bị WebFetch 403 (trần nhãn B),
-   baseline thì mạng thông — nên khoảng cách 1 điểm CHƯA kết luận được là do pipeline. Nhưng
-   confound không xóa được sự thật là pipeline **chưa** đạt +3 dù tốn 10×. Kết luận trung thực:
-   *chưa chứng minh được phần bù* — không phải *"pipeline kém"*, cũng không phải *"pipeline
-   thắng"*.
+3. **Confound phải khai — VÀ phải test trước khi quy kết (đính chính 2026-07-02).** Bản ghi
+   đầu tiên đổ khoảng cách 1 điểm cho "confound mạng: pipeline 403, baseline thông". Re-test
+   ngay sau đó phá vỡ điều này: **WebFetch bị chặn cấp tổ chức trên MỌI host cả phiên** (gov VN
+   *lẫn* Wikipedia), WebSearch thì thông cho **cả hai** → hai branch đối xứng (WebSearch-only).
+   Confound bất đối xứng **phần lớn là ảo**; mốc pipeline làm mất ("12/6 ≠ 1/7") nằm sẵn trong
+   WebSearch snippet → là lỗi kiểm định trong tầm tay, không phải lỗi mạng. Bài học kép: (a)
+   pipeline **chưa** đạt +3 dù tốn ~10× — kết luận *chưa chứng minh được phần bù*; (b) **đừng
+   quy một khoảng cách điểm cho "môi trường" khi chưa test chính tool đó** — làm thế là tự bào
+   chữa và bỏ sót lỗi thật sửa được tại trạm (R2 phiên bản tinh vi).
 
 **Sửa đúng trạm thua, không đại tu (chống R6):** pipeline thua ở mục "đúng sự thật" vì (a) bỏ
 mốc "thông qua 12/6 ≠ hiệu lực 1/7" và không tách cấp Đảng/Nhà nước, (b) tin số chính trị

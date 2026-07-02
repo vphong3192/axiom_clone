@@ -61,12 +61,18 @@ no fresh research required". Pipeline **không** nống task nhỏ lên full. Ou
 
 ## Đọc kết quả cho trung thực — 3 yếu tố gây nhiễu (không được giấu)
 
-1. **Pipeline bị handicap mạng.** Run branch B gặp **WebFetch 403 trên mọi domain** →
-   trần nhãn B, không tự đọc/verify được nguồn sơ cấp. Branch A chạy sau, WebSearch/WebFetch
-   **thông** → lấy được nguồn sống và grader xác minh được. Vì mục 4 (kiểm chứng được) chính
-   là mục quyết định, **phần lớn khoảng cách 1 điểm có thể do môi trường, không phải do
-   pipeline kém**. Đây là confound vật chất → kết luận quality là **CHƯA KẾT LUẬN ĐƯỢC**,
-   không phải "baseline thắng sạch".
+1. **~~Pipeline bị handicap mạng~~ — ĐÃ ĐÍNH CHÍNH (2026-07-02, Axiom 7).** Bản ghi đầu
+   tiên nói branch A "mạng thông" còn branch B bị 403 → confound bất đối xứng. **Sai.**
+   Re-test 2026-07-02: **WebFetch trả 403 trên MỌI host** (cả `xaydungchinhsach.chinhphu.vn`
+   *lẫn* `en.wikipedia.org`), và proxy status xác nhận đây là **chính sách egress cấp tổ
+   chức đứng yên cả phiên** (`recentRelayFailures: []`; README: "do not retry or route
+   around"). WebSearch thì **hoạt động cho cả hai branch**. → Cả hai branch **đối xứng**:
+   WebSearch-only, không WebFetch. **Confound bất đối xứng phần lớn là ảo.**
+   Hệ quả quan trọng: mốc quyết định mà pipeline làm mất — "thông qua 12/6 ≠ vận hành 1/7" —
+   **nằm sẵn trong WebSearch snippet** (search "NQ 202/2025/QH15" trả đúng câu đó), thứ mà
+   research pipeline vẫn có. Nên thua ở mục 4 là **lỗi biên tập/kiểm định trong tầm tay**,
+   KHÔNG phải lỗi mạng. → khoảng cách −1 **chủ yếu là thật và sửa được tại trạm**, không phải
+   "chưa kết luận được vì môi trường".
 2. **Rubric under-weight chiều sâu ("wow").** Chính grader ghi: nếu chấm theo trọng số
    chiều sâu/tham vọng, **pipeline vượt lên** — nó có đối chiếu quốc tế (Heisei/Kallikratis),
    meta-analysis 31 nghiên cứu, và steelman tài khóa *bằng dữ liệu* (tự cân đối 27%→20% sau
@@ -88,8 +94,13 @@ no fresh research required". Pipeline **không** nống task nhỏ lên full. Ou
      hiệu lực, cấp Đảng ≠ Nhà nước*, và *số không re-fetch được thì hạ xuống C hoặc bỏ, không
      để B trình bày chắc nịch*. (Đáng chú ý: 3 inspector của pipeline **đã PASS** các số này —
      một lỗ hổng inspection thật.)
-  2. **Chạy lại khi mạng thông** để gỡ confound trước khi tin/không-tin phần bù. Cho tới lúc đó,
-     với lớp task "tiểu luận sự thật, một chủ đề", **mặc định lane nhẹ hơn** hợp lý hơn là full.
+  2. **~~Chạy lại khi mạng thông~~ — không cần & không làm được ở đây.** Re-test cho thấy
+     WebFetch bị chặn cấp tổ chức cả phiên (403 mọi host) → chạy lại chỉ tái tạo cap grade-B,
+     đốt ~12 agent để dựng lại confound. Hơn nữa confound đã được chứng minh là **phần lớn ảo**
+     (cả hai branch WebSearch-only, đối xứng), nên re-run không đổi được kết luận lõi. Một
+     lần chạy lại *sạch* (để nâng B→A qua full-text verify) chỉ đáng làm trong môi trường có
+     WebFetch — hoãn tới đó. Cho tới lúc đó, với lớp task "tiểu luận sự thật, một chủ đề",
+     **mặc định lane nhẹ hơn** hợp lý hơn là full.
 - **GT-3: giữ nguyên.** Triage chống over-build đúng — đây là cơ chế đang tạo giá trị thật.
 - **Meta:** vì baseline đã có sẵn kỷ luật cơ bản, pipeline chỉ đáng khi task **thật sự cần
   chiều sâu/rộng nhiều mảng** (fan-out research + đối chiếu nhiều nguồn) hoặc **receipts kiểm
@@ -100,5 +111,8 @@ no fresh research required". Pipeline **không** nống task nhỏ lên full. Ou
   phải phán quyết. Cần lặp lại (nhất là GT-2 khi mạng thông) và mở rộng GT-1/GT-4.
 - Grader **cùng-dòng-model** (Claude) — chung điểm mù; đúng giới hạn mà harness tự thú. Bù một
   phần bằng chấm mù + tự verify web, nhưng chưa phải model khác hãng.
-- Branch B tái dùng run cũ (điều kiện mạng khác branch A) → confound đã nêu ở mục 1. Ghi rõ để
-  lần sau chạy hai nhánh trong cùng điều kiện.
+- Branch B tái dùng run cũ. Ban đầu tưởng điều kiện mạng khác branch A, nhưng re-test
+  (mục 1, đã đính chính) cho thấy **WebFetch chặn cả phiên cho cả hai** → điều kiện thực chất
+  đối xứng (WebSearch-only). Bài học ghi sổ: **test WebFetch/WebSearch TRƯỚC khi quy kết một
+  khoảng cách điểm cho "confound mạng"** — nếu không sẽ đổ lỗi cho môi trường một cách sai và
+  bỏ sót lỗi thật sửa được tại trạm.
