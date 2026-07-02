@@ -2,11 +2,10 @@
 
 Ngày 12/6/2025, Quốc hội khoá XV thông qua Nghị quyết 202/2025/QH15, sáp nhập 63
 tỉnh/thành thành 34 đơn vị hành chính cấp tỉnh — nền cho mô hình "chính quyền
-địa phương 2 cấp" [A, xaydungchinhsach.chinhphu.vn]. Mốc thông qua/hiệu lực
-(12/6/2025) và mốc vận hành (1/7/2025) đều nằm ngoài khung "12 tháng qua"
-(2/7/2025–2/7/2026) vài tuần đến một ngày — khai báo rõ ngay từ đầu; chủ đề vẫn
-được chọn vì tranh cãi và hệ quả vận hành tiếp diễn suốt 12 tháng qua. Vì sao
-một cải cách được 461/465 đại biểu có mặt tán thành vẫn gây tranh cãi kéo dài?
+địa phương 2 cấp" [A, xaydungchinhsach.chinhphu.vn]. Mốc văn bản nằm ngoài
+khung "12 tháng qua" đúng nghĩa vài tuần (chi tiết ở mục Giới hạn), nhưng
+tranh cãi và hệ quả vận hành vẫn tiếp diễn suốt 12 tháng qua. Vì sao một cải
+cách được 461/465 đại biểu có mặt tán thành vẫn gây tranh cãi kéo dài?
 Câu trả lời nằm ở *cách làm* và bằng chứng tài khóa chưa rõ, không phải ở tính
 hợp pháp.
 
@@ -62,7 +61,7 @@ Trung ương 11: nâng hiệu năng-hiệu lực-hiệu quả; mở không gian 
 vùng; "gần dân, sát dân" hơn nhờ bỏ cấp trung gian; phân cấp mạnh hơn cho cơ sở
 [B]. Đây không chỉ là khẩu hiệu: Lê Hồng Hiệp (ISEAS, Singapore) nhận định cải
 cách nhằm "giảm thủ tục rườm rà và tham nhũng, tăng khả năng phản ứng và thu
-hút FDI" [A, qua Newsweek dẫn AFP] — một đánh giá độc lập, không
+hút FDI" [A, Newsweek] — một đánh giá độc lập, không
 phải tuyên truyền nội bộ. Ở chiều ngược lại, một bài trên trang Công an Lai
 Châu (chuyên mục "chống diễn biến hoà bình") phản bác: hạ tầng số đã xoá nhoà
 khoảng cách địa lý, lo ngại bản sắc chỉ là "chủ nghĩa địa phương hẹp hòi" [A,
@@ -89,7 +88,9 @@ sớm/thôi việc — Phó Thủ tướng Hồ Đức Phớc, UBTVQH, 23/4/2025
 đồng tiết kiệm *dự kiến* 2026-2030 — Bộ Nội vụ, 8/5/2025 [B]; ~128.000 tỷ đồng
 hỗ trợ Trung ương — Thứ trưởng Bộ Tài chính Trần Quốc Phương, 1/7/2025 [B].
 Không nguồn nào nối ba con số này. Tự chủ ngân sách: tỉnh tự cân đối hoàn toàn
-giảm từ 17/63 (2025) xuống 7/34 (2026) [B].
+giảm từ 17/63 ≈ 27% (2025) xuống còn 7/34 ≈ 21% (2026) [B] — tỷ lệ tỉnh "tự
+nuôi mình" giảm chứ không tăng sau sáp nhập, đúng như luận điểm của bài: sáp
+nhập cơ học không tự động cải thiện tự chủ tài khóa.
 
 ## Mười hai tháng vận hành: được việc, nhưng quá tải
 
@@ -98,7 +99,8 @@ dịch vụ công quốc gia, ~90% hồ sơ xử lý trực tuyến [A]. Nhưng 
 Đức (Hà Nội) là ca cụ thể: ~70 cán bộ gánh việc của 10 phòng ban huyện cũ, xử
 lý ~1.500 hồ sơ/tháng và 924 nhiệm vụ, sợ sai không dám quyết [A,
 dantri.com.vn]. Trụ sở dôi dư — 4.226/38.182 — là số ước tính trước 1/7/2025,
-không phải kết quả sau sáp nhập; còn dang dở đến cuối 2026 [A/B]. Phan Trung
+không phải kết quả sau sáp nhập [A]; riêng TP.HCM, hạn chót xử lý là phương án
+trước 30/6/2026, pháp lý trước 31/12/2026 — việc còn dang dở [B]. Phan Trung
 Tuấn (Bộ Nội vụ) đã bác tin đồn sáp nhập đợt hai tại họp báo 9/3/2026: "không
 có chủ trương" [A]. Chính phủ ra Quyết định 706/QĐ-TTg (21/4/2026) yêu cầu sơ
 kết chính thức một năm vận hành [A].
