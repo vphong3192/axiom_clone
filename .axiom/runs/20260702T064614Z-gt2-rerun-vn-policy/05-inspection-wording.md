@@ -1,69 +1,68 @@
 # Inspection — Sáp nhập tỉnh 2025 (vì sao vẫn tranh cãi)
 Inspector: independent (did not receive a maker's summary)
 Axis: wording
-Artifact read: 03-deliverable.md (direct), 02-plan.md §House style (direct)
+Round: 2 (post-FIX-IT, re-inspected from scratch — prior report not trusted)
+Artifact read: 03-deliverable.md (direct, current bytes) + 02-plan.md § House style
 
 ## Findings
 
-- [result/clarity] Prose is clear, grammatical, and readable throughout. The hook
-  lands the question fast: the title ("461 phiếu thuận, vì sao vẫn tranh cãi?")
-  and the opening paragraph pose the analytical question ("Vì sao một cải cách
-  được 461/465 đại biểu có mặt tán thành vẫn gây tranh cãi kéo dài?") within the
-  first paragraph, and answer it in one line ("Câu trả lời nằm ở *cách làm* và
-  bằng chứng tài khóa chưa rõ, không phải ở tính hợp pháp"). The close reads as a
-  genuine conclusion, not a summary: the "Kết luận: tranh cãi thật, không phải
-  tranh cãi giả" section delivers a direct verdict (hợp pháp cao + hiệu quả đo
-  được BUT lợi ích tài khóa ròng chưa chứng minh + cách thực thi là nguồn tranh
-  cãi thật).
+- [result — hook] Tiêu đề "461 phiếu thuận, vì sao vẫn tranh cãi?" bật ngay câu
+  hỏi trung tâm; câu mở nêu đích danh NQ 202/2025/QH15 + "chính quyền địa phương
+  2 cấp", và câu hỏi tu từ ("Vì sao một cải cách được 461/465 đại biểu có mặt tán
+  thành vẫn gây tranh cãi kéo dài?") đóng khung góc nhìn ngay trong đoạn 1, trả lời
+  gọn một dòng ("Câu trả lời nằm ở *cách làm* và bằng chứng tài khóa chưa rõ, không
+  phải ở tính hợp pháp"). Đoạn cảnh báo phạm vi 12 tháng (dòng 5–8) chèn giữa làm
+  chậm nhịp một chút, nhưng là khai báo trung thực có chủ đích (Axiom 8) — chấp
+  nhận được, không phải lỗi.
 
-- [register/voice] Meets the house style ("phân tích, trung thực, kết luận
-  thẳng; neutral ≠ timid"). I specifically searched for the timid-dodge phrases
-  the working lesson warns about ("đặt ra câu hỏi", "gợi ý rằng", "có thể cho
-  thấy" as evasions) — none are used as dodges. Where data answers, the essay
-  states the answer flatly: "tỷ lệ tỉnh 'tự nuôi mình' giảm chứ không tăng sau
-  sáp nhập", "sáp nhập cơ học không tự động cải thiện tự chủ tài khóa",
-  "KHÔNG phải cắt giảm ngân sách". No rhetorical inflation beyond the labeled
-  evidence: fiscal claims are consistently hedged to match their B/C grade
-  ("chưa được chứng minh", "chưa xác nhận đạt được", "không đối chiếu được"),
-  not dressed up (no R2).
+- [result — close] "Kết luận: tranh cãi thật, không phải tranh cãi giả" đọc rõ như
+  một kết luận, phán quyết thẳng: hợp pháp cao + hiệu quả đo được NHƯNG lợi ích tài
+  khóa ròng chưa chứng minh + cách thực thi là nguồn tranh cãi thật. Đúng house
+  style "kết luận thẳng, không timid".
 
-- [labels/citations] The inline [A]/[B]/[C] labels sit immediately after each
-  claim per the plan, are dense but not more disruptive than the mandate
-  requires, and are formatted consistently. One cosmetic inconsistency: source
-  tags are mostly bare domains (rfa.org, tienphong.vn, vietnamnet.vn,
-  soumu.go.jp) but one is a publication name — "[A, Newsweek]" (line 64) — and
-  "regioner.dk" vs "soumu.go.jp" style is fine, only the capitalised proper-name
-  form breaks the pattern. Cosmetic only.
+- [result — câu tự chủ ngân sách được yêu cầu kiểm riêng] Dòng 91–95: "Về tự chủ
+  ngân sách, tổng hợp báo chí cho biết số tỉnh tự cân đối hoàn toàn có thể giảm từ
+  khoảng 17/63 (2025) xuống khoảng 7/34 (2026) [C] — chưa đối chiếu được với phụ
+  lục gốc NQ 160/2024/QH15 và NQ 246/2025/QH15 (không mở được trong phiên này), nên
+  chỉ là tín hiệu cần thận trọng, không phải bằng chứng đã xác nhận." Đọc TỰ NHIÊN:
+  hedge dệt vào chính mệnh đề ("tổng hợp báo chí cho biết", "có thể giảm", "khoảng"),
+  nhãn [C] đặt đúng chỗ, mệnh đề giải thích nối bằng gạch ngang — KHÔNG phải một câu
+  disclaimer bolted-on tách rời. Đạt yêu cầu softened.
 
-- [house-style date labels] The plan mandates the three date words
-  [thông qua]/[hiệu lực]/[vận hành] be used and not renamed across sections. The
-  three words ARE used consistently ("thông qua", "hiệu lực", "vận hành" appear
-  as the fixed vocabulary), but in prose form rather than the literal bracket
-  syntax — sensible, since brackets are reserved for grade labels and
-  [hiệu lực] would visually collide with [A]/[B]. The consistency requirement is
-  met; not a defect.
+- [register/voice] Giọng phân tích nghiêm túc, trung thực, không né. Tôi tìm riêng
+  các cụm né-tránh mà working-lesson cảnh báo ("gợi ý rằng", "có thể cho thấy" dùng
+  như dodge) — không dùng làm dodge. Steelman (mục 3) trình bày đủ sức mạnh, có
+  đánh giá độc lập (Lê Hồng Hiệp/ISEAS, [A, newsweek.com]) trước phản biện. Không
+  có rhetorical inflation vượt bằng chứng đã gắn nhãn: mệnh đề mạnh ("chưa được
+  chứng minh", "không đối chiếu được", "chưa xác nhận đạt được") đều neo vào nhãn
+  B/C tương ứng (không R2).
 
-- [minor awkwardness] A few spots force a light re-read but none change meaning:
-  1. "Mốc văn bản nằm ngoài khung '12 tháng qua' đúng nghĩa vài tuần" (line 6) —
-     "đúng nghĩa vài tuần" is a slightly compressed construction.
-  2. Two didactic meta-notes read like methodology reminders leaked into the
-     prose rather than analysis addressed to the reader: "nhầm hai luật cùng tên
-     là lỗi thực tế" (line 24) and "Ba mốc ... cần tách bạch tuyệt đối" (lines
-     33–34). They are accurate and not misleading, but the register momentarily
-     shifts from analysis to self-instruction. Cosmetic.
-  3. "meta-analysis học thuật thật" (line 80) — the word "thật" is mildly
-     defensive; acceptable given it is distinguishing from the removed fake
-     "31 nghiên cứu/14 quốc gia" figure.
+- [labels — định dạng inline] Nhãn [A]/[B]/[C] nhất quán: [Grade] trần hoặc
+  [Grade, domain] với dấu phẩy đồng nhất, tag nguồn nay đều dạng domain thường
+  (rfa.org, newsweek.com, soumu.go.jp, regioner.dk, tienphong.vn...) — lỗi cosmetic
+  "[A, Newsweek]" của round 1 đã được sửa. Gắn inline ngay sau claim, không dồn cuối
+  bài, không làm gián đoạn dòng đọc quá mức.
+
+- [terminology — ba mốc ngày] Ba thuật ngữ "thông qua/hiệu lực/vận hành" dùng nhất
+  quán xuyên bài và chốt lại dòng 34–35 ('"Thông qua", "hiệu lực", "vận hành" là ba
+  mốc pháp lý khác nhau, không trùng ngày'). House style ghi quy ước ngoặc vuông
+  [thông qua]/[hiệu lực]/[vận hành], nhưng bài dùng bold + ngoặc kép để tránh đụng
+  hình với nhãn [A]/[B] — hợp lý, ý đồ "không đổi cách gọi giữa các mục" được giữ
+  đúng, nghĩa không đổi. Round 1 từng chỉ ra hai "meta-note phương pháp lọt vào văn
+  xuôi" (dòng 24 và 33–34 bản cũ); bản hiện tại đã được làm mượt thành mệnh đề
+  hướng tới người đọc. Đã khắc phục.
+
+## Cosmetic notes (không cản ship)
+1. Dòng 3–5: "sáp nhập 63 tỉnh/thành **thành** 34..." — "thành" (thành phố) kề
+   "thành" (giới từ) hơi cấn tai; rõ nghĩa. Có thể đổi "gộp thành". Cosmetic.
+2. ALL-CAPS "KHÔNG" nhấn phủ định vài lần (dòng 47, 78). Nhất quán, truyền tải đúng
+   phân biệt then chốt, hơi nặng tay so với giọng phân tích. Cosmetic.
+3. "meta-analysis học thuật thật" (dòng 81) — chữ "thật" hơi thủ thế (đối lập con
+   số giả đã loại). Rõ nghĩa. Cosmetic.
 
 ## Verdict: PASS
-
-The Vietnamese prose is clear, direct, and grammatically sound; the voice matches
-the plan's house style (analytical, honest, non-timid) with no evasive hedging
-and no inflation past the labeled evidence; the hook and conclusion both land.
-Only cosmetic issues remain, none of which change meaning or mislead:
-1. Citation-tag format: normalise "[A, Newsweek]" to match the bare-domain style
-   used elsewhere (e.g. newsweek.com).
-2. Consider rephrasing the two leaked methodology notes (lines 24, 33–34) into
-   reader-facing analysis, and smoothing "đúng nghĩa vài tuần" (line 6).
-
-These are optional polish; the work may ship on the wording axis.
+Không có lỗi wording nào làm sai/lệch nghĩa hay vi phạm hệ thống house style. Hook
+bật nhanh, kết luận đọc ra kết luận, nhãn tin cậy nhất quán và inline, câu tự chủ
+ngân sách [C] mới softened đọc tự nhiên (không phải disclaimer bolted-on). Hai lỗi
+cosmetic của round 1 (tag "[A, Newsweek]" và các meta-note phương pháp) đã được
+sửa. Ba ghi chú còn lại thuần cosmetic — bài có thể ship ở trục wording.
