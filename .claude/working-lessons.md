@@ -17,6 +17,7 @@ File này sẽ dài dần; đọc checklist này trước, xuống phần chi ti
 9. **Gate kiểm ĐÚNG bytes đã kiểm định** (fingerprint), không phải bản cũ.
 10. **Agent được giao ghi file thì phải có tool Write.**
 11. **Subagent có thể chết giữa chừng** — kiểm mỗi nhánh ra kết quả thật, đừng tin "đã launch = xong".
+12. **Baseline một-lượt đã mạnh sẵn** — pipeline chỉ đáng khi task cần chiều sâu/rộng nhiều mảng; với essay một-chủ-đề nó có thể THUA baseline. Đo, đừng cho là hiển nhiên.
 
 ---
 
@@ -251,6 +252,39 @@ gate vẫn tưởng đủ. Thực tế phải phát hiện subagent lỗi và **
 
 **Kiểm tra:** Trước khi hợp nhất verdict/artifact, mỗi nhánh fan-out có thực sự tạo ra
 file + verdict hợp lệ chưa? Đừng đếm "đã launch N nhánh" là "có N kết quả".
+
+---
+
+## Bài học 12 — Đã ĐO: pipeline không tự động thắng baseline một-lượt
+*(Rút ra từ: lần chạy eval A/B thật đầu tiên — `.axiom/eval/results-2026-07.md`, 2026-07-02)*
+
+Lần đầu chạy protocol eval ra số thật, kết quả **không tâng bốc pipeline** — và phải ghi
+lại đúng như vậy (R2: không giả "done"). GT-2 (tiểu luận sự thật): grader mù chấm bản
+full-pipeline **13/14**, bản baseline một-lượt **14/14**. Ngưỡng "đáng chi phí" là B ≥ A+3;
+thực tế B = A−1, trong khi pipeline tốn **~10–12× lượt agent + 2 cổng người**.
+
+Ba điều rút ra:
+1. **Baseline đã có sẵn kỷ luật cơ bản.** Chỉ cần *yêu cầu* "phân tích có nguồn, có phản
+   biện", model một-lượt tự thêm nguồn, nhãn A/B, steelman, khai báo giới hạn. Giá trị BIÊN
+   của pipeline KHÔNG nằm ở các kỷ luật đó — mà ở **chiều sâu/rộng nhiều mảng** (đối chiếu
+   quốc tế, meta-analysis, steelman bằng dữ liệu) và **receipts cưỡng chế được**.
+2. **Đo trước khi tin.** Trực giác "nhiều lớp kiểm ⇒ tốt hơn" là chưa được chứng minh cho
+   task một-chủ-đề. Nếu không có eval, mọi phần "thêm agent" là R6 trá hình.
+3. **Confound phải khai, không được lấy làm cớ.** Run pipeline bị WebFetch 403 (trần nhãn B),
+   baseline thì mạng thông — nên khoảng cách 1 điểm CHƯA kết luận được là do pipeline. Nhưng
+   confound không xóa được sự thật là pipeline **chưa** đạt +3 dù tốn 10×. Kết luận trung thực:
+   *chưa chứng minh được phần bù* — không phải *"pipeline kém"*, cũng không phải *"pipeline
+   thắng"*.
+
+**Sửa đúng trạm thua, không đại tu (chống R6):** pipeline thua ở mục "đúng sự thật" vì (a) bỏ
+mốc "thông qua 12/6 ≠ hiệu lực 1/7" và không tách cấp Đảng/Nhà nước, (b) tin số chính trị
+không re-fetch được mà cả 3 inspector vẫn PASS. → thêm checklist bắt buộc cho research/inspector:
+phân biệt ngày ban hành/hiệu lực + cấp văn bản; số không verify được thì hạ C hoặc bỏ, không để
+nhãn B trình bày chắc nịch.
+
+**Kiểm tra:** Trước khi mặc định chạy full pipeline cho một task, hỏi: task này có THẬT SỰ cần
+chiều sâu/rộng nhiều mảng hay receipts kiểm được không? Nếu không, lane nhẹ hơn có thể cho kết
+quả tương đương với 1/10 chi phí. Và: đã có SỐ để tin phần bù chưa, hay chỉ là trực giác?
 
 ---
 
