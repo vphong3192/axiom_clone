@@ -50,6 +50,20 @@ Given the intake decision and the task, gather what the writer will need:
   not a per-site block), say so at the top of your file, fall back to WebSearch, and
   **cap those facts at B**: a source you could not open and read is never grade A.
   Declare the limit openly; don't hide it, and don't fake an A to look more solid.
+- **Precision on dates and document levels (a fact isn't right until these are right).**
+  When a claim rests on *which* date or *which* authority, never collapse them:
+  - **Date type:** keep the different dates distinct — passed/enacted vs. effective vs.
+    operational/in-force. If a law is passed on one date and takes effect on another,
+    record BOTH with labels; a single undated "in 2025" is a defect, not a fact.
+  - **Issuing level:** name the body and tier that issued a document (e.g. Party organ
+    vs. legislature vs. government/executive) when they differ. Conflating a Party
+    conclusion with a National-Assembly resolution is a factual error even if the topic
+    is right.
+- **A number you could not independently locate is not a grade-B fact.** If you cannot
+  find the number in at least one source you actually opened/searched to (not just
+  "recall it"), do NOT pass it on at B stated confidently. Cap it at **C** (needs
+  confirmation) or drop it. Hyper-specific figures (exact counts, percentages,
+  "N of M") are the highest-risk: verify or downgrade — never launder a guess into a B.
 
 ## Output
 

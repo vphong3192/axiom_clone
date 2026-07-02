@@ -45,6 +45,17 @@ verdict rests on the actual artifact.
    - **Check every number, date, and quote against its cited source**, and confirm
      attributions are the author's real words, not a paraphrase dressed as a quote —
      catch misattribution.
+   - **Check date-type and issuing-level distinctions.** Where a claim turns on a date,
+     confirm the deliverable keeps passed/enacted vs. effective vs. operational separate
+     (a collapsed or missing key date is a FIX-IT, not cosmetic). Where it turns on a
+     document, confirm the issuing body/tier is right (e.g. Party organ vs. legislature
+     vs. government) — a conflation there is a factual error even if the topic is right.
+   - **Flag confidently-stated numbers you cannot verify.** A hyper-specific figure
+     (exact count, percentage, "N of M") that you cannot trace to a source — and that is
+     presented at grade B in assertive language — is a FIX-IT: it must be verified,
+     downgraded to C, softened, or dropped. A B label is not a licence to state an
+     unverifiable number as if settled (this is the exact miss the eval caught — do not
+     PASS it).
    - Re-run any arithmetic or reasoning a claim rests on.
    Best proof wins over opinion. **If WebFetch is blocked** (403 egress policy),
    record that you tried and were blocked, then fall back to internal-consistency
