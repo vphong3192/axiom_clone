@@ -79,7 +79,34 @@ bond chưa ra. Nghiêng về **quy định-dẫn-dắt (regulatory-driven) + ti�
 tế** hơn là cầu môi trường nội sinh; củng cố (không lật) luận điểm chung: chuyển đổi xanh
 được vận hành bằng logic kinh tế/hội nhập, môi trường là khung.
 
+### Trạm sạc V-Green — độc quyền phục vụ VinFast & lợi thế hệ sinh thái Vingroup
+*(bổ sung theo yêu cầu người dùng ở cổng outline — WebSearch, trần B)*
+- [B] **V-Green** (Công ty Phát triển Trạm sạc Toàn cầu V-GREEN) do **Phạm Nhật Vượng sở
+  hữu 90%** (cá nhân), tách ra từ mảng trạm sạc của VinFast (1/2024). Sứ mệnh công bố:
+  hạ tầng sạc **"ưu tiên phục vụ xe VinFast"**. — nguồn: VinFast newsroom, electrive.
+- [B] **Độc quyền theo thiết kế (de facto), không phải độc quyền do nhà nước cấp:** mô
+  hình **trạm sạc nhượng quyền V-Green "chỉ phục vụ xe điện VinFast"**; hợp đồng "5.000
+  trạm sạc **độc quyền** cho VinFast" (FAST+). V-Green nói *có thể* mở cho hãng khác **sau
+  ~5 năm**. → đây là **rào cản thị trường do sở hữu tư nhân + first-mover**, không phải
+  giấy phép độc quyền nhà nước — viết chính xác cụm này. — nguồn: cafef, autonet, VinFast.
+- [B] **Quy mô:** ~**2.000+ trạm / ~40.000 cổng** đang hoạt động; kế hoạch **150.000 cổng
+  ở 63 tỉnh/thành**, đầu tư **10.000 tỷ đồng** (2 năm), 99 "siêu trạm" dọc quốc lộ. Mạng
+  sạc xe điện lớn nhất VN. — nguồn: vietnambiz, nguoiquansat, electrive.
+- [B] **Lợi thế "đất/mặt bằng" đến từ HỆ SINH THÁI VINGROUP, không phải giao đất công ưu
+  đãi (đã kiểm — không thấy nguồn):** trạm sạc đặt dày ở **Vinhomes (khu ở), Vincom (TTTM)**
+  của chính Vingroup; Vinhomes quảng bá trạm sạc VinFast là "tiện ích độc nhất". Mô hình
+  nhượng quyền: **đối tác tự bỏ đất/mặt bằng**, V-Green lo công nghệ/vận hành. — nguồn:
+  Vinhomes Market, VnExpress, kootoro.
+- ⚠️ **Kiểm chứng claim "thâu tóm đất vàng ưu đãi cho trạm sạc":** tìm WebSearch **không ra
+  nguồn** xác nhận việc Vingroup được **giao/ưu đãi đất công (đất vàng)** riêng cho trạm
+  sạc. Cái xác minh được là Vingroup **dùng chính bất động sản sẵn có (Vinhomes/Vincom)**
+  làm vị trí sạc — một lợi thế tập đoàn, khác với cáo buộc "giao đất ưu đãi". **Writer:
+  nêu phần có nguồn (lợi thế hệ sinh thái + độc quyền phục vụ VinFast); KHÔNG khẳng định
+  "giao đất vàng ưu đãi" như fact — ghi rõ đây là điểm chưa có nguồn xác minh run này.**
+  (Bài học 4: framing của người dùng là điểm khởi đầu để điều tra, không phải kết luận.)
+
 ## Open gaps
+- Claim "giao đất vàng ưu đãi cho trạm sạc" — chưa có nguồn xác minh (xem cảnh báo trên).
 - Số phát hành trái phiếu xanh 2024 lệch nguồn (10,3 nghìn tỷ vs 6.875 tỷ) — nêu khoảng.
 - Ưu đãi TTĐB dải 4–11% sau 2027 và việc gia hạn tới 2030 mới ở mức đề xuất, chưa chốt.
 - Con số vốn Vượng bơm theo từng năm — dùng tổng ~55.000 tỷ, thận trọng số lẻ năm.

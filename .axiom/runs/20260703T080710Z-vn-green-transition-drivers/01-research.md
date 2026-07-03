@@ -155,6 +155,13 @@ sau khi subagent chết vì session limit — write-fallback, khai báo openly. 
   gia** (một dạng "lợi ích nhóm" **hợp pháp, công khai**, khác trục C phi pháp), môi trường
   là đồng-lợi ích. Thị trường EV phụ thuộc ưu đãi + vốn founder, chưa phải cầu môi trường
   thuần.
+- [B] **Trạm sạc V-Green (Vượng sở hữu 90%): độc quyền phục vụ xe VinFast theo thiết kế**
+  (nhượng quyền "chỉ phục vụ xe VinFast", hợp đồng 5.000 trạm độc quyền), ~2.000 trạm/
+  40.000 cổng, kế hoạch 150.000 cổng/10.000 tỷ — đặt dày trên **hệ sinh thái Vinhomes/
+  Vincom** của chính Vingroup. Đây là **rào cản do sở hữu tư nhân + lợi thế tập đoàn**,
+  KHÔNG phải độc quyền nhà nước cấp. ⚠️ Claim "**giao đất vàng ưu đãi cho trạm sạc**" —
+  **chưa có nguồn xác minh** run này; writer nêu phần có nguồn, không khẳng định phần chưa
+  có nguồn (Bài học 4).
 - [B] **Tài chính xanh:** dư nợ tín dụng xanh ~730 nghìn tỷ (~27 tỷ USD), **4,3%** tổng dư
   nợ giữa 2025 — **xa mục tiêu 10%/2025** của Thủ tướng; tăng >21%/năm (2017–24). QĐ
   1663/2024 (SBV). **Taxonomy xanh: QĐ 21/2025/QĐ-TTg (4/7/2025, hiệu lực 22/8/2025)**, 45
