@@ -17,7 +17,8 @@ File này sẽ dài dần; đọc checklist này trước, xuống phần chi ti
 9. **Gate kiểm ĐÚNG bytes đã kiểm định** (fingerprint), không phải bản cũ.
 10. **Agent được giao ghi file thì phải có tool Write.**
 11. **Subagent có thể chết giữa chừng** — kiểm mỗi nhánh ra kết quả thật, đừng tin "đã launch = xong".
-12. **Baseline một-lượt đã mạnh sẵn** — pipeline chỉ đáng khi task cần chiều sâu/rộng nhiều mảng; với essay một-chủ-đề nó có thể THUA baseline. Đo, đừng cho là hiển nhiên.
+12. **Baseline một-lượt đã mạnh sẵn** — pipeline chỉ đáng khi task cần chiều sâu/rộng nhiều mảng; với essay một-chủ-đề nó có thể THUA baseline. Đo, đừng cho là hiển nhiên. *(Re-run 2026-07-02 đối xứng: B 14 − A 13 = +1, vẫn dưới ngưỡng +3 — kết luận đứng vững; phần bù của pipeline nằm ở kỷ luật scope/minh bạch quy trình, không còn ở "đúng sự thật".)*
+13. **Baseline của eval phải "ngây thơ" thật** — output path nằm trong thư mục eval làm agent baseline tự đọc fixtures và biết mình bị so sánh (R5). Path trung lập + cấm đọc repo.
 
 ---
 
@@ -289,6 +290,26 @@ nhãn B trình bày chắc nịch.
 **Kiểm tra:** Trước khi mặc định chạy full pipeline cho một task, hỏi: task này có THẬT SỰ cần
 chiều sâu/rộng nhiều mảng hay receipts kiểm được không? Nếu không, lane nhẹ hơn có thể cho kết
 quả tương đương với 1/10 chi phí. Và: đã có SỐ để tin phần bù chưa, hay chỉ là trực giác?
+
+---
+
+## Bài học 13 — Baseline của một eval phải "ngây thơ" thật; đường dẫn output cũng là ngữ cảnh
+*(Rút ra từ: re-run GT-2, 2026-07-02)*
+
+Khi chạy lại branch A (baseline một-lượt) cho eval GT-2, prompt giao output path nằm
+trong `.axiom/eval/runs/…`. Agent baseline lần theo đường dẫn đó, đọc
+`golden-tasks.md`/`README.md` và cả thư mục run của branch B — rồi tự khai "đã tránh
+đúng bẫy mà lần chạy trước mắc phải". Baseline biết bẫy chấm điểm và biết mình đang bị
+so sánh thì không còn là baseline: cuộc so sánh tự bị rig (R5) theo hướng khó lường,
+dù không ai cố ý.
+
+**Sửa:** phát hiện kịp, loại bản nhiễm (giữ làm chứng cứ, có ghi chú), chạy lại với
+output path trung lập (scratchpad) + ràng buộc tường minh "không đọc bất kỳ file/thư
+mục nào của repository, chỉ dùng web". Bản sạch mới được đưa vào chấm mù.
+
+**Kiểm tra:** Trước khi chạy một nhánh "không được biết ngữ cảnh", rà lại MỌI thứ trong
+prompt có thể rò ngữ cảnh — đường dẫn output, tên file, tên thư mục, câu chữ nhắc tới
+dự án. Nếu nhánh đó cần ghi file vào repo, để orchestrator copy hộ sau khi nó xong.
 
 ---
 

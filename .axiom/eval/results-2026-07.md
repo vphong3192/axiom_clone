@@ -106,6 +106,53 @@ no fresh research required". Pipeline **không** nống task nhỏ lên full. Ou
   chiều sâu/rộng nhiều mảng** (fan-out research + đối chiếu nhiều nguồn) hoặc **receipts kiểm
   được là bắt buộc**. Với essay một-chủ-đề, đó là dùng dao mổ trâu.
 
+## RE-RUN 2026-07-02/03 — chạy lại GT-2 sạch khi WebFetch thông (đã làm)
+
+Mục "chạy lại khi có WebFetch" phía trên đã được thực hiện: phiên 2026-07-02 có
+**WebFetch sống** (verify trước khi chạy — wikipedia.org lẫn chinhphu.vn đều mở được),
+và checklist sửa trạm (ngày thông qua ≠ hiệu lực, cấp Đảng ≠ Nhà nước, số không verify
+→ C/bỏ) đã nằm trong `axiom-research`/`axiom-inspector` trước khi chạy.
+
+**Thiết kế:** branch B = full pipeline chạy MỚI toàn bộ
+(`.axiom/runs/20260702T064614Z-gt2-rerun-vn-policy/`, 1 vòng FIX-IT, PASS 3 trục vòng 2,
+human sign-off). Branch A = baseline một-lượt chạy MỚI cùng phiên, cùng model writer
+(sonnet), cùng điều kiện mạng → **hai nhánh đối xứng thật sự**. Lưu ý trung thực: bản
+branch-A đầu tiên bị LOẠI vì nhiễm ngữ cảnh eval (agent tự đọc golden-tasks/README do
+output path nằm trong `.axiom/eval/` — lỗi thiết kế prompt của orchestrator, giữ file
+làm chứng cứ); bản chấm là `branch-A-clean.md` (cấm đọc repo). Chấm mù bởi opus, thứ tự
+ĐẢO so với lần trước, grader bắt buộc tự verify ≥5 claim/bài qua web.
+
+**Kết quả** (chi tiết: `.axiom/eval/runs/20260702-gt2-rerun/grader-blind-report.md`):
+
+| Tiêu chí | Pipeline (B) | Baseline sạch (A) |
+|---|:---:|:---:|
+| Đúng sự thật (mục 4) | **2** | **2** |
+| Bám scope (mục 6) | **2** | **1** |
+| 5 mục còn lại | 2 mỗi mục | 2 mỗi mục |
+| **Tổng** | **14/14** | **13/14** |
+
+**Delta B − A = +1** (grader: +2 nếu áp nhãn A ngặt — baseline gắn "Proven" cho số
+53%/30% tự-công-bố chưa kiểm toán). Chi phí B: ~15 lượt agent + 2 cổng người vs 1 lượt.
+
+**Đọc kết quả:**
+1. **Lỗi mục 4 đã sửa xong, có bằng chứng:** cả 12 claim grader kiểm đều khớp; ba mốc
+   thông qua/hiệu lực/vận hành và cấp văn bản được giữ đúng; và vòng inspection lần này
+   **bắt thật một lỗi đúng loại cũ** (số "17/63→7/34" không truy được nguồn, trình bày
+   chắc ở [B] → FIX-IT → hạ [C], bỏ vai trò chịu lực) — lỗ hổng "3 inspector PASS số
+   không verify được" của lần trước đã được vá và hoạt động.
+2. **Trần B→A đã nâng thật:** chuỗi văn bản pháp luật VN fetch toàn văn trực tiếp,
+   đạt [A] thật (khác hẳn cap grade-B của lần trước).
+3. **NHƯNG ngưỡng "đáng chi phí" (B ≥ A+3) vẫn CHƯA đạt:** +1 (hoặc +2 ngặt) với ~15×
+   chi phí. Kết luận lõi của eval đầu **đứng vững**: với lớp task "tiểu luận sự thật,
+   một chủ đề", baseline một-lượt đã rất mạnh (13/14 và sạch lỗi factual khi có WebFetch
+   + được YÊU CẦU kỷ luật); phần bù của pipeline giờ nằm ở **kỷ luật scope + minh bạch
+   quy trình + receipts cưỡng chế được** (đúng mục grader chấm chênh), không nằm ở
+   "đúng sự thật" nữa. → giữ khuyến nghị: mặc định lane nhẹ cho lớp task này; full
+   pipeline khi cần receipts kiểm được / nhiều mảng thật sự.
+4. **Bài học thiết kế eval mới (ghi sổ):** đường dẫn output có thể làm lộ ngữ cảnh eval
+   cho baseline — baseline "ngây thơ" phải được chạy với output path trung lập + cấm đọc
+   repo, nếu không sẽ tự rig so sánh (R5) theo hướng khó lường.
+
 ## Giới hạn của chính eval này (khai báo, theo README)
 - Mới **2 task, 1 run mỗi nhánh** — không đủ để tổng quát hóa; là *điểm dữ liệu đầu tiên*, không
   phải phán quyết. Cần lặp lại (nhất là GT-2 khi mạng thông) và mở rộng GT-1/GT-4.
