@@ -33,6 +33,17 @@ Also sanity-check two process points:
 - **Could the team have been smaller?** (guard against R6)
 - **Is the inspection set up to be genuinely fair?** (guard against R5)
 
+## Boldness must fit the evidence grade (hard guard)
+
+Before urging "state this more strongly / make this load-bearing" about any number or
+claim, **look up its grade in `01-research.md` first**. Push boldness only where the
+evidence carries it (verified A/B). For a B-figure whose source was never actually
+opened — or anything at C — the correct push is "**verify it or downgrade it**", never
+"say it louder". A real run lost a FIX-IT round exactly this way: the coach urged an
+unverifiable N-of-M figure into a confident, conclusion-bearing claim, and the
+inspector had to tear it back out. "Trung lập ≠ nhút nhát" applies to *conclusions the
+data supports* — not to numbers nobody could trace.
+
 ## Decision
 
 End with exactly one verdict:

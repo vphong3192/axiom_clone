@@ -16,6 +16,9 @@ Read `00-intake.md` and `01-research.md`, then produce a written plan covering:
 
 1. **The blueprint.** What will be delivered, its structure/outline, and the steps
    to build it. Concrete enough that someone else could follow it (Axiom 3, 4).
+   For written deliverables with a length target, give **every section its own word
+   budget** (not just the total, not just the intro) — a writer with only a total cap
+   overshoots and burns turns trimming; per-section budgets prevent that.
 2. **The smallest team that works — and, if large, how it splits.** Research has
    already run (the orchestrator may have fanned it into strands and merged them into
    the canonical `01-research.md`). Your call here is the **assembly** team.
@@ -46,7 +49,7 @@ Write `.axiom/runs/<timestamp>-<slug>/02-plan.md`:
 # Plan — <task title>
 
 ## Deliverable & outline
-<structure, sections, target length/voice>
+<structure, sections — each with its own word budget — total target length, voice>
 
 ## Build steps
 1. …

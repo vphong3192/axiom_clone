@@ -19,6 +19,7 @@ File này sẽ dài dần; đọc checklist này trước, xuống phần chi ti
 11. **Subagent có thể chết giữa chừng** — kiểm mỗi nhánh ra kết quả thật, đừng tin "đã launch = xong".
 12. **Baseline một-lượt đã mạnh sẵn** — pipeline chỉ đáng khi task cần chiều sâu/rộng nhiều mảng; với essay một-chủ-đề nó có thể THUA baseline. Đo, đừng cho là hiển nhiên. *(Re-run 2026-07-02 đối xứng: B 14 − A 13 = +1, vẫn dưới ngưỡng +3 — kết luận đứng vững; phần bù của pipeline nằm ở kỷ luật scope/minh bạch quy trình, không còn ở "đúng sự thật".)*
 13. **Baseline của eval phải "ngây thơ" thật** — output path nằm trong thư mục eval làm agent baseline tự đọc fixtures và biết mình bị so sánh (R5). Path trung lập + cấm đọc repo.
+14. **Coach giục "nói mạnh hơn" phải xem nhãn bằng chứng trước** — táo bạo chỉ dành cho claim mà bằng chứng gánh nổi; số B chưa mở được nguồn thì hướng giục đúng là "verify hoặc hạ", không phải "nói to hơn".
 
 ---
 
@@ -310,6 +311,29 @@ mục nào của repository, chỉ dùng web". Bản sạch mới được đưa
 **Kiểm tra:** Trước khi chạy một nhánh "không được biết ngữ cảnh", rà lại MỌI thứ trong
 prompt có thể rò ngữ cảnh — đường dẫn output, tên file, tên thư mục, câu chữ nhắc tới
 dự án. Nếu nhánh đó cần ghi file vào repo, để orchestrator copy hộ sau khi nó xong.
+
+---
+
+## Bài học 14 — Coach và Inspector kéo ngược chiều: táo bạo phải khớp nhãn bằng chứng
+*(Rút ra từ: re-run GT-2, 2026-07-02)*
+
+Lỗi duy nhất bị FIX-IT trong re-run GT-2 không có trong bản nháp đầu — nó được *tạo
+ra* bởi ghi chú số 1 của Coach: "trình bày phép tính 17/63→7/34, kết luận thẳng, đây
+là fact chứng minh luận điểm của bài". Coach áp bài học 1-2 (trung lập ≠ nhút nhát)
+lên một con số [B] mà nguồn gốc chưa ai mở được — biến nó thành trụ chịu lực, để rồi
+inspector technical-accuracy phải đập ra, tốn nguyên một vòng FIX-IT (~4 lượt agent).
+
+Cả hai trạm đều làm đúng vai mình; xung đột nằm ở chỗ Coach giục độ mạnh mà không tra
+nhãn. "Kết luận thẳng" áp dụng cho *kết luận mà dữ liệu đã trả lời* — không áp dụng
+cho *con số không ai truy được nguồn*.
+
+**Sửa:** `axiom-coach.md` giờ có guard cứng: trước khi giục "nói mạnh hơn" với một
+con số, tra nhãn của nó trong `01-research.md`; với B-chưa-mở-nguồn hoặc C, hướng giục
+đúng là "verify hoặc hạ".
+
+**Kiểm tra:** Đọc các ghi chú ONE-IMPROVEMENT-PASS của coach — có ghi chú nào yêu cầu
+tăng độ chắc chắn của một claim mà không nhắc gì tới nhãn/nguồn của claim đó không?
+Nếu có, đó là mầm FIX-IT.
 
 ---
 

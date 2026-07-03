@@ -153,6 +153,21 @@ làm chứng cứ); bản chấm là `branch-A-clean.md` (cấm đọc repo). Ch
    cho baseline — baseline "ngây thơ" phải được chạy với output path trung lập + cấm đọc
    repo, nếu không sẽ tự rig so sánh (R5) theo hướng khó lường.
 
+## Câu hỏi mở sau re-run (chưa sửa — cần đo trước, chống R6)
+
+1. **Chi phí re-inspect toàn phần sau FIX-IT nhỏ.** Quy tắc "kiểm lại từ đầu cả 3
+   trục" là an toàn (sha-pinning cần nó, sửa nhỏ vẫn có thể gây mâu thuẫn chéo trục),
+   nhưng re-run này đo được giá: 6 lượt inspector opus cho một FIX-IT chạm ~3 câu;
+   vòng 2 của 2 trục đã PASS gần như chắc chắn PASS lại. Phương án cần thử: trục failed
+   kiểm lại full-depth, 2 trục đã PASS kiểm vòng 2 bằng model rẻ hơn với chỉ dẫn "đọc
+   toàn bài, ưu tiên vùng diff". CHƯA áp — cần một run đo xem có lọt lỗi chéo trục không.
+2. **Giả thuyết "lane giữa" (branch C).** Hai run đều cho thấy: khi baseline có
+   WebFetch + được yêu cầu kỷ luật, độ chính xác hoà; phần chênh của pipeline nằm ở
+   kỷ luật scope + minh bạch + inspection. → Thí nghiệm kế tiếp: **branch C = một-lượt
+   viết + một inspector độc lập khác model** (2 lượt agent). Nếu C đạt ~14/14 với 1/7
+   chi phí của full pipeline, effort-triage nên thêm lane mới giữa "quick" và "full".
+   Chưa kết luận — cần chạy và chấm mù như hai branch kia.
+
 ## Giới hạn của chính eval này (khai báo, theo README)
 - Mới **2 task, 1 run mỗi nhánh** — không đủ để tổng quát hóa; là *điểm dữ liệu đầu tiên*, không
   phải phán quyết. Cần lặp lại (nhất là GT-2 khi mạng thông) và mở rộng GT-1/GT-4.

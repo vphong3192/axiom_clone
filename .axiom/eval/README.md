@@ -33,6 +33,13 @@ Với mỗi golden task trong `golden-tasks.md`:
 | **Bám scope** | lệch/thiếu | phần lớn đúng | đúng scope, thay đổi có công bố |
 | **Khai báo giới hạn** | giấu/không nhắc | nhắc mờ | nêu thẳng giới hạn (nguồn, model, fetch...) |
 
+**Ghim cho mục "Nhãn tin cậy" (chống nhiễu ±1 quanh ngưỡng quyết định):** nhãn cao
+nhất ("A"/"Proven"/"cao — đối chiếu được") chỉ hợp lệ khi có kiểm chứng ĐỘC LẬP với
+bên tự công bố. **Số liệu do chính cơ quan bị đánh giá tự công bố, chưa kiểm toán/đối
+chiếu độc lập, mà gắn nhãn cao nhất = lệch nhãn → mục này tối đa 1.** (Re-run
+2026-07-02: grader tự khai delta dao động +1/+2 tùy cách đọc đúng mục này — với ngưỡng
++3, nhiễu đó quá lớn để thả nổi.)
+
 **Ngưỡng gợi ý:** B "đáng chi phí" nếu tổng điểm B ≥ A + 3 **và** B không có mục nào 0
 mà A tránh được. Delta < 2 lặp lại nhiều task → xem lại effort triage cho lớp task đó.
 

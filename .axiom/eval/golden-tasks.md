@@ -24,6 +24,12 @@ quyết bịa; gộp mốc thời gian.
 **Phân biệt A/B kỳ vọng:** B ăn đậm ở "đúng sự thật" — đây là loại task baseline hay sai
 nhất. (So chuẩn: xem run thật `.axiom/runs/…-vn-sapnhap-tinh-2025/` — bắt được đúng các
 bẫy này.)
+**Ghi chú trôi cửa sổ (2026-07):** đề bài neo "12 tháng qua" nên chủ đề chuẩn (sáp nhập
+tỉnh 2025) sẽ trôi dần ra ngoài window theo thời gian. So sánh GIỮA các run đòi cùng
+chủ đề — chấp nhận lệch window miễn là bài **khai báo thẳng** (đây cũng thành một phép
+thử kỷ luật scope, đúng mục mà re-run 2026-07-02 phân thắng bại). Cập nhật thêm: khi
+baseline có WebFetch + được yêu cầu kỷ luật, kỳ vọng "B ăn đậm ở đúng sự thật" KHÔNG
+còn đúng (hai run đều hoà 2-2 hoặc B chỉ nhỉnh nhờ scope) — kỳ vọng đã hiệu chỉnh.
 
 ## GT-3 · Việc nhỏ, rõ (tiny — kiểm chống OVER-build)
 **Prompt:** "Tóm tắt 5 gạch đầu dòng khác biệt chính giữa hai khái niệm [X] và [Y] đã cho."
