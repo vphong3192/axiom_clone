@@ -142,6 +142,26 @@ hạ **[C]**. Đây là giới hạn phải mang tới tận Inspection (inspect
 - [B] EV: VinFast giao ~175.000 xe điện VN 2025 (×2 so 2024), ~99% thị phần EV nội địa.
   Ưu đãi thuế cụ thể cho VinFast → chưa xác minh, để trống.
 
+## E. EV & TÀI CHÍNH XANH (mở rộng phạm vi theo yêu cầu người dùng)
+*(Nguồn đầy đủ: `01-research-ev-greenfinance.md`. Strand này do orchestrator làm inline
+sau khi subagent chết vì session limit — write-fallback, khai báo openly. Trần B.)*
+
+- [B] **EV — ưu đãi tài khóa:** BEV miễn 100% lệ phí trước bạ (NĐ 51/2025 → 28/2/2027;
+  NĐ 202/2026 kéo tới 31/12/2030); TTĐB 3% (từ 15%) tới 2/2027, đề xuất gia hạn 2030. EV
+  ~33% doanh số ô tô mới giữa–cuối 2025; VinFast ~99% phân khúc EV nội địa.
+- [B] **VinFast national champion:** Phạm Nhật Vượng bơm ~**55.257 tỷ đồng** vốn cá nhân
+  (2023–Q1/2026); Vingroup cho vay tới 35.000 tỷ; tái cấu trúc 2026 bán pháp nhân SX cho
+  nhóm do founder dẫn (~530tr USD). → EV nghiêng về **chính sách công nghiệp/quán quân quốc
+  gia** (một dạng "lợi ích nhóm" **hợp pháp, công khai**, khác trục C phi pháp), môi trường
+  là đồng-lợi ích. Thị trường EV phụ thuộc ưu đãi + vốn founder, chưa phải cầu môi trường
+  thuần.
+- [B] **Tài chính xanh:** dư nợ tín dụng xanh ~730 nghìn tỷ (~27 tỷ USD), **4,3%** tổng dư
+  nợ giữa 2025 — **xa mục tiêu 10%/2025** của Thủ tướng; tăng >21%/năm (2017–24). QĐ
+  1663/2024 (SBV). **Taxonomy xanh: QĐ 21/2025/QĐ-TTg (4/7/2025, hiệu lực 22/8/2025)**, 45
+  loại dự án/7 ngành. Trái phiếu xanh 2024 ~10,3 nghìn tỷ (hoặc 6.875 tỷ — nêu khoảng),
+  sovereign green bond **chưa phát hành** (Bộ Tài chính đang soạn khung). → **regulatory-
+  driven/tiếp cận vốn ESG** hơn cầu môi trường nội sinh; củng cố luận điểm chung.
+
 ---
 
 ## Điểm bám cứng nhất cho tầng phân tích (dữ kiện, không phải kết luận)
