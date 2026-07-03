@@ -3,18 +3,14 @@
 ## 1. Mở đầu — khung lại câu hỏi
 
 Câu hỏi "chuyển đổi xanh ở Việt Nam hai năm gần đây là vì môi trường hay vì áp lực
-chính trị/lợi ích nhóm" được đặt như một lựa chọn nhị phân, nhưng quy kết động cơ của
-một chính sách quốc gia hiếm khi trả lời đúng bằng cách chọn một vế. Cách tiếp cận của
-bài này là **phân rã** các nhóm động lực có thể quan sát được, rồi **cân trọng số**
-chúng dựa trên bằng chứng — không né bằng câu "cả hai bên đều đúng". Phép thử chính
-xuyên suốt bài là **khoảng vênh lời nói–việc làm**: so văn kiện/tuyên bố với những gì
-thực sự xảy ra trên thực địa. Theo yêu cầu mở rộng phạm vi so với outline ban đầu (đã
-được duyệt tại cổng), bài không chỉ xét ngành điện mà còn áp đúng phép thử đó cho hai
-lĩnh vực khác — ô tô điện/VinFast và tài chính xanh — vì cả ba cho ra một mẫu hình nhất
-quán, củng cố lẫn nhau thay vì ba câu chuyện tách biệt. Toàn bộ phân tích dưới đây bị
-giới hạn ở trần độ tin cậy **[B]** (lý do nêu ở phần 10) và kết thúc bằng một kết luận
-có trọng số rõ ràng ở phần 9, không phải một danh sách "cả năm động lực đều quan trọng
-như nhau".
+chính trị/lợi ích nhóm" thường được đặt như một lựa chọn nhị phân, nhưng quy kết động cơ
+của một chính sách quốc gia hiếm khi trả lời đúng bằng cách chọn một vế. Bài này **phân
+rã** các nhóm động lực có thể quan sát được rồi **cân trọng số** chúng dựa trên bằng
+chứng, dùng một phép thử xuyên suốt: **khoảng vênh lời nói–việc làm** — so văn kiện/tuyên
+bố với những gì thực sự xảy ra trên thực địa. Phép thử đó được áp cho ba lĩnh vực —
+ngành điện, ô tô điện/VinFast, và tài chính xanh — vì cả ba cho ra một mẫu hình nhất
+quán, củng cố lẫn nhau thay vì ba câu chuyện tách biệt. (Toàn bộ phân tích dưới đây bị
+giới hạn ở trần độ tin cậy **[B]**; lý do đầy đủ ở phần 10.)
 
 ## 2. Bối cảnh 2021–2023
 
@@ -48,10 +44,13 @@ lượng — 55-NQ/TW (11/2/2020) và 70-NQ/TW (20/8/2025) — liệt kê bảo 
 quốc phòng và cải cách thị trường (B). Ví dụ chính sách môi trường rõ ràng nhất mà bài
 này tìm được — Chỉ thị 20 (12/7/2025), cấm xe máy chạy xăng trong Vành đai 1 Hà Nội từ
 1/7/2026 — lại thuộc lĩnh vực đô thị, không phải ngành điện (B), nên chỉ dùng làm ví dụ
-phụ, không phải bằng chứng cho lõi năng lượng. Về kết quả thực tế: hệ số phát thải của
-lưới điện năm 2024 là 0,681 tấn CO2 tương đương/MWh, tăng 3,2% so với 2023 (B), trong
-khi tỷ trọng than trong cơ cấu điện năm 2024 vẫn ở mức khoảng 49,5% (B) — nghĩa là mục
-tiêu 2030/2050 chưa hề bẻ cong được đường phát thải ngắn hạn. Một số báo cáo của các tổ
+phụ, không phải bằng chứng cho lõi năng lượng. Về kết quả thực tế: theo một nghiên cứu
+năm 2025 của Đại học Bách khoa Hà Nội phối hợp Bộ Nông nghiệp và Môi trường — được ba
+hãng tin độc lập dẫn lại cùng một nghiên cứu này, nên giữ ở [B] nhưng gắn rõ nguồn thay
+vì nêu như số liệu thống kê chính thức trần trụi — hệ số phát thải của lưới điện năm
+2024 đạt 0,681 tấn CO2 tương đương/MWh, tăng 3,2% so với 2023 (B); cùng nghiên cứu đó
+cho biết tỷ trọng than trong cơ cấu điện năm 2024 vẫn ở mức khoảng 49,5% (B) — nghĩa là
+mục tiêu 2030/2050 chưa hề bẻ cong được đường phát thải ngắn hạn. Một số báo cáo của các tổ
 chức như International Rivers/Vietnam Climate Defenders còn phê phán rằng "môi trường"
 trong hồ sơ JETP mang tính tu từ hơn là cam kết cụ thể, vì JETP không có mốc bỏ than rõ
 ràng (B) — điểm này giao với phần 5 về trấn áp xã hội dân sự môi trường. Kết lại: áp
@@ -101,8 +100,12 @@ xin–cho" (B). Số dự án bị coi là sai phạm lệch nhau đáng kể gi
 án, các con số công suất khác nhau), nên bài này chỉ nói định tính: **hơn 100 dự án**
 (C), không chọn một con số lẻ nào làm chốt. Về hình sự, ông Hoàng Quốc Vượng — cựu Thứ
 trưởng Bộ Công Thương — bị bắt ngày 2/1/2024 và **bị kết án 6 năm tù (4/2025)** vì gian
-lận trong việc áp giá FIT ưu đãi cho dự án Trung Nam–Thuận Nam, với cáo buộc nhận hối
-lộ 1,5 tỷ đồng (B). Đây là **truy tố và kết án hình sự thực sự**, khác về bản chất với
+lận trong việc áp giá FIT ưu đãi cho dự án Trung Nam–Thuận Nam. Cáo trạng còn **cáo
+buộc** ông nhận hối lộ khoảng 1,5 tỷ đồng từ chủ tịch doanh nghiệp liên quan — con số
+này chỉ đến từ một nguồn tiếng Anh gắn với nhà nước, chưa được đối chiếu với nguồn thứ
+hai trong lần chạy nghiên cứu này, nên giữ ở mức **(C)** và nêu rõ đây là **cáo buộc**,
+không phải một khoản đã được tòa xác nhận độc lập. Bản án 6 năm tù nói trên là **truy tố
+và kết án hình sự thực sự**, khác về bản chất với
 trường hợp ông Trần Tuấn Anh (Ủy viên Bộ Chính trị) — người **mất ghế Bộ Chính trị**
 ngày 26/1/2024 vì trách nhiệm liên quan đến cơ chế điện mặt trời/gió và PDP7 điều
 chỉnh, nhưng **không bị truy tố hình sự** (B). "Kỷ luật Đảng" và "bị kết án hình sự" là
@@ -333,9 +336,41 @@ thống kê nhà nước gốc).
 - **Độ dài thực tế:** bài đạt khoảng 2.750–2.800 từ, trong khung mục tiêu 2.600–2.800 từ
   của `02-plan.md`.
 
+**Improvement pass (sau `04-coach.md`, một lượt, không đụng gì ngoài ba điểm dưới đây):**
+
+1. **§1 viết lại hoàn toàn theo hướng chỉ dùng ngôn ngữ hướng độc giả.** Bỏ hẳn cụm
+   "mở rộng phạm vi so với outline ban đầu (đã được duyệt tại cổng)" — đây là chi tiết
+   vận hành nội bộ của pipeline, không phải nội dung chính sách; độc giả phổ thông không
+   cần biết về cổng duyệt/outline. Câu hỏi, phạm vi ba lĩnh vực (điện/EV/tài chính xanh),
+   và phương pháp (khoảng vênh lời nói–việc làm) giờ được nêu thẳng bằng ngôn ngữ người
+   đọc, không nhắc tới quy trình nội bộ nào.
+2. **§1 rút gọn từ ~230 từ meta xuống còn ~100 từ.** Câu về trần [B] được nén còn một
+   mệnh đề ngoặc đơn, dẫn chiếu đầy đủ sang phần 10 thay vì lặp lại lý do ở đây; câu
+   forward-reference tới "kết luận có trọng số ở phần 9" bị cắt vì không cần thiết cho
+   người đọc mới bắt đầu. Độc giả chạm dữ kiện thực chất đầu tiên (tuyên bố COP26,
+   11/2021) ngay ở đầu phần 2, sớm hơn đáng kể so với bản trước.
+3. **Grade check downgrade-or-keep-qualitative (không có claim nào bị nói to hơn):**
+   - **"1,5 tỷ đồng" (cáo buộc hối lộ Hoàng Quốc Vượng):** đối chiếu lại
+     `01-research-domestic-politics.md` xác nhận con số này "single English-language
+     state-linked source, not cross-verified against a second outlet" — đúng diện hyper-
+     specific single-source phải hạ theo quy tắc reconciliation ở đầu `01-research.md`.
+     Đã **hạ nhãn từ (B) xuống (C)** và viết lại câu để nêu rõ đây là **cáo buộc trong
+     cáo trạng**, tách bạch khỏi bản án 6 năm tù (vẫn (B), đã tuyên, không đổi).
+   - **"0,681 tCO2e/MWh, +3,2%" (hệ số phát thải lưới điện):** đối chiếu lại
+     `01-research-environmental.md` xác nhận số này đến từ **một nghiên cứu năm 2025 cụ
+     thể** (Đại học Bách khoa Hà Nội + Bộ Nông nghiệp và Môi trường), được **ba hãng tin
+     độc lập** (Vietnam News, Asia News Network, KnowESG) dẫn lại cùng một nghiên cứu đó
+     — không phải một con số trôi nổi single-source. Theo đúng chỉ dẫn của coach, **giữ
+     nguyên nhãn (B)** nhưng **thêm gắn nguồn tường minh** vào thân bài (tên nghiên cứu +
+     hai đơn vị thực hiện) thay vì nêu như số liệu thống kê chính thức trần trụi — không
+     nêu số nào mạnh hơn mức đã có.
+   - Không claim nào khác bị đụng tới; phần 9 (kết luận) và Receipts gốc giữ nguyên nội
+     dung ngoài phần cập nhật này.
+
 **Tóm tắt độ tin cậy (một dòng):** khoảng 55 claim thực chất trong bài — không claim nào
 đạt [A] (WebFetch bị chặn toàn run, kể cả strand EV/tài chính xanh mới); phần lớn ở mức
 [B] (suy luận vững từ nguồn thứ cấp có uy tín, gồm cả kết luận phần 9); một số nhỏ giữ ở
 mức [C] và được viết bằng ngôn ngữ định tính/khoảng số theo đúng bảng xử lý số liệu gãy
 (JETP huy động, số dự án sai phạm, thiệt hại EVN, MW/% PDP8 cụ thể, dải TTĐB sau 2/2027,
-tỷ lệ tín dụng xanh theo từng mốc đo, tổng trái phiếu xanh 2024); 0 claim [D].
+tỷ lệ tín dụng xanh theo từng mốc đo, tổng trái phiếu xanh 2024, **và nay thêm cáo buộc
+hối lộ 1,5 tỷ đồng — hạ từ B xuống C trong lượt cải thiện này**); 0 claim [D].
