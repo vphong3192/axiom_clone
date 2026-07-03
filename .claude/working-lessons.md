@@ -20,6 +20,7 @@ File này sẽ dài dần; đọc checklist này trước, xuống phần chi ti
 12. **Baseline một-lượt đã mạnh sẵn** — pipeline chỉ đáng khi task cần chiều sâu/rộng nhiều mảng; với essay một-chủ-đề nó có thể THUA baseline. Đo, đừng cho là hiển nhiên. *(Re-run 2026-07-02 đối xứng: B 14 − A 13 = +1, vẫn dưới ngưỡng +3 — kết luận đứng vững; phần bù của pipeline nằm ở kỷ luật scope/minh bạch quy trình, không còn ở "đúng sự thật".)*
 13. **Baseline của eval phải "ngây thơ" thật** — output path nằm trong thư mục eval làm agent baseline tự đọc fixtures và biết mình bị so sánh (R5). Path trung lập + cấm đọc repo.
 14. **Coach giục "nói mạnh hơn" phải xem nhãn bằng chứng trước** — táo bạo chỉ dành cho claim mà bằng chứng gánh nổi; số B chưa mở được nguồn thì hướng giục đúng là "verify hoặc hạ", không phải "nói to hơn".
+15. **Một trạm chỉ đáng có subagent riêng khi cần ĐỘC LẬP hoặc chống NGẬP CONTEXT** — còn lại gộp vào orchestrator/agent chung. Rút 6→4 subagent + tách thủ tục ra `references/` là áp chính R6 vào chính dây chuyền.
 
 ---
 
@@ -334,6 +335,36 @@ con số, tra nhãn của nó trong `01-research.md`; với B-chưa-mở-nguồn
 **Kiểm tra:** Đọc các ghi chú ONE-IMPROVEMENT-PASS của coach — có ghi chú nào yêu cầu
 tăng độ chắc chắn của một claim mà không nhắc gì tới nhãn/nguồn của claim đó không?
 Nếu có, đó là mầm FIX-IT.
+
+---
+
+## Bài học 15 — Dây chuyền cũng phải theo chính quy tắc đội-nhỏ-nhất
+*(Rút ra từ: refactor slim 6→4 subagent, 2026-07-03, sau khi đối chiếu với bản fine-tune "ai-tuning")*
+
+Bản 6-agent cho mỗi trạm một subagent (intake, research, design, assembly, coach,
+inspector). Nhưng xem lại lý do tồn tại của một subagent — theo chính constitution — chỉ
+có **hai**: (1) trạm cần **độc lập** (inspector không được thấy lý lẽ người làm), hoặc
+(2) trạm dễ **làm ngập context chính** (research đổ hàng đống kết quả tìm kiếm). Bốn trạm
+còn lại không thuộc diện nào: **intake** (phân loại) và **design** (lập kế hoạch) cần *thấy
+toàn cảnh*, không cần cách ly; **assembly** và **coach** chạy được trong context chung.
+
+Giữ chúng làm subagent riêng vi phạm chính **R6 ("too many cooks")** mà dây chuyền dạy
+người khác tránh — mỗi subagent thừa là một lần spin-up context + một file handoff có thể
+gãy im lặng.
+
+**Sửa:** rút xuống **4 subagent** — `axiom-research-design` (gộp research + design, chạy 2
+mode: research fan-out được, design chạy sau khi hợp nhất), `axiom-writer`, `axiom-coach`,
+`axiom-inspector`. Tiếp nhận (triage) do orchestrator làm inline. Đồng thời tách **thủ tục
+từng trạm ra `.claude/references/`** (progressive disclosure): `CLAUDE.md` luôn-nạp chỉ còn
+phần hiến pháp; cái *how* dài của mỗi trạm chỉ vào context khi trạm đó chạy, không nhồi vào
+mọi agent.
+
+**Giữ nguyên, không nới lỏng:** `05-inspection.sha` (ghim bytes), hai cổng người (duyệt
+outline + ký duyệt), và quy tắc **writer ≠ inspector**. Gọn hơn không có nghĩa bỏ kỷ luật —
+chỉ bỏ subagent thừa.
+
+**Kiểm tra:** Nếu ai đó thêm một subagent mới, hỏi thẳng: nó cần *độc lập*, hay nó *làm ngập
+context*? Nếu không cả hai, nó thuộc về orchestrator — thêm nó vào là R6.
 
 ---
 
