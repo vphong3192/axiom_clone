@@ -65,3 +65,30 @@ bằng tool call song song, bài học 12) → design → assembly → coach →
 
 Deliverable N ≈ 1150 từ → `01-research.md` ≤ **2300 từ** · plan ≤ **380 từ** ·
 outline trình người ≤ 30 dòng.
+
+---
+
+## Sai lệch phát hiện sau trạm 2 (công bố — Axiom 7)
+
+1. **Vỡ ngân sách research: 3.488 / 2.300 từ (+52%).** Ngân sách viết bằng văn xuôi
+   trong prompt thì agent vượt vẫn không ai chặn. Đây là **lỗi của harness, không phải
+   của agent** — v10 đặt ra ngân sách nhưng không có cơ chế cưỡng chế nào (khác hẳn
+   Cổng An toàn, vốn chạy bằng script nên không "lý luận" qua được).
+   *Xử lý:* **không** gọi thêm một lượt model để nén lại — tiết kiệm ~1.200 từ (~1,8k
+   token) không bù nổi chi phí một lượt gọi. Ghi nhận vượt, đi tiếp, và sửa cơ chế sau
+   khi run kết thúc. (Đối chiếu: v9 chạy 15.609 từ research cho bài ngắn hơn.)
+
+2. **Không có URL nào trong file** — nguồn được gọi tên (GSO, OECD, N-IUSSP,
+   Statistics Korea) nhưng không có link. Hệ quả: người đọc và inspector đều không lần
+   ngược được. *Xử lý:* assembly bắt buộc ghi **cơ quan + ấn phẩm + năm** cho mỗi số
+   liệu, đủ để tra tay.
+
+3. **Trần sự thật của cả bài là B.** WebFetch bị chặn toàn bộ phiên này
+   (`EGRESS_BLOCKED` với mọi domain đã thử, kể cả example.com) → 0 claim grade A,
+   34 claim B, 2 claim C. Trục `technical-accuracy` ở trạm 6 cũng sẽ không re-fetch
+   được. Giới hạn này phải xuất hiện **trong bài**, không chỉ trong manifest.
+
+**Điều research làm đúng (đáng ghi):** giữ nguyên nghĩa vụ steelman — không chọn
+Hungary làm ví dụ sạch mà nêu thẳng đây là tranh cãi học thuật chưa ngã ngũ (hiệu ứng
+tempo vs quantum); tự loại số TFR Đài Loan 2024 vì mâu thuẫn nội tại; gắn cờ TFR Trung
+Quốc là ước tính bên thứ ba; và tự biện minh một câu cho việc thêm Singapore/HK.
