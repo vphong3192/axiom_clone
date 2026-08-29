@@ -7,7 +7,7 @@ ra từ một sai lầm thật, có ghi phiên và ngày.
 Mục lục: 1 trung lập · 2 nhãn tin cậy · 3 phép tính · 4 kinh nghiệm người dùng ·
 5 steelman · 6 cổng người · 7 chiều rộng · 8 verify nguồn · 9 fingerprint ·
 10 tool Write · 11 subagent chết · 12 chiều rộng ≠ số agent · 13 ngân sách giàn giáo ·
-14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng
+14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi
 
 ---
 
@@ -377,6 +377,78 @@ kiện inspector phải kiểm*, khác hẳn lời tự đánh giá về việc 
 
 **Kiểm tra:** trong file inspector sắp đọc, có câu nào đang *nói cho nó biết bài này
 tốt* thay vì *để nó tự thấy* không? Nếu có, câu đó thuộc file khác.
+
+---
+
+---
+
+## Bài học 17 — Quy tắc nằm trong văn xuôi thì bị bỏ qua
+*(Rút ra từ: run "tỷ lệ sinh giảm", 2026-08-29)*
+
+Trong **một** run, bốn quy tắc viết bằng văn xuôi đều bị vi phạm: ngân sách research
+(3.488/2.300 từ), ngân sách plan (781/380), độ dài thân bài (2.704/1.450), và trần
+grade-A (mãi tới giữa trạm research mới biết egress bị chặn). Không agent nào cố tình
+sai — prompt *có* nói, và chúng vẫn trôi.
+
+Đối chiếu: Cổng An toàn chạy bằng `gate.sh` **chưa hỏng lần nào**. Nó đóng đúng khi
+verdict là FIX-IT, đóng đúng khi không trục nào ghi được file, đóng đúng khi bản thảo
+đổi sau khi chốt vân tay. Khác biệt không nằm ở model — nằm ở chỗ một cái là câu văn,
+một cái là `exit 1`.
+
+**Sửa:** bốn script — `preflight.sh` (trần sự thật), `budget.sh` (cân artifact),
+`inspect-prep.sh` (dọn báo cáo cũ + chốt bytes), `gate.sh` (cổng). Đều gọi từ `/axiom`.
+
+**Kiểm tra:** quy tắc này nếu bị vi phạm thì có gì báo không? Nếu câu trả lời là "tôi
+sẽ nhớ" — nó sẽ bị bỏ qua.
+
+---
+
+## Bài học 18 — Số agent tự khai về sản phẩm của nó là lời khai, không phải phép đo
+*(Rút ra từ: cùng run)*
+
+Assembly báo "~1.290 từ" cho một thân bài đo được **2.191 từ** — lệch 70%.
+Orchestrator chuyển thẳng con số đó cho người dùng. Hệ quả không nhỏ: người dùng duyệt
+một độ dài không tồn tại, và mãi hai trạm sau mới lộ.
+
+Cùng loại: receipts khai "mọi số chịu lực đều có cơ quan + năm" trong khi số 63%/8%
+không có gì; khai một claim là "đã có nguồn" trong khi nó chính là lỗi inspector vừa
+bắt. Ba lần trong một run.
+
+**Sửa:** `budget.sh` tính lại; agent bị cấm nêu con số chưa đo ("không đo được" là câu
+trả lời hợp lệ); và receipts bị **kiểm** (bài học 16) thay vì được tin.
+
+**Kiểm tra:** con số vừa chuyển cho người dùng — tôi tự tính hay tôi chép lại?
+
+---
+
+## Bài học 19 — Vòng sửa tự sinh lỗi mới
+*(Rút ra từ: cùng run, ba vòng FIX-IT)*
+
+Đo được, không phải cảm giác:
+
+| | Vòng 1 | Vòng 2 | Vòng 3 |
+|---|---|---|---|
+| Chi phí một pass sửa | — | 163k token | 194k token |
+| Thân bài sau vòng | 2.704 | 2.892 | 3.203 |
+| Lỗi do chính vòng trước tạo ra | — | — | **2/5** |
+
+Ba quy luật, đều có nguyên nhân cấu trúc:
+
+1. **Vòng sửa phình bài.** Findings hầu như luôn *thêm* (caveat, năm dữ liệu, khôi phục
+   ví dụ, trình bày cả hai cách đọc); cắt chỉ xảy ra khi có lệnh cắt thẳng.
+2. **Vòng sửa đắt hơn trạm nó sửa.** Một pass sửa tốn hơn cả trạm research.
+3. **Vòng sửa tiêm lỗi mới.** Người viết sửa dưới chỉ thị, ở tốc độ cao, vào đúng các
+   khớp chịu lực mà findings trỏ tới — và không đọc lại toàn bài, nên câu vừa sửa mâu
+   thuẫn với một claim cách đó 40 dòng.
+
+**Sửa:** cap 3 vòng có lý do được ghi ra; từ vòng 2 chỉ sửa hẹp; assembly phải đọc lại
+vùng quanh mỗi chỗ sửa và tìm mọi chỗ khác nói cùng claim; ưu tiên **cắt** hơn **rào
+đón** (không câu chữ nào cứu được một con số bịa); pass sửa nhắm net word delta ≤ 0.
+Và inspector phải phân biệt FIX-IT (sai kiểm được) với minor (văn phong) — cap 3 vòng
+vô nghĩa nếu ngưỡng trôi lên mỗi vòng.
+
+**Kiểm tra:** lỗi vòng này có nhỏ hơn vòng trước không? Nếu cùng loại lặp lại, hoặc lỗi
+mới mọc đúng chỗ vừa sửa — dừng, đừng đặt cược vòng thứ ba.
 
 ---
 

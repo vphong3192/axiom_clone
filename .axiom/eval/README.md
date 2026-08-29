@@ -62,6 +62,43 @@ Ghi thêm hai cột chi phí mà rubric chưa có: **số lượt gọi model** 
 artifact / số từ deliverable** (v9 trên run thật: 12 lượt, tỷ lệ 26:1). Hai cột này
 là thứ v10 hứa cải thiện — không đo thì lời hứa ở nhãn C mãi.
 
+## Chi phí thật, đo được (run `20260829T071040Z-ty-le-sinh-giam`)
+
+Lần đầu có số thật thay vì ước tính. Bài ~3.200 từ, lane `full`, egress bị chặn:
+
+| Trạm | Lượt | Token |
+|---|---|---|
+| Research | 1 | 68k |
+| Design | 1 | 38k |
+| Assembly (bản đầu) | 1 | 43k |
+| Coach | 1 | 55k |
+| Assembly (coach pass) | 1 | 175k |
+| Assembly (FIX-IT ×2) | 2 | 163k + 194k |
+| Inspection (3 vòng × 2 trục, + 4 lượt chết vì rate limit) | 12 | ~64k mỗi lượt sống |
+| **Tổng** | **~19 lượt** | **~1,1M** |
+
+Ba điều số này nói, và chúng đổi cách tinh chỉnh harness:
+
+1. **Vòng sửa, không phải trạm sản xuất, mới là chỗ tốn.** Bốn pass assembly sau bản
+   đầu tốn 532k — gấp 7,8 lần chính bản đầu (43k) và gấp 7,8 lần research. Mọi thứ
+   giảm được *số vòng sửa* (coach sớm, `budget.sh` từ trạm 4, ngưỡng FIX-IT rõ) đáng
+   giá hơn mọi thứ tối ưu trạm sản xuất.
+2. **Ước tính "3–4 lượt gọi cho lane normal" của v10 đúng cho đường đi thẳng, sai cho
+   đường thật.** Lane `full` dự kiến 6–7 lượt; thực tế 19. Chênh lệch nằm trọn ở vòng
+   FIX-IT và ở các lượt chết vì rate limit. Bảng effort lane nên nêu cả hai con số:
+   đường thẳng và kỳ vọng có sửa.
+3. **Inspection là chỗ mong manh nhất** — 4/12 lượt chết vì rate limit (model mạnh
+   nhất, 2 trục × mỗi vòng). Hai lượt chết *sau khi phân tích xong, trước khi ghi file*
+   → mất trắng. Đó là lý do inspector giờ được lệnh ghi báo cáo trong lúc làm.
+
+**Kết cục của run:** REJECT ở cap 3 vòng. Không phải vì bài tệ — 35/39 số truy đúng
+nguồn, cả sáu bẫy né đúng, steelman lập luận thật — mà vì vòng cuối vẫn còn 3 lỗi
+kiểm-được-là-sai, và 2 trong 5 lỗi văn bản do chính vòng sửa trước tạo ra. Đây là kết
+quả *đúng*: dây chuyền từ chối chứng nhận thay vì giả một chữ PASS.
+
+**Việc GT-2/GT-3 vẫn còn nợ:** so v9 vs v10 vẫn chưa chạy. Nhưng giờ đã có baseline chi
+phí thật cho v10 để so, thay vì hai bên cùng là ước tính.
+
 ## Giới hạn của chính eval này (khai báo)
 - Chấm tay/đơn người vẫn chủ quan; chấm mù + người chấm khác người viết prompt giúp bớt.
 - Vài golden task chưa phủ hết loại việc (học thuật vs văn học vs báo cáo). Mở rộng dần.

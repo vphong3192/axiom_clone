@@ -76,6 +76,28 @@ the deliverable, and flag it for re-planning. Never add or cut work silently
 Read every `05-inspection*.md`, address **every** finding from every axis, and record
 exactly what you changed. Do not argue with the inspector — fix the work.
 
+Four disciplines, because repair rounds are where good drafts get worse:
+
+1. **Prefer cutting to hedging.** A claim nothing supports is removed, not softened.
+   No qualifier rescues an invented number, and a hedged version of a false statement
+   is still a false statement wearing a coat.
+2. **Re-read what surrounds every edit.** Repairs land in load-bearing joints, and a
+   sentence rewritten to satisfy one finding routinely contradicts a claim forty lines
+   away that you are no longer reading. In one measured run, two of five defects found
+   in the final round had been *introduced by the previous round's repairs*. After each
+   fix, read the passage before and after it, and search the piece for every other
+   place that makes the same claim.
+3. **A repair pass should not grow the work.** Findings almost always add — a caveat, a
+   data year, a restored example, both readings of a mechanism — while cuts happen only
+   when ordered. Left alone this inflates the artifact every round (measured: 2,191 →
+   2,704 → 2,892 → 3,203 words across three rounds). Aim for a net word change of zero
+   or less; if a fix genuinely requires expansion, pay for it by cutting elsewhere and
+   say so in the receipts.
+4. **Never report a number you did not measure.** Word counts especially: if you have no
+   way to count, say "not measured" rather than estimating. A station once reported
+   "~1,290 words" for a body of 2,191, and the orchestrator passed it to the human. Your
+   report of your own output is a claim, and it will be audited.
+
 ## Output
 
 Return the deliverable path plus a one-line confidence summary

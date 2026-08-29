@@ -29,6 +29,9 @@ else
   ok "deliverable: $(printf '%s ' "$(basename "${DELIV[0]}")")"
 fi
 
+PINNED=""
+[ -f "$RUN/05-inspection.sha" ] && PINNED=$(awk '{print $1}' "$RUN/05-inspection.sha" | head -1)
+
 # --- 1 · inspection artifacts exist and carry a real verdict -------------------
 mapfile -t INSP < <(find "$RUN" -maxdepth 1 -name '05-inspection*.md' -type f | sort)
 if [ ${#INSP[@]} -eq 0 ]; then
@@ -38,6 +41,15 @@ else
     b=$(basename "$f")
     grep -qi '^Inspector:' "$f" \
       || bad "$b · no 'Inspector:' line — cannot confirm the inspector wrote this"
+    # the report must name the bytes it inspected — a stale report from an earlier
+    # round is otherwise indistinguishable from a current one (the fingerprint only
+    # proves the deliverable has not moved since it was pinned)
+    rsha=$(grep -m1 -i '^Inspected-sha:' "$f" | grep -oE '[0-9a-f]{64}')
+    if [ -z "$rsha" ]; then
+      bad "$b · no 'Inspected-sha:' line — cannot tell which draft this report judged"
+    elif [ -n "${PINNED:-}" ] && [ "$rsha" != "$PINNED" ]; then
+      bad "$b · judged a different draft (${rsha:0:12}…) than the one shipping (${PINNED:0:12}…)"
+    fi
     v=$(grep -m1 '^##[[:space:]]*Verdict' "$f" | grep -oE 'PASS|FIX-IT|REJECT' | head -1)
     case "$v" in
       PASS)   ok "$b · PASS" ;;

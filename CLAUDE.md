@@ -71,6 +71,11 @@ triage + CLARIFY → research → [design] → assembly (+self-coach) → [coach
                                     └────────── FIX-IT loop ◀──────┘
 ```
 
+The FIX-IT loop is capped at 3 rounds, and the cap is not impatience: repair passes
+cost more than the stations they follow, they inflate the work every round, and past
+some point they introduce defects where the last round's repairs landed. Still failing
+at the cap → REJECT, and the human decides what happens next.
+
 Brackets = `full` / `high-stakes` only. Triage, plan-on-`normal`, gate checks and
 human hand-offs are done by the orchestrator inline — they need no subagent.
 
@@ -96,12 +101,28 @@ gate is allowed only on the `direct` lane — and must be said out loud (R4).
 
 **Maker ≠ inspector.** Never run assembly and inspection on the same model.
 
+## The four scripts
+
+Rules written in prose get skipped; rules that run do not. Everything the line must
+never be trusted to remember by hand is a command:
+
+| | |
+|---|---|
+| `preflight.sh <run>` | at triage — what truth-ceiling this environment allows |
+| `budget.sh <run> [min] [max]` | after every writing station — recompute what artifacts weigh |
+| `inspect-prep.sh <run>` | before every inspection — archive old reports, pin the bytes |
+| `gate.sh <run>` | at the gate — the four conditions below |
+
+**Never relay a number a station reports about its own output.** Recompute it.
+
 ## The Safety Gate
 
 Run `.axiom/bin/gate.sh <run-dir>`. It is deterministic; do not reason past a
 FAIL. It opens only when all of these hold:
 
 1. the inspection artifact(s) exist and carry a real verdict from the inspector,
+   each naming the draft it judged (`Inspected-sha:`) — a report from an earlier round
+   must never read as a current one,
 2. every verdict is PASS,
 3. `sha256sum 03-deliverable.*` matches `05-inspection.sha` — the inspected bytes
    are the shipping bytes (a post-FIX-IT edit cannot slip past a stale report),

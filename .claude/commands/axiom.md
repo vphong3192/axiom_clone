@@ -11,6 +11,12 @@ expensive work.
 > Keep it thin: read paths, verdicts, outlines and conflict sections. Never pull a
 > whole research dump or a full draft into it just to hand it somewhere else.
 
+> **Recompute every number a station reports about its own output.** A station's
+> word count, claim count or "all six handled" is a *claim*, not a measurement, and
+> passing it to the human unchecked makes it yours. One run reported "~1,290 words"
+> for a body that measured 2,191; the orchestrator relayed it and the human approved
+> a length that did not exist. `.axiom/bin/budget.sh` exists so this costs one command.
+
 ## Task
 $ARGUMENTS
 
@@ -85,8 +91,11 @@ because the topic has several themes. When you do:
 - then read only each strand's `## Open conflicts / gaps` section and reconcile those
   at the top of the canonical file. Flag conflicts; never silently pick a side.
 
-Do not proceed until `01-research.md` exists and holds sourced, graded facts. If
-research reports the task is broader than triaged, **upgrade the lane and say so**.
+Do not proceed until `01-research.md` exists and holds sourced, graded facts, then run
+`.axiom/bin/budget.sh <run-dir>` — research is the artifact likeliest to sprawl, and a
+fact store that outweighs the work is a cost every later station pays to read.
+
+If research reports the task is broader than triaged, **upgrade the lane and say so**.
 
 ## 3 · Design
 
@@ -109,6 +118,13 @@ Fan into parts only when the plan lists them *and* the deliverable is genuinely 
 `03-deliverable-<slug>.*` into a coherent `03-deliverable.*` (harmonize voice, add no
 new unsourced claim).
 
+Then run `.axiom/bin/budget.sh <run-dir> <min> <max>` with the brief's range. It counts
+the body separately from the confidence table and exits non-zero outside it. **Run this
+after every assembly pass, including every FIX-IT repair** — repair rounds inflate the
+work, and unmeasured growth compounds silently. A miss is a decision, not a formality:
+condense, or take the longer length to the human and get it approved as a scope change
+(Axiom 8). Never let it pass unremarked, and never relay the station's own count.
+
 ## 5 · Coach — `full` / `high-stakes` only
 
 Delegate `axiom-coach`. On `ONE-IMPROVEMENT-PASS`, send its specific notes back to
@@ -119,9 +135,13 @@ Delegate `axiom-coach`. On `ONE-IMPROVEMENT-PASS`, send its specific notes back 
 **Never brief the inspector** and never argue the maker's case — point it at the run
 folder and let it read `03-deliverable.*` itself (R5).
 
-First, pin the bytes:
-`sha256sum <run>/03-deliverable.* > <run>/05-inspection.sha`
-Re-run this before **every** inspection, including after a FIX-IT.
+First run `.axiom/bin/inspect-prep.sh <run-dir>` — before **every** inspection,
+including every re-inspection after a FIX-IT. It archives the previous round's reports
+and pins the fingerprint of the bytes about to be inspected, then prints an
+`Inspected-sha:` line. **Give that line to every inspector**; the gate refuses any
+report that does not carry it, because a report left over from an earlier round is
+otherwise indistinguishable from a current one — and the fingerprint does not catch
+that, since it only proves the deliverable has not moved since it was pinned.
 
 | Lane | Inspectors |
 |---|---|
@@ -136,9 +156,25 @@ below `high-stakes` buys a hyphen-consistency note for the price of a full pass.
 Merge yourself: PASS only if **all** axes PASS; any FIX-IT → FIX-IT; any REJECT →
 REJECT.
 
-- **FIX-IT** → back to `axiom-assembly` with the **combined** findings from every
-  axis, then re-pin the sha and inspect **again from scratch**. Cap 3 rounds; still
-  failing → treat as REJECT and report why.
+- **FIX-IT** → back to `axiom-assembly` **once**, with the **combined** findings from
+  every axis, then re-run `inspect-prep.sh` and inspect **again from scratch**.
+
+  The repair loop is the most expensive part of the line and it does not improve the
+  work indefinitely. Measured on one run: each round cost more than the whole research
+  station (163k then 194k tokens), the body grew every round (2,191 → 2,704 → 2,892 →
+  3,203 words), and in the final round **two of five defects had been introduced by the
+  previous round's repairs**. So:
+  - Wait for **every** axis before sending anything back — one combined pass, never one
+    pass per axis.
+  - From round 2 on, instruct **narrow** repairs: the named defect and its immediate
+    surroundings, no reworking of passages nobody flagged.
+  - Watch the trend across rounds. Converging defects that are smaller each time means
+    the loop is working; the same class recurring, or new defects appearing where
+    repairs landed, means it is not — stop and take it to the human rather than
+    spending a third round on faith.
+  - Cap 3 rounds. Still failing → REJECT: stop, report honestly, and hand the human the
+    draft plus the exact defect list. The cap is the line's rule, not the principal's —
+    they may choose to authorise more, and that is their call, not yours to assume.
 - **REJECT** → stop the line. Report the failure honestly. Do not ship.
 
 ## 7 · Gate + sign-off
@@ -178,6 +214,17 @@ the maker's model shares its blind spots, and the independent check is the point
   to a different model.
 - **literary / creative:** assembly **fable**, inspector opus or sonnet (anything but
   fable), coach opus.
+
+**If the inspector's model is unavailable** (rate limit, outage): never fall back to
+the maker's model — a checker sharing the maker's blind spots is the one thing this
+rule exists to prevent. Prefer waiting. If the work genuinely cannot wait, run the
+inspection on a *different* model even if it is weaker, and record in the report and
+the manifest that the check ran degraded, naming both models. A declared weak check is
+honest; an undeclared one is R5.
+
+Inspection is also the station likeliest to be cut off mid-run: it uses the strongest
+model and runs once per axis per round. Tell inspectors to write their reports as they
+work, and check every axis actually produced a file before merging verdicts.
 
 Run `/axiom` itself on opus or sonnet — triage, merging and the human hand-offs are
 judgment calls, and v10 puts *more* of them on you, not less.

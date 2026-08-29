@@ -17,6 +17,9 @@ từ sai lầm thật. Khi một dòng thật sự liên quan tới việc đang
 11. **Subagent có thể chết giữa chừng** — kiểm mỗi nhánh ra kết quả thật, đừng tin "đã launch = xong".
 12. **Chiều rộng ≠ số agent** — song song ở tầng tool call trước, tầng agent sau cùng.
 13. **Giàn giáo phải nhỏ hơn sản phẩm** — research ≤ 2× bài, plan ≤ 1/3 bài, outline ≤ 30 dòng.
+19. **Vòng sửa tự sinh lỗi mới** — đo được: 2/5 lỗi vòng cuối do vòng trước tạo ra.
+18. **Số agent tự khai về sản phẩm của nó là lời khai, không phải phép đo** — tính lại.
+17. **Quy tắc nằm trong văn xuôi thì bị bỏ qua** — cái gì phải cưỡng chế thì viết thành script.
 16. **Biên nhận để ở file riêng** — nhét vào chính bản thảo là brief cho inspector qua cửa sau.
 15. **Hỏi scope TRƯỚC khi chạy dây chuyền** — sai scope thì mọi trạm sau đều sai một cách hoàn hảo.
 14. **Đừng bù cho điểm yếu model không còn nữa** — mỗi trạm phải tự biện minh lại khi model mạnh lên.
