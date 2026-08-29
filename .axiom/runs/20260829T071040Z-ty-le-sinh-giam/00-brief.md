@@ -216,3 +216,27 @@ lệnh, xác định trần sự thật của cả run trước khi đốt một
 
 - Egress: BLOCKED (2026-08-29T07:31:04Z)
 - Truth-ceiling for this run: **B**
+
+---
+
+## Thay đổi scope có công bố — độ dài (Axiom 8, 2026-08-29)
+
+**Ngân sách cũ:** 1.050–1.450 từ. **Đo thật:** thân bài 2.704 từ (~1,9× trần).
+**Quyết định của người dùng tại điểm gãy: NHẬN BẢN DÀI.** Ngân sách mới: ~2.700 từ.
+
+Ba việc phải nói thẳng vì chúng không tự triệt tiêu nhau:
+
+1. **Bản duyệt ở Cổng 1 là bài ~1.200 từ.** Bản ship dài gấp đôi. Người duyệt đã được
+   thông báo và đồng ý sau khi biết con số thật — đây là thay đổi *được duyệt*, không
+   phải scope drift (Axiom 8). Nhưng tỉ lệ 30/45/25 trong outline đã duyệt không còn
+   được kiểm chứng ở độ dài mới; trục `text` phải kiểm lại mạch bài ở quy mô này.
+2. **Vượt ngân sách có từ trạm 4, không phải từ pass sửa** (2.191 → 2.704 từ).
+3. **Trạm 4 báo sai số từ của chính nó** — "~1.290" cho một thân bài 2.191 từ, lệch
+   70%. Orchestrator chuyển tiếp con số đó cho người dùng mà không tự đo. Đây là lỗi
+   của orchestrator: một con số agent tự khai về sản phẩm của nó là *lời khai*, không
+   phải *phép đo*.
+
+**Sửa harness:** thêm `.axiom/bin/budget.sh` — chạy sau mỗi trạm viết, tự tính lại
+thân bài (tách khỏi bảng độ tin cậy), so với khoảng cho phép, exit khác 0 nếu lệch.
+Đây là lần thứ tư trong run này mà câu trả lời cho một quy tắc bị bỏ qua là "biến nó
+thành script".
