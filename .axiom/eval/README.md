@@ -42,6 +42,26 @@ mà A tránh được. Delta < 2 lặp lại nhiều task → xem lại effort t
 - B thua ở một mục cụ thể (vd "đúng sự thật") → sửa đúng trạm đó (vd verify nguồn), không
   đại tu cả dây chuyền.
 
+## Ca đo bắt buộc: v9 vs v10 (2026-08-29)
+
+v10 cắt trạm intake, bỏ fan-out research mặc định, gộp coach vào assembly ở lane
+thường, gộp trục `consistency`+`wording` thành `text`, và áp ngân sách giàn giáo.
+Ước tính giảm 55–70% token cho `normal`, 40–50% cho `full` — **nhãn C**: suy ra từ số
+đo artifact (26.870 từ giàn giáo cho bài 1.030 từ), chưa đo token thật.
+
+Chạy A = harness v9 (commit `9e0ee08`), B = v10, trên **GT-2 + GT-3**:
+
+- **GT-2** trả lời câu hỏi rủi ro nhất của v10: *cắt trạm có làm tụt "đúng sự thật"
+  không?* Nếu B tụt ở mục "đúng sự thật" hoặc "có nguồn" → hoàn lại đúng trạm đó
+  (nhiều khả năng là fan-out research hoặc trục technical-accuracy), không hoàn lại
+  cả v9.
+- **GT-3** đo cái v10 nhắm tới: task tiny phải đi lane `direct`/`normal`. Nếu v10 vẫn
+  nống nó lên `full` → quy tắc "phân vân thì chọn lane thấp" chưa có răng.
+
+Ghi thêm hai cột chi phí mà rubric chưa có: **số lượt gọi model** và **tổng từ
+artifact / số từ deliverable** (v9 trên run thật: 12 lượt, tỷ lệ 26:1). Hai cột này
+là thứ v10 hứa cải thiện — không đo thì lời hứa ở nhãn C mãi.
+
 ## Giới hạn của chính eval này (khai báo)
 - Chấm tay/đơn người vẫn chủ quan; chấm mù + người chấm khác người viết prompt giúp bớt.
 - Vài golden task chưa phủ hết loại việc (học thuật vs văn học vs báo cáo). Mở rộng dần.
