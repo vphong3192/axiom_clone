@@ -38,6 +38,12 @@ id, and write `00-brief.md`:
 **When torn between two lanes, take the lower one** — research and design can force
 an upgrade later on evidence, which is cheaper than over-building on nerves.
 
+Then run `.axiom/bin/preflight.sh <run-dir>`. It answers, in one command, what
+truth-ceiling this environment allows: where egress is blocked, **no claim in the
+whole run can legitimately reach grade A**, and every station downstream needs to know
+that before it starts rather than discovering it halfway through. It appends the
+verdict to `00-brief.md`.
+
 ## 1b · Clarify — Gate 0, mandatory, before any station runs
 
 Do **not** delegate anything until the scope is settled. Write your reading of the

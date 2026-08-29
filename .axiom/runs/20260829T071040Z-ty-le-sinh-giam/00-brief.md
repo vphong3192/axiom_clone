@@ -176,3 +176,43 @@ tuyên bố tuyệt đối thì nó *sai* so với chính bằng chứng steelma
 thật nhưng nhỏ và chậm"** — và chính sự phân biệt đó trở thành thước đo để soi
 Pháp lệnh 07/2025/UBTVQH15. Steelman nhờ vậy nằm **giữa** trục lập luận thay vì bị
 đẩy xuống cuối bài rồi gạt đi.
+
+---
+
+## Cổng 1 — duyệt outline (người dùng, 2026-08-29)
+
+**DUYỆT**, kèm hai điều chỉnh:
+
+1. **Nới giới hạn từ** — không áp cứng 1150–1200. Mục tiêu ~1200 từ, chấp nhận
+   1050–1450. Quy tắc thay thế cho con số: *cắt khi lặp ý, không cắt khi đang thêm
+   bằng chứng chịu lực*. Vượt 1500 vẫn là tín hiệu lan man.
+2. **Truy nguyên nhân WebFetch bị chặn** — đã làm, kết quả ở mục Preflight dưới.
+
+Mệnh đề trục do design sắc lại được giữ nguyên: *tiền mặt và khẩu hiệu thất bại;
+đầu tư cấu trúc có tác động thật nhưng nhỏ và chậm*.
+
+## Chẩn đoán egress (theo yêu cầu ở Cổng 1)
+
+**Không gỡ được từ trong phiên. Không phải lỗi cấu hình — là chính sách.**
+
+- Mọi host ngoài trả `CONNECT tunnel failed, response 403` tại egress proxy, **kể cả
+  `example.com`** → chặn toàn bộ, không phải chặn theo site.
+- `curl` qua Bash bị chặn y hệt WebFetch → không có đường vòng ở tầng công cụ.
+- `registry.npmjs.org`, `pypi.org` trả 200 chỉ vì nằm trong `no_proxy` (đi thẳng,
+  không qua proxy) — allowlist chỉ mở cho hạ tầng build.
+- `/root/.ccr/README.md`: *"The destination host is not allowed by your organization's
+  egress policy for this session. Do not retry or route around it."*
+
+**Vì sao research vẫn có dữ liệu:** WebSearch đi qua API Anthropic, không qua egress
+của phiên → có snippet, không mở được trang gốc. Đúng khớp triệu chứng.
+
+**Gỡ ở đâu:** network policy của environment (chọn lúc tạo environment) hoặc chạy
+harness ở máy local. Ngoài tầm của phiên này.
+
+**Sửa harness (đã làm):** thêm `.axiom/bin/preflight.sh`, chạy ngay ở trạm 1 — một
+lệnh, xác định trần sự thật của cả run trước khi đốt một trạm research mới biết.
+
+## Preflight
+
+- Egress: BLOCKED (2026-08-29T07:31:04Z)
+- Truth-ceiling for this run: **B**
