@@ -66,19 +66,29 @@ independent, and each branch must justify itself in one sentence.
 ## The pipeline
 
 ```
-triage → research → [design] → assembly (+self-coach) → [coach] → inspect → GATE → ship
-                                     ▲                              │
-                                     └────────── FIX-IT loop ◀──────┘
+triage + CLARIFY → research → [design] → assembly (+self-coach) → [coach] → inspect → GATE → ship
+                                    ▲                              │
+                                    └────────── FIX-IT loop ◀──────┘
 ```
 
 Brackets = `full` / `high-stakes` only. Triage, plan-on-`normal`, gate checks and
 human hand-offs are done by the orchestrator inline — they need no subagent.
 
-## The two human gates
+## The three human gates
 
+0. **Scope clarification** — *before any station runs.* Write down what you think the
+   ask is, then put the genuinely ambiguous parts to the human and wait. Only ask
+   where different answers produce **materially different work** (audience, length,
+   geographic or temporal scope, the actual question behind the question, what the
+   piece is *for*). Questions you can settle yourself are their own kind of waste —
+   decide those and say what you decided. Skip only when the request already answers
+   them, and say that you are skipping.
 1. **Outline approval** — after design, before a word is written. The human sees
    structure, angle, length, team. **Max 30 lines**, or it is not a real gate.
 2. **Sign-off** — after inspection, before shipping.
+
+Gate 0 is the cheapest of the three by orders of magnitude: a wrong scope makes every
+station downstream execute flawlessly in the wrong direction (Axiom 1).
 
 Every check in this pipeline is run by *same-family* models, which removes only
 part of a shared blind spot. The human is the last valuable gate. Skipping either

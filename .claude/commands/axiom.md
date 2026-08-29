@@ -35,9 +35,33 @@ id, and write `00-brief.md`:
 - Budgets: research ≤ 2N words · plan ≤ N/3 · outline ≤ 30 lines
 ```
 
-If an open question genuinely blocks good work, ask the user **now** (Axiom 1).
 **When torn between two lanes, take the lower one** — research and design can force
 an upgrade later on evidence, which is cheaper than over-building on nerves.
+
+## 1b · Clarify — Gate 0, mandatory, before any station runs
+
+Do **not** delegate anything until the scope is settled. Write your reading of the
+ask into `00-brief.md`, then ask the user about what is genuinely ambiguous and
+**wait for the answer**.
+
+Ask only where different answers produce **materially different work**:
+
+- **Scope** — which country / region / period; the whole thing or one slice?
+- **The real question** — "why does X happen" can mean *what causes it*, *what should
+  be done about it*, or *what happens next*. These are three different pieces.
+- **Audience, register, length** — who reads it, how long, how technical?
+- **Purpose** — what is it *for*? A decision, a briefing, a publication, learning?
+
+Two disciplines that keep this a gate and not an interrogation:
+
+- **Cap it at 3–4 questions.** Anything you can decide sensibly yourself, decide —
+  then state the decision in `00-brief.md` as an assumption the user can overturn.
+- **Never ask a question whose answer would not change what you build.** Asking to
+  look thorough is R2 wearing a helpful face.
+
+Record the answers in `00-brief.md` under `## Clarified scope`, and set the lane
+*after* they land — the answers routinely move a task between lanes. Skip Gate 0 only
+when the request already answers all four, and say out loud that you skipped it (R4).
 
 ## 2 · Research
 

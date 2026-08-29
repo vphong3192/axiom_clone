@@ -7,7 +7,7 @@ ra từ một sai lầm thật, có ghi phiên và ngày.
 Mục lục: 1 trung lập · 2 nhãn tin cậy · 3 phép tính · 4 kinh nghiệm người dùng ·
 5 steelman · 6 cổng người · 7 chiều rộng · 8 verify nguồn · 9 fingerprint ·
 10 tool Write · 11 subagent chết · 12 chiều rộng ≠ số agent · 13 ngân sách giàn giáo ·
-14 giàn giáo lỗi thời
+14 giàn giáo lỗi thời · 15 hỏi scope trước
 
 ---
 
@@ -319,6 +319,33 @@ cho mọi claim, maker ≠ inspector. Cắt chúng là biến "hiệu quả" th�
 còn → gộp hoặc bỏ. Nếu nó chặn một lỗi *cơ chế* (người làm tự chấm mình, ship bản chưa
 kiểm) → giữ, model mạnh cỡ nào cũng giữ.
 
+
+---
+
+---
+
+## Bài học 15 — Hỏi scope TRƯỚC khi chạy dây chuyền
+*(Rút ra từ: chạy thử v10 với đề "tại sao tỷ lệ sinh ngày càng giảm", 2026-08-29)*
+
+Đề bài một câu như "tại sao tỷ lệ sinh ngày càng giảm" **trông** như đã đủ rõ để chạy.
+Thực ra nó chứa ít nhất bốn ngã rẽ, mỗi ngã cho ra một bài hoàn toàn khác: Việt Nam hay
+toàn cầu; hỏi *nguyên nhân* hay hỏi *nên làm gì*; viết cho độc giả phổ thông hay cho
+người làm chính sách; 800 từ hay 2.500 từ. Chọn sai một ngã thì research, design,
+assembly, inspection đều chạy hoàn hảo — về sai hướng. Đó là loại lãng phí đắt nhất
+trong cả hệ: không trạm nào phía sau bắt được, vì mọi trạm đều đang bám đúng cái brief
+sai.
+
+v10 bản đầu chỉ có một câu điều kiện — "nếu câu hỏi mở thật sự chặn việc tốt thì hỏi
+người dùng" — nên trên thực tế nó gần như không bao giờ kích hoạt: model luôn tìm được
+một cách diễn giải hợp lý và chạy tiếp.
+
+**Sửa:** Cổng 0 (làm rõ scope) thành **bắt buộc**, ngang hàng với cổng duyệt outline và
+cổng ký duyệt. Nhưng có hai cái phanh để nó không thành thẩm vấn: **tối đa 3–4 câu hỏi**,
+và **chỉ hỏi khi câu trả lời khác nhau tạo ra sản phẩm khác nhau**. Thứ tự đúng: hỏi →
+nhận trả lời → *mới* chốt lane (câu trả lời thường làm task đổi lane).
+
+**Kiểm tra:** Trước khi delegate agent đầu tiên — nếu người dùng trả lời ngược lại với
+giả định của tôi, có phải viết lại bài không? Nếu có mà tôi chưa hỏi, tôi đang đoán.
 
 ---
 

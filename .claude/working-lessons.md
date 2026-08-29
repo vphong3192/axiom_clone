@@ -17,6 +17,7 @@ từ sai lầm thật. Khi một dòng thật sự liên quan tới việc đang
 11. **Subagent có thể chết giữa chừng** — kiểm mỗi nhánh ra kết quả thật, đừng tin "đã launch = xong".
 12. **Chiều rộng ≠ số agent** — song song ở tầng tool call trước, tầng agent sau cùng.
 13. **Giàn giáo phải nhỏ hơn sản phẩm** — research ≤ 2× bài, plan ≤ 1/3 bài, outline ≤ 30 dòng.
+15. **Hỏi scope TRƯỚC khi chạy dây chuyền** — sai scope thì mọi trạm sau đều sai một cách hoàn hảo.
 14. **Đừng bù cho điểm yếu model không còn nữa** — mỗi trạm phải tự biện minh lại khi model mạnh lên.
 
 ---
