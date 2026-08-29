@@ -92,3 +92,87 @@ outline trình người ≤ 30 dòng.
 Hungary làm ví dụ sạch mà nêu thẳng đây là tranh cãi học thuật chưa ngã ngũ (hiệu ứng
 tempo vs quantum); tự loại số TFR Đài Loan 2024 vì mâu thuẫn nội tại; gắn cờ TFR Trung
 Quốc là ước tính bên thứ ba; và tự biện minh một câu cho việc thêm Singapore/HK.
+
+## Plan
+
+### Outline (thân bài ~1150–1200 từ; bảng độ tin cậy sau, không tính vào budget này)
+
+1. **Mở bài (~70 từ)** — hình ảnh cụ thể HCMC 1,39 vs Hà Giang 2,69 → đặt câu hỏi
+   "VN đang đi đường nào?"; một câu công khai trần B (WebFetch bị chặn cả phiên).
+2. **Nguyên nhân nền (~340 từ, 30%)** — bẫy mức sinh thấp; bình đẳng giới kiểu McDonald
+   (cơ hội kinh tế của phụ nữ vượt chuẩn mực gia đình); chi phí nhà/giáo dục; minh hoạ
+   bằng chênh lệch vùng miền VN (32/63 tỉnh dưới mức thay thế 2,1).
+3. **Trục — chính sách khuyến sinh thất ở đâu, được ở đâu (~520 từ, 45%)**:
+   a. Mẫu thất bại: Hàn (chi hàng trăm tỷ USD/15–20 năm, TT Yoon gọi là thất bại),
+      Nhật (Angel Plan, ngân sách lệch về người già), Trung (một→ba con, TFR vẫn giảm,
+      gắn cờ hiệu ứng năm Rồng), Singapore/HK (tiền mặt, TFR vẫn rơi).
+   b. **Steelman đặt giữa trục, không cuối bài**: Pháp (~4% GDP, nhà trẻ phổ quát),
+      OECD (1.000 USD/trẻ ~1–1,6% TFR), Doepke et al. (bình đẳng giới đảo chiều tương
+      quan); Hungary trình bày **là tranh cãi mở** (tempo vs quantum), không phải
+      thành công sạch; Na Uy — chính sách tốt vẫn không đủ.
+   c. Tổng hợp sắc lại: không phải "chính sách luôn thất bại" mà "tiền mặt/khẩu hiệu
+      thất bại; hạ tầng cấu trúc có tác động nhỏ, chậm, cần thập kỷ" → soi Pháp lệnh
+      07/2025/UBTVQH15 (bỏ trần sinh) vào khung này: gỡ hạn chế ≠ đầu tư cấu trúc.
+4. **Kết — kịch bản còn lại (~280 từ, 25%)** — cửa sổ vàng dự kiến đóng 2036, "già
+   trước khi giàu", chi phí thích ứng 1,4–4,6% GDP; trả lời trực diện: VN gần quỹ đạo
+   Đông Bắc Á hơn Tây Âu, nhưng cửa sổ chọn hướng khác chưa đóng hẳn.
+5. Bảng độ tin cậy (chuẩn AXIOM).
+
+### Team
+Một pass duy nhất — 1150–1200 từ là một mạch nhân quả liên tục; chia người viết sẽ tái
+tạo đúng "ba tóm tắt cạnh nhau" mà thiết kế này đang cố tránh. Không cần integration pass.
+
+### Tinh chỉnh so với đề xuất trong brief
+**Giữ khung 3 phần** (nguyên nhân → thất bại chính sách → kịch bản) nhưng **sắc lại
+mệnh đề trục**: từ "chính sách thất bại" (đọc thành tuyệt đối, sai với Pháp/OECD/
+Doepke) → "tiền mặt/khẩu hiệu thất bại, đầu tư cấu trúc có nhưng nhỏ/chậm" — steelman
+dùng để nén luận điểm, không phải để bị đối trọng rồi gạt bỏ ở cuối.
+
+### House style
+Giọng phân tích báo chí nghiêm túc, ngôi trung lập (không "tôi"), câu vừa/ngắn, liên từ
+nhân quả tường minh ("vì thế", "do đó", "nên") nối ba phần thành một mạch.
+Từ vựng bắt buộc nhất quán — dễ lẫn nên chốt cứng: "tổng tỷ suất sinh (TFR)" ≠ "tỷ suất
+sinh thô" ≠ "số ca sinh"; "mức sinh thay thế" (2,1); "Pháp lệnh 07/2025/UBTVQH15" ≠
+"Luật Dân số" (còn dự thảo); số dự báo luôn kèm "dự kiến"/"theo dự báo"; mọi số liệu
+kèm cơ quan + ấn phẩm + năm.
+
+### Inspection plan
+Trục `technical-accuracy` đọc thẳng `03-deliverable.md` (không đọc research/brief
+trước, không tóm tắt maker — R5). Kiểm 6 bẫy nêu tên: (1) TFR/crude/số ca sinh không bị
+gộp (Hàn, Trung 2024); (2) Hungary là tranh cãi mở, không phải thành công sạch; (3) TFR
+Đài Loan 2024 không trích như số chắc; (4) TFR Trung Quốc gắn nhãn ước tính bên thứ ba;
+(5) "2036" gắn nhãn dự báo; (6) Pháp lệnh không lẫn với Luật. Cũng kiểm: trần B xuất
+hiện trong thân bài (không chỉ bảng cuối); steelman ở giữa trục, đủ mạnh, không bị
+knock-down cẩu thả; bài trả lời trực diện "VN đi đường nào"; mọi số liệu có
+cơ quan+năm. Vi phạm bất kỳ điểm nào → FIX-IT.
+Trục `text` đọc cùng file: kiểm mạch một-bài (không phải ba tóm tắt), độ dài
+1100–1300 từ, nhất quán từ vựng ở trên, mở bài có sức kéo cho mục đích "để đăng".
+An toàn độc lập: hai trục không nhận tóm tắt của assembly; cả hai đều bị trần B như
+maker (WebFetch nhiều khả năng vẫn chặn) — việc của trạm 6 là kiểm cách gắn nhãn/xử lý
+bẫy, không phải xác minh lại tận nguồn.
+
+### Risks / re-plan triggers
+Giữ đủ steelman + áp Pháp lệnh 07 mà vượt 1300 từ → cắt Singapore/HK còn một câu mỗi
+nước, không xin thêm ngân sách. Nếu viết xong steelman làm vỡ mệnh đề trục giữa (chính
+sách cấu trúc hoá ra cũng không đủ ngay cả về mặt lý thuyết) → công bố và replan
+(Axiom 7), không lặng lẽ nới câu chữ để né. Egress mở lại giữa chừng không kích hoạt
+replan — chỉ ghi nhận, giữ nguyên grade B cho run này.
+
+---
+
+## Sai lệch sau trạm 3
+
+**Vỡ ngân sách plan lần hai: 781 / 380 từ (+105%).** Hai trạm liên tiếp vượt ngân sách
+(research +52%, plan +105%) trong khi phần *outline* — thứ duy nhất có người đọc —
+lại đúng budget (24/30 dòng). Kết luận: ngân sách nào **được nhìn thấy** thì được giữ,
+ngân sách nào chỉ nằm trong prompt thì không. Đây là bằng chứng thứ hai cho cùng một
+lỗi cơ chế; sẽ sửa bằng script kiểm sau khi run kết thúc.
+
+**Design đã sửa một lỗi lập luận của brief (đáng ghi — đúng vai trạm 3):** brief đề
+xuất mệnh đề trục "chính sách khuyến sinh thất bại". Design bác lại: đọc như một
+tuyên bố tuyệt đối thì nó *sai* so với chính bằng chứng steelman trong research
+(Pháp ~4% GDP; OECD ~1–1,6% TFR/1.000 USD mỗi trẻ; Doepke et al.). Mệnh đề trục
+được sắc lại thành: **"tiền mặt và khẩu hiệu thất bại; đầu tư cấu trúc có tác động
+thật nhưng nhỏ và chậm"** — và chính sự phân biệt đó trở thành thước đo để soi
+Pháp lệnh 07/2025/UBTVQH15. Steelman nhờ vậy nằm **giữa** trục lập luận thay vì bị
+đẩy xuống cuối bài rồi gạt đi.
