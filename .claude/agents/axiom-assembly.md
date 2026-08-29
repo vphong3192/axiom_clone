@@ -34,6 +34,20 @@ step you didn't run (R4).
 End the deliverable with a **confidence table** — claim · grade · source — so the
 inspector and the manifest generator can both read it without hunting through prose.
 
+## Receipts go in a sidecar — never inside the deliverable
+
+Record what you actually did — sources read, steps run, what was checked, what you cut
+and why — in **`03-receipts.md`**, never in `03-deliverable.*`.
+
+The deliverable is the one file the inspector reads independently. A receipts section
+inside it pre-answers the inspection criteria in your own favour ("the steelman is at
+full strength", "all six traps handled") — and briefing the inspector through the
+artifact is still briefing the inspector (R5). It also puts process jargon (station
+names, brief filenames, tool names) inside a piece meant to be read by a reader.
+
+The confidence table is different and stays: claim, grade and source are facts the
+inspector must check, not claims about how well you worked.
+
 ## Self-coach before you submit (`normal` lane)
 
 Unless a separate `axiom-coach` is running, do one honest pass over your own draft

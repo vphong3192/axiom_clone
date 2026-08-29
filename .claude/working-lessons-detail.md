@@ -7,7 +7,7 @@ ra từ một sai lầm thật, có ghi phiên và ngày.
 Mục lục: 1 trung lập · 2 nhãn tin cậy · 3 phép tính · 4 kinh nghiệm người dùng ·
 5 steelman · 6 cổng người · 7 chiều rộng · 8 verify nguồn · 9 fingerprint ·
 10 tool Write · 11 subagent chết · 12 chiều rộng ≠ số agent · 13 ngân sách giàn giáo ·
-14 giàn giáo lỗi thời · 15 hỏi scope trước
+14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng
 
 ---
 
@@ -346,6 +346,37 @@ nhận trả lời → *mới* chốt lane (câu trả lời thường làm task
 
 **Kiểm tra:** Trước khi delegate agent đầu tiên — nếu người dùng trả lời ngược lại với
 giả định của tôi, có phải viết lại bài không? Nếu có mà tôi chưa hỏi, tôi đang đoán.
+
+---
+
+---
+
+## Bài học 16 — Biên nhận để ở file riêng, không nhét vào bản thảo
+*(Rút ra từ: coach pass của run "tỷ lệ sinh giảm", 2026-08-29)*
+
+`axiom-assembly.md` của v10 bảo người viết ghi biên nhận "vào cuối deliverable (hoặc
+sidecar `03-receipts.md`)". Người viết chọn vế đầu — đúng hướng dẫn. Kết quả: mục
+`### Receipts` nằm ngay trong `03-deliverable.md`, tức **đúng cái file duy nhất mà
+inspector đọc độc lập**, và nó khẳng định sẵn: "steelman viết ở mức mạnh nhất", "đã áp
+sáu bẫy", "Hungary trình bày là tranh cãi mở".
+
+Đó chính xác là những tiêu chí mà inspector sắp chấm. Cách ly inspector khỏi bản tóm
+tắt của người làm, rồi nhúng bản tóm tắt đó vào chính artifact, thì không phải cách ly —
+R5 đi qua cửa sau. Không agent nào làm sai; **hướng dẫn cho phép nó.**
+
+Thêm một hệ quả thứ hai: với bài viết để đăng, biên nhận trong bài là văn không đăng
+được — nó gọi tên `00-brief.md`, "trạm 4", "WebFetch".
+
+**Sửa:** biên nhận **luôn** ở `03-receipts.md`, không còn lựa chọn "hoặc". Inspector
+phải hình thành nhận định **từ artifact trước**, rồi mới mở receipts, và coi đó là
+*lời khai cần kiểm*, không phải lời trấn an: cái gì receipts khẳng định mà không thấy
+trong bản thảo thì đó là một finding, không phải một sự yên tâm.
+
+**Giữ nguyên:** bảng độ tin cậy vẫn nằm trong bản thảo. Claim · nhãn · nguồn là *dữ
+kiện inspector phải kiểm*, khác hẳn lời tự đánh giá về việc mình làm tốt thế nào.
+
+**Kiểm tra:** trong file inspector sắp đọc, có câu nào đang *nói cho nó biết bài này
+tốt* thay vì *để nó tự thấy* không? Nếu có, câu đó thuộc file khác.
 
 ---
 

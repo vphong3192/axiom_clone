@@ -116,6 +116,7 @@ was thorough. That is station 6's job, and the person's at sign-off.
 00-brief.md        triage + scope + plan + outline + inspection plan
 01-research.md     the shared fact store (fact · source · grade)
 03-deliverable.*   the work; its last section is the confidence table
+03-receipts.md     what the maker actually did — a sidecar, never inside the work
 04-coach.md        the "is this really the best?" pass (inline or agent)
 05-inspection*.md  the inspector's verdict(s) — written by the inspector
 05-inspection.sha  fingerprint of the exact bytes that were inspected

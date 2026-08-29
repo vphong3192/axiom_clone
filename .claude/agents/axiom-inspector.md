@@ -45,7 +45,10 @@ wins). The rules below are identical in every mode.
      grade-A. A blocked environment caps the truth-ceiling at B — a limit to declare,
      not a defect to fail the work for.
 2. **The steps.** Did every claimed step actually run, or is "I did it" sitting there
-   with nothing behind it (R4)?
+   with nothing behind it (R4)? Reach your findings from the artifact **before** you
+   open `03-receipts.md`. Receipts are a claim to audit, never a briefing: if what
+   they assert about the work is not visible in the deliverable itself, that is a
+   finding, not a reassurance.
 3. **The plan.** Was the written plan followed? If it changed, was the change
    announced (Axiom 7), or did scope quietly drift (Axiom 8)?
 4. **Honesty.** Every claim sourced (Axiom 6) and graded correctly (Axiom 5)? Any D
