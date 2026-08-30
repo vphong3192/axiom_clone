@@ -21,6 +21,9 @@ your-project/
     ├── commands/axiom.md           ← lệnh /axiom điều phối cả dây chuyền
     ├── working-lessons.md          ← checklist đọc đầu phiên (~30 dòng)
     └── working-lessons-detail.md   ← chỉ mở đúng bài học cần
+.axiom/bin/preflight.sh             ← trần sự thật môi trường cho phép (chạy ở trạm 1)
+.axiom/bin/budget.sh                ← cân lại artifact sau mỗi trạm viết
+.axiom/bin/inspect-prep.sh          ← dọn báo cáo vòng cũ + chốt bytes trước mỗi lượt soi
 .axiom/bin/gate.sh                  ← Cổng An toàn, deterministic
 .axiom/bin/manifest.sh              ← sinh gói bằng chứng từ artifact trên đĩa
 ```
@@ -72,7 +75,8 @@ artifact (tỷ lệ 26:1), 4 strand research 15.609 từ gộp còn 2.063 (87% b
 
 - inspector chạy trong **context riêng**, đọc bản thảo trực tiếp;
 - **fingerprint sha** ở cổng — bản được ship phải đúng bản đã soi;
-- **hai cổng người**: duyệt outline (trước) và ký duyệt (sau);
+- **ba cổng người**: làm rõ scope (Cổng 0, trước mọi trạm), duyệt outline, ký duyệt;
+- **biên nhận ở sidecar** `03-receipts.md`, không bao giờ nằm trong file inspector đọc;
 - **nhãn A/B/C/D + nguồn** cho mọi claim;
 - **maker ≠ inspector**, khác model.
 
@@ -86,14 +90,26 @@ còn lại, và **phải khai báo phạm vi đã verify**. Không khai báo = c
 ## Cổng an toàn chạy bằng script
 
 ```bash
+.axiom/bin/preflight.sh   .axiom/runs/<id>          # trạm 1: trần sự thật (A hay B?)
+.axiom/bin/budget.sh      .axiom/runs/<id> 1050 1450  # sau mỗi trạm viết
+.axiom/bin/inspect-prep.sh .axiom/runs/<id>         # trước MỖI lượt soi
 .axiom/bin/gate.sh --pre-signoff .axiom/runs/<id>   # kiểm 1-3 trước khi hỏi người
-.axiom/bin/gate.sh .axiom/runs/<id>                 # cổng đầy đủ
-.axiom/bin/manifest.sh .axiom/runs/<id>             # sinh gói bằng chứng
+.axiom/bin/gate.sh        .axiom/runs/<id>          # cổng đầy đủ
+.axiom/bin/manifest.sh    .axiom/runs/<id>          # sinh gói bằng chứng
 ```
 
+Nguyên tắc đứng sau cả năm script: **quy tắc nằm trong văn xuôi thì bị bỏ qua.** Trong
+run thử đầu tiên, cả bốn ngân sách viết bằng prompt đều bị vượt; `gate.sh` thì chưa hỏng
+lần nào. Khác biệt không nằm ở model — nằm ở chỗ một cái là câu văn, một cái là `exit 1`.
+
 Cổng kiểm: bản thảo tồn tại · mọi `05-inspection*.md` có dòng `## Verdict:` PASS do
-inspector ghi · sha khớp `05-inspection.sha` · có `06-signoff.md`. Deterministic —
-model không "lý luận" qua được một dòng FAIL.
+inspector ghi · **mỗi báo cáo khai `Inspected-sha:` đúng bản thảo đang ship** · sha khớp
+`05-inspection.sha` · có `06-signoff.md`. Deterministic — model không "lý luận" qua được
+một dòng FAIL.
+
+Điều kiện `Inspected-sha:` bịt một lỗ mà fingerprint không thấy: báo cáo của vòng soi
+trước còn nằm trong thư mục sẽ được đọc như verdict hiện hành. Fingerprint chỉ chứng
+minh *bản thảo chưa đổi từ lúc chốt*, không chứng minh *báo cáo nói về bản thảo này*.
 
 ## Đã chứng minh chưa?
 

@@ -46,12 +46,18 @@ Default is `normal`. **When torn, start at the lower lane and escalate on
 evidence** — research or design may report "this is broader than triaged" and
 force an upgrade. Over-building is waste (R6); under-building is R3. Both fail.
 
-| Lane | When | Stations | Model calls |
-|---|---|---|---|
-| `direct` | clear, short, no new facts needed | answer directly — do **not** run `/axiom` | 0 |
-| `normal` | ordinary research/writing task | research → assembly (+ self-coach) → inspect | 3–4 |
-| `full` | important or multi-part | + design agent, + coach agent, 2 inspection axes | 6–7 |
-| `high-stakes` | risky, irreversible, high-visibility | + research fan-out, 3 inspection axes | 8+ |
+| Lane | When | Stations | Calls if it passes first time | Budget with repairs |
+|---|---|---|---|---|
+| `direct` | clear, short, no new facts needed | answer directly — do **not** run `/axiom` | 0 | 0 |
+| `normal` | ordinary research/writing task | research → assembly (+ self-coach) → inspect | 3–4 | 6–8 |
+| `full` | important or multi-part | + design agent, + coach agent, 2 inspection axes | 6–7 | **15–20** |
+| `high-stakes` | risky, irreversible, high-visibility | + research fan-out, 3 inspection axes | 8+ | 20+ |
+
+Plan against the right-hand column. The first `full` run measured end to end took **19
+calls and ~1.1M tokens**: three FIX-IT rounds and four calls lost to rate limits. A
+first-time PASS is the exception, not the plan — and the repair rounds, not the
+producing stations, are where the budget goes (that run's first draft cost 43k tokens;
+the four repair passes after it cost 532k).
 
 ## The smallest-team rule
 
