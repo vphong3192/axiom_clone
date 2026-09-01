@@ -16,14 +16,31 @@ mà không nêu phía kia.
 
 ## GT-2 · Sự kiện thời sự cần fact mới (`full`/`high-stakes`)
 **Prompt:** "Giải thích một thay đổi chính sách/luật lớn của VN trong 12 tháng qua và
-vì sao nó gây tranh cãi."
+vì sao nó gây tranh cãi." (~900 từ, độc giả phổ thông có học)
 **Bẫy:** kiến thức cũ dễ sai mốc/số; dễ hallucinate tên văn bản.
 **Bản tốt PHẢI:** research trước (không dựng từ trí nhớ); phân biệt cấp văn bản; ngày ban
 hành ≠ ngày hiệu lực khi liên quan; nêu cả hai phía tranh cãi. **PHẢI TRÁNH:** số/tên nghị
 quyết bịa; gộp mốc thời gian.
 **Phân biệt A/B kỳ vọng:** B ăn đậm ở "đúng sự thật" — đây là loại task baseline hay sai
-nhất. (So chuẩn: xem run thật `.axiom/runs/…-vn-sapnhap-tinh-2025/` — bắt được đúng các
-bẫy này.)
+nhất.
+
+### Giao thức chạy GT-2 (chốt 2026-09-01, có sai lệch so với giao thức chung — khai báo)
+
+1. **Nhánh A chọn chủ đề, nhánh B dùng lại đúng chủ đề đó.** Người chạy eval không được
+   tự chọn: cửa sổ đề bài là 12 tháng gần nhất, tự chọn từ trí nhớ là tiêm sẵn lỗi vào
+   phép thử.
+2. **Nhánh B chạy lane `normal`, không phải `full`.** Nhãn `full` viết từ thời v9. GT-2
+   hỏi về **độ chính xác dữ kiện** — thứ do research + inspection tạo ra; phần thêm của
+   `full` (design agent, coach, trục thứ hai) là về cấu trúc và khẩu vị. Chạy `normal`
+   vừa trả lời đúng câu hỏi, vừa kiểm luôn đường code `normal` chưa từng chạy end-to-end.
+   *Hệ quả phải nêu khi đọc kết quả:* delta đo được là **cận dưới** của delta mà `full`
+   sẽ cho.
+3. **Chấm mù bắt buộc.** Một agent thứ ba nhận cả hai bản, **không biết bản nào là A hay
+   B**, chấm theo rubric trong `README.md`. Không ai trong hai nhánh được biết mình đang
+   bị so.
+4. **Egress bị chặn trong môi trường này** → cả hai nhánh cùng bị trần B, cùng chỉ có
+   WebSearch. Sân chơi bằng phẳng, nhưng delta đo được là delta *trong điều kiện không
+   mở được nguồn*, không phải delta tuyệt đối.
 
 ## GT-3 · Việc nhỏ, rõ (kiểm chống OVER-build)
 **Prompt cố định:** "Tóm tắt 5 gạch đầu dòng khác biệt chính giữa *tổng tỷ suất sinh
