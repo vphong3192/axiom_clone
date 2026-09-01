@@ -10,7 +10,7 @@ Cần nói ngay: mọi dữ kiện trong bài chỉ được kiểm qua kết qu
 
 Thay đổi rõ nhất là đầu mối quản lý: trước đây thẩm quyền chia giữa Bộ Thông tin và Truyền thông (an toàn thông tin mạng) và Bộ Công an (an ninh mạng) — một phân tách nhiều nguồn cho là gây chồng chéo. Luật 2025 quy định Chính phủ thống nhất quản lý, với Bộ Công an là đầu mối.
 
-Về dữ liệu, một số doanh nghiệp nước ngoài — thuộc diện do Chính phủ quy định bằng nghị định — phải đặt chi nhánh/văn phòng đại diện tại Việt Nam và lưu một số dữ liệu trong nước, trong thời gian do Chính phủ ấn định; luật không bắt buộc đặt máy chủ tại Việt Nam, chỉ bắt buộc lưu dữ liệu thuộc diện quy định. Với chuyển dữ liệu xuyên biên giới, luật lập cơ chế kiểm tra, đánh giá định kỳ — không phải lệnh cấm toàn bộ.
+Về dữ liệu, một số doanh nghiệp nước ngoài — thuộc diện do Chính phủ quy định bằng nghị định — phải đặt chi nhánh/văn phòng đại diện tại Việt Nam và lưu một số dữ liệu trong nước, trong thời gian do Chính phủ ấn định; luật không bắt buộc đặt máy chủ tại Việt Nam. Với chuyển dữ liệu xuyên biên giới, luật lập cơ chế kiểm tra, đánh giá định kỳ — không phải lệnh cấm toàn bộ.
 
 Về nội dung, luật quy định thời hạn 24 giờ kể từ khi lực lượng chuyên trách an ninh mạng yêu cầu bằng văn bản, tổ chức/cá nhân phải gỡ bỏ nội dung vi phạm Điều 13 (điều liệt kê hành vi bị cấm); rút xuống 6 giờ trong tình huống khẩn cấp đe dọa an ninh quốc gia. Con số 24 giờ/6 giờ được nhắc lại thống nhất trên nhiều nguồn, cùng dẫn Điều 13. Một số nguồn tiếng Anh khác nêu khung 24 giờ/3 giờ cho nghĩa vụ khác — cung cấp thông tin người dùng, không phải gỡ nội dung; chưa rõ đây là hai nghĩa vụ tách biệt hay một quy định diễn đạt hai cách, nên bài này không gộp làm một.
 
@@ -24,9 +24,9 @@ Phần lớn nhầm lẫn về luật này là lẫn ai nói gì, khi nào — n
 
 Thứ nhất, góp ý của doanh nghiệp trong nước ở giai đoạn dự thảo. VCCI (Liên đoàn Thương mại và Công nghiệp Việt Nam) tổ chức hội thảo góp ý dự thảo luật trước khi thông qua; doanh nghiệp cho rằng họ chỉ kiểm soát một phần nhỏ không gian mạng, không nên chịu trách nhiệm cho toàn bộ. Đây là góp ý dự thảo, không phải phản đối sau thông qua — không có phát biểu nào của VCCI phản ứng với văn bản thông qua ngày 10/12/2025. Về hiệp hội nước ngoài, không tìm thấy tuyên bố nào từ AmCham hay EuroCham; một số hãng luật có phân tích chung về "rủi ro tuân thủ", nhưng đó là phân tích của hãng luật, không phải lập trường hiệp hội — nên bài này không viết "doanh nghiệp nước ngoài phản đối" khi không ai được nêu tên.
 
-Thứ hai, lo ngại về tập trung thẩm quyền: dồn đầu mối quản lý — trước tách giữa hai bộ — về một cơ quan, được một số bình luận xem là làm giảm kiểm soát chéo giữa các cơ quan nhà nước.
+Thứ hai, về tập trung thẩm quyền: đầu mối quản lý — trước tách giữa hai bộ — nay dồn về một cơ quan. Hồ sơ nghiên cứu không ghi nhận chỉ trích nào có tên về điểm này — khoảng trống, không phải bằng chứng không ai lo ngại.
 
-Thứ ba, lo ngại về tự do biểu đạt — nơi cần thận trọng nhất về quy kết. Tuyên bố rõ ràng nhất của Tổ chức Theo dõi Nhân quyền (Human Rights Watch) là bài ngày 11/12/2024, kêu gọi Việt Nam "bãi bỏ Nghị định 147 và Luật An ninh mạng vi phạm nhân quyền, và trả tự do cho những người bị giam giữ vì thực thi quyền tự do ngôn luận trên mạng". Tuyên bố này nhắm vào Nghị định 147/2024 và Luật An ninh mạng 2018 (24/2018/QH14) — không phải luật 2025. Không tìm thấy phát biểu nào của HRW sau ngày 10/12/2025 về luật mới; các bản tóm tắt gọi đây là "HRW lên án luật 2025" dường như suy diễn từ tuyên bố 2024 sang luật mới — bài này không lặp lại suy diễn đó. Bình luận độc lập cũng ghi nhận luật 2025 được thông qua kín tiếng hơn nhiều so với luật 2018, gắn với quy trình lập pháp rút gọn — bài này chỉ biết qua tóm tắt tìm kiếm, chưa đọc trực tiếp.
+Thứ ba, lo ngại về tự do biểu đạt — nơi cần thận trọng nhất về quy kết. Tuyên bố rõ ràng nhất của Tổ chức Theo dõi Nhân quyền (Human Rights Watch) là bài ngày 11/12/2024, kêu gọi Việt Nam "bãi bỏ Nghị định 147 và Luật An ninh mạng vi phạm nhân quyền, và trả tự do cho những người bị giam giữ vì thực thi quyền tự do ngôn luận trên mạng". Tuyên bố này nhắm vào Nghị định 147/2024 và Luật An ninh mạng 2018 (24/2018/QH14) — không phải luật 2025. Không tìm thấy phát biểu nào của HRW sau ngày 10/12/2025 về luật mới; các bản tóm tắt gọi đây là "HRW lên án luật 2025" dường như suy diễn từ tuyên bố 2024 sang luật mới — bài này không lặp lại suy diễn đó. The Vietnamese Magazine, trong bài tháng 12/2025, ghi nhận luật 2025 được thông qua kín tiếng hơn nhiều so với luật 2018, gắn với quy trình lập pháp rút gọn mà luật này trải qua; bài này chỉ biết qua tóm tắt tìm kiếm, chưa đọc trực tiếp.
 
 Cuối cùng, khung "luật này đi kèm Luật Bảo vệ dữ liệu cá nhân" chỉ là cách nói của giới bình luận, không phải lập trường chính thức: Luật Bảo vệ dữ liệu cá nhân (91/2025/QH15) được thông qua ngày 26/6/2025, hiệu lực từ 1/1/2026 — trước Luật An ninh mạng khoảng sáu tháng, không phải cùng một gói lập pháp.
 
@@ -48,12 +48,16 @@ Vì luật có hiệu lực từ 1/7/2026, tác động thực tế phụ thuộ
 | Số điều luật chưa thống nhất (45 hoặc 58) | B | thuvienphapluat.vn, vplsdms.vn, luatvietnam.vn (mâu thuẫn giữa các nguồn, không xác minh được) |
 | Đầu mối quản lý dồn về Bộ Công an, chấm dứt phân tách với Bộ TT&TT | B | lawlinkvn.com, vplsdms.vn |
 | Yêu cầu lưu trữ dữ liệu trong nước với một số doanh nghiệp nước ngoài (không bắt buộc đặt máy chủ) | B | vietnamnet.vn, Công an Trà Vinh |
+| Chuyển dữ liệu xuyên biên giới: cơ chế kiểm tra/đánh giá định kỳ, không phải lệnh cấm toàn bộ | B | vietnamnet.vn |
 | Thời hạn gỡ nội dung 24 giờ/6 giờ khẩn cấp (Điều 13) | B | vietnamnet.vn, baochinhphu.vn, tsqcb.edu.vn |
 | Khung 24 giờ/3 giờ cho nghĩa vụ cung cấp thông tin người dùng — có thể là nghĩa vụ khác, chưa xác minh | B | tóm tắt luật từ Lexology/Mori Hamada |
+| Mở rộng danh mục nội dung bị cấm (tẩy chay gây thiệt hại doanh nghiệp, làm giả thông tin doanh nghiệp), bảo vệ "nhóm dễ bị tổn thương", hợp tác quốc tế chống tội phạm mạng | B | baochinhphu.vn, nhandan.vn (qua kết quả tìm kiếm) |
+| Nghĩa vụ doanh nghiệp chuyển từ "đầu tư thiết bị" sang "xây dựng năng lực quản trị an ninh mạng" | B | hồ sơ nghiên cứu (nhiều nguồn giải thích luật; không nêu tên miền cụ thể cho riêng phát hiện này) |
 | VCCI góp ý ở giai đoạn dự thảo (không phải phản đối sau thông qua) | B | vibonline.com.vn, vjst.vn |
 | Không tìm thấy tuyên bố nào của AmCham/EuroCham về luật này | B (khoảng trống thông tin, không phải bằng chứng của sự im lặng) | không có nguồn xác nhận — nêu như một khoảng trống |
 | Tuyên bố HRW 11/12/2024 nhắm Nghị định 147 và Luật 2018, không phải luật 2025 | B | hrw.org/news/2024/12/11 |
 | Không tìm thấy phát biểu nào của HRW sau 10/12/2025 về luật mới | B (khoảng trống thông tin) | không có nguồn xác nhận |
+| Luật 2025 được thông qua kín tiếng hơn nhiều so với luật 2018, gắn với quy trình lập pháp rút gọn | B | The Vietnamese Magazine, "The Quiet Passing of Việt Nam's 2025 Cybersecurity Law," tháng 12/2025 (qua tóm tắt tìm kiếm, chưa đọc trực tiếp) |
 | "Đi kèm Luật Bảo vệ dữ liệu cá nhân" là khung của giới bình luận, không phải lập trường chính thức | B | banker.vn, congan.daklak.gov.vn (đối chiếu với việc thiếu văn bản chính thức nào gọi đây là một gói) |
 | Luật Bảo vệ dữ liệu cá nhân (91/2025/QH15): thông qua 26/6/2025, hiệu lực 1/1/2026 | B | fpf.org, recordinglaw.com |
 | Lý do chính thức: chủ quyền dữ liệu, thống nhất quản lý, khắc phục chồng chéo Bộ TT&TT/Bộ Công an | B | xaydungchinhsach.chinhphu.vn, congan.camau.gov.vn |
