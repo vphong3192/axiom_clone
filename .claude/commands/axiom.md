@@ -35,6 +35,7 @@ id, and write `00-brief.md`:
 ```
 # Brief — <task title>
 - Lane / effort: <lane> — because <one line>
+- Lane rejected: <the next lane up, or down> — because <one line>
 - Deliverable: <what, N words, for whom, in what register>
 - Agreed scope (one paragraph):
 - Open questions:
@@ -43,6 +44,13 @@ id, and write `00-brief.md`:
 
 **When torn between two lanes, take the lower one** — research and design can force
 an upgrade later on evidence, which is cheaper than over-building on nerves.
+
+**Write the rejected lane down.** Not as bookkeeping: a blind test of this rule found
+that fresh agents apply it correctly and reliably, while a real run of this pipeline
+skipped the deliberation entirely and jumped to `full` without ever naming the lower
+lane. The rule was not the weak point; leaving the weighing invisible was. A `Lane
+rejected:` line makes skipping it visible, the same way `budget.sh` turns an ignored
+budget into a FAIL line.
 
 Then run `.axiom/bin/preflight.sh <run-dir>`. It answers, in one command, what
 truth-ceiling this environment allows: where egress is blocked, **no claim in the
