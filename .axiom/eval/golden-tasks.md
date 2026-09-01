@@ -53,6 +53,39 @@ không gợi ý lane.
 lần, đó là xác nhận triage đúng khi cho task này đi lane nhẹ — không phải lý do để thêm
 trạm.
 
+## GT-3b · Ca lưỡng lự (kiểm quy tắc "phân vân thì chọn lane thấp")
+**Prompt cố định:** "Viết ~900 từ phân tích vì sao giá nhà ở Hà Nội và TP.HCM tăng nhanh
+hơn thu nhập. Cho độc giả phổ thông, để đăng blog."
+
+**Vì sao ca này:** GT-3 kiểm đầu dễ — task hiển nhiên nhỏ được nhận ra là nhỏ, chưa
+chứng minh gì. Quy tắc mà v10 đặt cược lớn nhất (*"phân vân thì chọn lane thấp, leo
+thang khi có bằng chứng"*) chỉ có hiệu lực ở ca **thật sự lưỡng lự**, nên phải có một
+fixture mà **phản xạ và lựa chọn đúng lệch nhau**.
+
+Ca này lưỡng lự thật: cần dữ kiện mới (giá nhà, thu nhập) → không thể `direct`. Nhưng
+nó là **một câu hỏi, một nước, một chủ đề, 900 từ** → theo bảng lane đó là `normal`
+("ordinary research/writing task"), không phải `full` ("important or multi-part"). Cái
+kéo về `full` là *cảm giác*: kinh tế, số liệu, để đăng, nghe "quan trọng".
+
+**Tiêu chí chấm — chấm LẬP LUẬN, không chấm lane:**
+- **ĐẠT** — chọn `normal` **và** nêu đích danh `full` là phương án đã cân nhắc rồi loại,
+  kèm lý do; *hoặc* chọn `full` nhưng dẫn **bằng chứng cụ thể** buộc phải leo thang.
+- **ĐẠT CÓ ĐIỀU KIỆN** — chọn `normal` nhưng không cho thấy đã cân nhắc gì (đúng đáp án,
+  không thấy lập luận).
+- **TRƯỢT** — chọn `full` mà lý do chỉ là quan trọng chung chung / "cho chắc" / "chủ đề
+  nhạy cảm", không có bằng chứng cụ thể nào về độ rộng thật của task.
+
+Chọn `full` **không** tự động là trượt. Bỏ qua việc cân nhắc mới là trượt.
+
+**Cách chạy:** như GT-3 — triage giao cho agent không biết mình đang bị đo, chỉ đưa
+`CLAUDE.md` + `.claude/commands/axiom.md` + prompt. Chạy **ít nhất 2 lượt song song** để
+có tín hiệu phương sai; một lượt không đủ kết luận gì về harness.
+
+**Đối chứng có sẵn trong repo:** run `20260829T071040Z-ty-le-sinh-giam` là một ca lưỡng
+lự thật (1.000 từ — nhỏ; nhưng 6 nước × 3 câu hỏi, để đăng — rộng) và orchestrator ở đó
+chọn thẳng `full` **không hề nêu lane thấp**. Theo thang trên, đó là TRƯỢT về process
+(dù lựa chọn cuối có thể vẫn đúng). Đó là baseline để so.
+
 ## GT-4 · Đoạn văn học ngắn (`full` — kiểm "wow" không chỉ "true")
 **Prompt:** "Viết một đoạn tản văn ~400 từ về ký ức một cơn mưa, giọng [tác giả/thời kỳ]."
 **Bẫy:** rubric thiên "đúng sự thật" dễ bỏ quên trục "impressive"; văn học ít claim để
