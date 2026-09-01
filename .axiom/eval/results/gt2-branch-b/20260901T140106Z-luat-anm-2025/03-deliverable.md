@@ -36,7 +36,7 @@ Theo cách trình bày chính thức, mục tiêu là thể chế hóa chủ tr�
 
 ## Điều đáng theo dõi từ 1/7/2026
 
-Vì luật có hiệu lực từ 1/7/2026, tác động thực tế phụ thuộc vào các nghị định hướng dẫn chưa ban hành — đặc biệt tiêu chí doanh nghiệp nước ngoài phải lưu trữ dữ liệu, phạm vi và thời hạn lưu trữ. Ba điểm đáng theo dõi: nghị định sẽ cụ thể hóa các khoảng để ngỏ đó thế nào; thời hạn gỡ nội dung 24 giờ/6 giờ có gây tranh chấp về ranh giới "vi phạm" hay không; và liệu các hiệp hội doanh nghiệp nước ngoài — chưa có tuyên bố công khai nào được ghi nhận — có lên tiếng khi các nghĩa vụ bắt đầu áp dụng.
+Vì luật có hiệu lực từ 1/7/2026, tác động thực tế phụ thuộc vào các nghị định hướng dẫn — luật giao nghị định quy định tiêu chí, phạm vi và thời hạn doanh nghiệp nước ngoài phải lưu trữ dữ liệu; hồ sơ nghiên cứu không xác định được tình trạng ban hành các nghị định này. Hai điểm đáng theo dõi: thời hạn gỡ nội dung 24 giờ/6 giờ có gây tranh chấp về ranh giới "vi phạm" hay không; và liệu các hiệp hội doanh nghiệp nước ngoài — chưa có tuyên bố công khai nào — có lên tiếng về các nghĩa vụ đã có hiệu lực.
 
 ## Bảng độ tin cậy
 
@@ -61,5 +61,6 @@ Vì luật có hiệu lực từ 1/7/2026, tác động thực tế phụ thuộ
 | "Đi kèm Luật Bảo vệ dữ liệu cá nhân" là khung của giới bình luận, không phải lập trường chính thức | B | banker.vn, congan.daklak.gov.vn (đối chiếu với việc thiếu văn bản chính thức nào gọi đây là một gói) |
 | Luật Bảo vệ dữ liệu cá nhân (91/2025/QH15): thông qua 26/6/2025, hiệu lực 1/1/2026 | B | fpf.org, recordinglaw.com |
 | Lý do chính thức: chủ quyền dữ liệu, thống nhất quản lý, khắc phục chồng chéo Bộ TT&TT/Bộ Công an | B | xaydungchinhsach.chinhphu.vn, congan.camau.gov.vn |
+| Tiêu chí, phạm vi và thời hạn lưu trữ dữ liệu do nghị định hướng dẫn quy định; hồ sơ nghiên cứu không xác định được tình trạng ban hành các nghị định này | B (khoảng trống thông tin, không phải bằng chứng đã hay chưa ban hành) | vietnamnet.vn, Công an Trà Vinh (về việc giao cho nghị định); không có nguồn xác nhận tình trạng ban hành |
 
 *Ghi chú phương pháp: đường truyền ra ngoài bị chặn trong suốt quá trình chuẩn bị bài; không nguồn nào trong danh sách trên được mở và đọc trực tiếp — tất cả đến từ đoạn trích/tóm tắt kết quả tìm kiếm. Vì vậy không claim nào trong bài được xếp hạng A, bất kể mức độ uy tín của nơi xuất bản.*

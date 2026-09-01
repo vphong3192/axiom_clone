@@ -136,7 +136,7 @@ Both are corrected here rather than repeated:
   86/2015/QH13), Decree 147, and the Personal Data Protection Law (91/2025/QH15) are
   each named with their number at every point where a number is given in the body.
 - **No A grades**: stated in plain prose in the opening section and every row of the
-  confidence table (19 rows after this round) is graded B.
+  confidence table (20 rows after round 2 — see round-2 section above) is graded B.
 
 ## What was cut, and why
 - The unsourced "một số bình luận" attribution in the "Thứ hai" paragraph (this
@@ -152,6 +152,75 @@ Both are corrected here rather than repeated:
 - No new sources were added beyond `01-research.md`; every source cited in the
   confidence table (including the four new rows) is one research already found and
   graded.
+
+## FIX-IT round 2 — changes made in response to 05-inspection.md
+
+Both findings were the same failure in two places: a claim stated more strongly than
+`01-research.md` supports. Narrow repairs only — nothing outside the two named
+passages and their immediate surroundings was touched.
+
+### FIX-IT 1 — decree-issuance claim, §"Điều đáng theo dõi từ 1/7/2026"
+The sentence asserted *"các nghị định hướng dẫn **chưa ban hành**"* — flat non-issuance
+— when `01-research.md` (lines 44–50) establishes only that criteria, scope and
+duration are *left to* implementing decrees, a statement about the law's design, not
+about whether any decree has since been issued. Rewrote to say only what the fact
+store supports: the law delegates these matters to decrees, and this run could not
+establish their issuance status ("luật giao nghị định quy định tiêu chí, phạm vi và
+thời hạn ... hồ sơ nghiên cứu không xác định được tình trạng ban hành các nghị định
+này"). I did not add an explicit calendar date (the inspector's option (b) suggested
+one) because the piece's method note already states everything is dated to the
+research pass, not to ship date, and adding a second, differently-worded date marker
+risked more confusion than it resolved; the fix instead removes the false-precision
+claim entirely rather than dating a non-finding.
+
+Also fixed the companion clause in the same sentence: *"khi các nghĩa vụ **bắt đầu áp
+dụng**"* framed as future a set of obligations live since 1/7/2026. Changed to "có lên
+tiếng về các nghĩa vụ đã có hiệu lực" — present/perfect, matching the fact that the law
+took effect two months before this run.
+
+Added a confidence-table row (previously missing — this was the one substantive body
+claim with no row): "Tiêu chí, phạm vi và thời hạn lưu trữ dữ liệu do nghị định hướng
+dẫn quy định; hồ sơ nghiên cứu không xác định được tình trạng ban hành các nghị định
+này" — graded B (khoảng trống thông tin, không phải bằng chứng đã hay chưa ban hành),
+sourced to vietnamnet.vn / Công an Trà Vinh for the delegation fact and flagged as
+unconfirmed for the issuance-status half, consistent with how the AmCham/EuroCham and
+post-passage-HRW gap rows are already handled in the same table.
+
+### FIX-IT 2 — VCCI non-finding, §"Ba phía tranh cãi"
+*"**không có** phát biểu nào của VCCI phản ứng với văn bản thông qua ngày 10/12/2025"*
+asserted non-existence. `01-research.md` (lines 87–90) records only a non-finding —
+"could not find a named VCCI leader or a dated, quotable VCCI statement." Changed
+"không có" to "không tìm thấy," matching the exact treatment already given to
+AmCham/EuroCham three lines later and to HRW in the same section ("không tìm thấy",
+"Không tìm thấy").
+
+### Search for the same claims elsewhere in the piece
+Checked every other instance of "chưa ban hành," "không có ... nào," and "bắt đầu áp
+dụng" — neither overclaim was repeated anywhere else in the body or in the confidence
+table (the table previously had no row for the decree claim at all, hence the addition
+above rather than a correction of an existing row).
+
+### Word-count check (both fixes plus the table row)
+The inspector's finding required both fixes to be word-neutral or shorter, since the
+body sat at 1,299 words against a 1,300-word ceiling with no headroom.
+- Swapping "không có" → "không tìm thấy" (Fix 2) added exactly one token
+  ("không"/"có" = 2 tokens → "không"/"tìm"/"thấy" = 3 tokens): +1.
+- The rewritten closing-section sentence (Fix 1), measured token-for-token against the
+  original, came out even (112 tokens each) on the first draft, then I trimmed one
+  filler word ("giao **cho** nghị định" → "giao nghị định") to offset the +1 from Fix 2:
+  −1.
+- Net change across both fixes: **zero**.
+- Method: re-ran the same exhaustive-dump technique as FIX-IT round 1 (Grep pattern
+  `\S+`, `-o` content mode, `head_limit 0`, over the five body movements only, table
+  and footnote excluded), then counted output lines with a second Grep pass (`^`,
+  count mode) against a scratch copy of that dump. This is an exact count of
+  space-delimited tokens, not an estimate.
+- **Measured result: 1,305 tokens, minus 6 Markdown heading markers ("#" once, "##"
+  five times) = 1,299 words** — identical to the pre-round-2 figure. The body did not
+  grow.
+- The new confidence-table row (added for Fix 1) sits in the table, which is outside
+  the five-movement body word count and outside the 950–1,300 band that applies to it;
+  the table now carries 20 rows instead of 19.
 
 ## Gates skipped (per brief)
 - Outline approval (Gate 1) and sign-off (Gate 2) were explicitly waived by the brief
