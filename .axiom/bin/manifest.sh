@@ -23,7 +23,7 @@ DELIV=$(find "$RUN" -maxdepth 1 -name '03-deliverable.*' -type f | sort | head -
   echo "## Confidence list"
   echo
   if [ -n "$DELIV" ] && grep -qiE '^#{2,4} .*(confidence|tin c)' "$DELIV"; then
-    awk 'BEGIN{p=0} /^#+ .*([Cc]onfidence|tin c)/{p=1} p' "$DELIV"
+    awk 'BEGIN{p=0} /^#+ .*([Cc]onfidence|tin c)/{p=1;next} p' "$DELIV"
   else
     echo "> **Missing.** The deliverable has no confidence section. Assembly must end"
     echo "> \`03-deliverable.*\` with a claim · grade · source table (Axioms 5, 6)."
