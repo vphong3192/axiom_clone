@@ -14,7 +14,7 @@ Về dữ liệu, một số doanh nghiệp nước ngoài — thuộc diện do
 
 Về nội dung, luật quy định thời hạn 24 giờ kể từ khi lực lượng chuyên trách an ninh mạng yêu cầu bằng văn bản, tổ chức/cá nhân phải gỡ bỏ nội dung vi phạm Điều 13 (điều liệt kê hành vi bị cấm); rút xuống 6 giờ trong tình huống khẩn cấp đe dọa an ninh quốc gia. Con số 24 giờ/6 giờ được nhắc lại thống nhất trên nhiều nguồn, cùng dẫn Điều 13. Một số nguồn tiếng Anh khác nêu khung 24 giờ/3 giờ cho nghĩa vụ khác — cung cấp thông tin người dùng, không phải gỡ nội dung; chưa rõ đây là hai nghĩa vụ tách biệt hay một quy định diễn đạt hai cách, nên bài này không gộp làm một.
 
-Luật cũng mở rộng danh mục nội dung bị cấm — thêm hành vi như kêu gọi tẩy chay gây thiệt hại cho doanh nghiệp, làm giả thông tin doanh nghiệp — cùng quy định bảo vệ "nhóm dễ bị tổn thương" (trẻ em, người cao tuổi, người khó khăn về nhận thức) và hợp tác quốc tế phòng chống tội phạm mạng. Nghĩa vụ doanh nghiệp được mô tả là chuyển từ "đầu tư thiết bị" sang "xây dựng năng lực quản trị an ninh mạng".
+Luật cũng mở rộng danh mục nội dung bị cấm — thêm hành vi như kêu gọi tẩy chay gây thiệt hại cho doanh nghiệp, làm giả thông tin doanh nghiệp — cùng quy định bảo vệ "nhóm dễ bị tổn thương" (dịch từ tiếng Anh; áp dụng mọi ngoặc kép trong bài) và hợp tác quốc tế phòng chống tội phạm mạng. Nghĩa vụ doanh nghiệp được mô tả là chuyển từ "đầu tư thiết bị" sang "xây dựng năng lực quản trị an ninh mạng".
 
 Riêng số điều của luật, các nguồn không thống nhất: 45 điều theo một số nguồn, 58 điều theo nguồn khác. Bài này không chọn một số làm chính thức — đây là điểm chưa xác định được qua kiểm tra chéo.
 
@@ -36,7 +36,7 @@ Theo cách trình bày chính thức, mục tiêu là thể chế hóa chủ tr�
 
 ## Điều đáng theo dõi từ 1/7/2026
 
-Vì luật có hiệu lực từ 1/7/2026, tác động thực tế phụ thuộc vào các nghị định hướng dẫn — luật giao nghị định quy định tiêu chí, phạm vi và thời hạn doanh nghiệp nước ngoài phải lưu trữ dữ liệu; hồ sơ nghiên cứu không xác định được tình trạng ban hành các nghị định này. Hai điểm đáng theo dõi: thời hạn gỡ nội dung 24 giờ/6 giờ có gây tranh chấp về ranh giới "vi phạm" hay không; và liệu các hiệp hội doanh nghiệp nước ngoài — chưa có tuyên bố công khai nào — có lên tiếng về các nghĩa vụ đã có hiệu lực.
+Vì luật có hiệu lực từ 1/7/2026, tác động thực tế phụ thuộc vào các nghị định hướng dẫn — luật giao nghị định quy định tiêu chí, phạm vi và thời hạn doanh nghiệp nước ngoài phải lưu trữ dữ liệu; hồ sơ nghiên cứu không xác định được tình trạng ban hành các nghị định này. Hai điểm đáng theo dõi: thời hạn gỡ nội dung 24 giờ/6 giờ có gây tranh chấp về ranh giới "vi phạm" hay không; và liệu các hiệp hội doanh nghiệp nước ngoài — không tìm thấy tuyên bố công khai nào — có lên tiếng về các nghĩa vụ đã có hiệu lực.
 
 ## Bảng độ tin cậy
 

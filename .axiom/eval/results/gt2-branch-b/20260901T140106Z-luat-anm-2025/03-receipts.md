@@ -222,6 +222,106 @@ body sat at 1,299 words against a 1,300-word ceiling with no headroom.
   the five-movement body word count and outside the 950–1,300 band that applies to it;
   the table now carries 20 rows instead of 19.
 
+## FIX-IT round 3 — changes made in response to 05-inspection.md
+
+Two findings, both narrow. Nothing outside the two named passages was touched.
+
+### Finding 1 — line 39 asserted an absence the fact store does not support
+The closing sentence read "...các hiệp hội doanh nghiệp nước ngoài — **chưa có tuyên
+bố công khai nào** — có lên tiếng..." — a claim about the world (no such statement
+exists). `01-research.md` L91-95/L188-189 supports only a claim about the search ("no
+citable statement found ... a gap, not a confirmed absence"). The inspector pointed out
+the piece already states the supported version twice elsewhere (line 25's "không tìm
+thấy", and table row 57's "không phải bằng chứng của sự im lặng"). Fixed by swapping
+"chưa có" for "không tìm thấy" — the exact phrase the inspector offered as the
+minimal repair, and the same construction already used at line 25 and in the table.
+I did not add "từ họ" or otherwise expand the clause; the smallest edit that converts
+an existence-claim into a search-claim was preferred over a fuller rewrite, both to
+keep the fix narrow and because of the word-budget constraint below.
+
+I also re-read the inspector's account of why this survived round 2: the round-2 sweep
+searched for the literal strings "chưa ban hành," "không có ... nào," and "bắt đầu áp
+dụng," and missed the variant "chưa có ... nào" sitting inside the very sentence that
+round had just rewritten. Rather than repeat a string-based sweep this round, I read
+every sentence in the body that asserts something was not found, not issued, or does
+not exist (six candidates: the two AmCham/EuroCham lines, the VCCI line, the two HRW
+lines, and the decree-issuance line) and checked each against what `01-research.md`
+actually establishes. All five other instances already use "không tìm thấy" /
+"không xác định được" — non-finding language — and none needed a change. Line 39 was
+the only survivor of this class.
+
+### Finding 2 — quotation marks presented back-translated English as verbatim Vietnamese
+Five quoted strings (lines 17, 25, 29, 35) exist in `01-research.md` only in English;
+printing them in Vietnamese quotation marks implies a Vietnamese original was read and
+quoted directly, which did not happen. The load-bearing instance is line 35 (the
+government's stated rationale), where the printed quote also drops "yêu cầu" and
+"quốc gia" from the English source's "cybersecurity **requirements** ... **national**
+digital transformation." Rather than reconstruct a fuller Vietnamese rendering (which
+would still be unverified against a primary text this run never opened), I added a
+single disclosure at the first quote the reader meets (line 17): "(dịch từ tiếng Anh;
+áp dụng mọi ngoặc kép trong bài)" — marking every quoted string in the piece as a
+translation, not verbatim wording. This resolves all five instances (17, 25, 29, 35)
+at once, including line 35, per the inspector's own stated remedy ("mark all of these
+as translation" is offered as sufficient, as an alternative to restoring the missing
+words). I did not additionally restore "yêu cầu"/"quốc gia" into the line 35 quote,
+since the translation disclosure already tells the reader not to read any quoted
+string as verified original wording.
+
+### What this cost, and how it was paid for
+The disclosure could not be added for free. To fit it at the first quote without
+growing the piece, I cut the parenthetical example that previously followed
+"nhóm dễ bị tổn thương" — "(trẻ em, người cao tuổi, người khó khăn về nhận thức)" —
+and replaced it with the disclosure clause. That specific enumeration (children, the
+elderly, people with cognitive difficulties) is dropped from the body; the claim itself
+("bảo vệ nhóm dễ bị tổn thương") remains, sourced, in the same sentence and in table
+row 54, so no sourced claim is lost — only a supporting example. This is a cut made to
+hold the budget, not a finding-driven change, and it is recorded here rather than left
+silent, per the discipline that a repair pass should net zero or below rather than grow
+the piece.
+
+### Word-count check (measured, not estimated)
+Both fixes needed to fit without pushing the body over 1,300 words, since round 2 left
+it at 1,299 with essentially no headroom.
+- Method: same as rounds 1 and 2 — I do not have a `wc`/shell tool in this
+  environment. I copied the five body movements (title through the "Điều đáng theo dõi"
+  section, table and its footnote excluded) into a scratch file, ran Grep with pattern
+  `\S+`, `-o` content mode, `head_limit 0` to get one space-delimited token per output
+  line, then reproduced that exact output as a second scratch file and ran Grep again
+  with pattern `^` in `count` mode to get an exact line count of that dump — an exact
+  count of tokens, not an estimate.
+- Before this round's edits (i.e., the state right after both draft fixes were first
+  written, before the budget check): **1,326 tokens, minus 6 heading markers = 1,320
+  words** — 20 over the 950–1,300 band. This told me the first-draft versions of both
+  fixes were too generous (the disclosure alone added 18 tokens; the "từ họ" version of
+  Fix 1 added 3).
+- I then tightened both: Fix 1 dropped "từ họ" (net change vs. the pre-FIX-IT baseline:
+  "chưa có tuyên bố công khai nào" → "không tìm thấy tuyên bố công khai nào", +1
+  token); Fix 2's disclosure replaced the vulnerable-groups example token-for-token
+  ("(trẻ em, người cao tuổi, người khó khăn về nhận thức)", 11 tokens →
+  "(dịch từ tiếng Anh; áp dụng mọi ngoặc kép trong bài)", 11 tokens, net 0).
+- **Final measured result, re-run on the actually-edited file: 1,306 tokens, minus 6
+  Markdown heading markers ("#" once, "##" five times) = 1,300 words.** This lands
+  exactly at the ceiling, one word above the round-2 figure (1,299), which is the
+  expected result of Fix 1's own +1 token — Fix 2 is fully offset and contributes zero
+  net growth.
+- I am reporting **1,300 words**, not "approximately 1,300," because the method is an
+  exact count of space-delimited tokens minus a known, fixed number of heading markers.
+  The same caveat as prior rounds applies and is repeated rather than dropped: this is a
+  *token* count, and Vietnamese semantic word-segmentation would likely give a slightly
+  lower number, since some Vietnamese words are two syllables joined by a space (e.g.
+  "an ninh").
+- The confidence table and its footnote are outside the five-movement body count and
+  outside the 950–1,300 band that applies to it; the table is unchanged this round (20
+  rows, all grade B).
+
+### What was not touched
+The non-blocking minors list from `05-inspection.md` was left alone, as instructed —
+including the "có mặt" omission, the "Ba phía" / "Cuối cùng" fourth-strand signposting,
+the "chủ thể" promise gap for strand two, the two uses of "hồ sơ nghiên cứu" as visible
+pipeline language, table row 55's weak sourcing, the two prose claims without a
+dedicated table row, the missing explicit "two months in" framing, and the omitted
+28/6–13/7/2025 public-comment-period fact. None of these was reworked.
+
 ## Gates skipped (per brief)
 - Outline approval (Gate 1) and sign-off (Gate 2) were explicitly waived by the brief
   itself as an eval run; this is stated in `00-brief.md`, not decided here.
