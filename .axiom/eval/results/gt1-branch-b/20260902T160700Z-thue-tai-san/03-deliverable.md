@@ -12,7 +12,7 @@ Thuế sử dụng đất phi nông nghiệp: thường niên, chỉ trên đấ
 
 Ngân sách địa phương cần nguồn thu ổn định gắn với đất, thay vì phụ thuộc khoản thu một lần từ giao đất — vốn cạn dần khi quỹ đất công hết. Tỷ trọng thu từ đất được báo cáo khác nhau tùy nguồn: 6,6% tổng thu ngân sách (không rõ năm), 14,7% ngân sách địa phương giai đoạn 2012–2017, 15–16% gần đây [B, thoibaotaichinhvietnam.vn, tienphong.vn] — ba số không cùng kỳ, không chọn một số duy nhất; chỉ chắc là đất đai đang là nguồn thu địa phương quan trọng.
 
-Bất động sản chiếm phần lớn tài sản hộ gia đình Việt Nam — tỷ lệ hộ sở hữu nhà ~90%, cao hơn Mỹ, Úc, Indonesia [B, thitruongtaichinhtiente.vn] — nên đánh thuế tài sản là đánh đúng nơi của cải tập trung. Và để hạn chế đầu cơ, bỏ hoang: GS. Đặng Hùng Võ cho rằng thuế bất động sản Việt Nam hiện quá thấp (0,03% so với 1–1,5% ở nhiều nước), ủng hộ đánh mạnh nhà thứ hai để giảm "giá ảo" do đầu cơ — dù ông cũng nói thuế không giải quyết được giá nhà tăng do cung–cầu thực [B, vietnambiz.vn].
+Tỷ lệ hộ sở hữu nhà ở Việt Nam đạt ~90%, cao hơn Mỹ, Úc, Indonesia [B, thitruongtaichinhtiente.vn] — cơ sở thuế, nếu đánh, sẽ rất rộng, chạm tới đa số hộ gia đình chứ không chỉ nhóm giàu nhiều bất động sản. Và để hạn chế đầu cơ, bỏ hoang: GS. Đặng Hùng Võ cho rằng thuế bất động sản Việt Nam hiện quá thấp (0,03% so với 1–1,5% ở nhiều nước), ủng hộ đánh mạnh nhà thứ hai để giảm "giá ảo" do đầu cơ — dù ông cũng nói thuế không giải quyết được giá nhà tăng do cung–cầu thực [B, vietnambiz.vn].
 
 ## Phía phản đối, ở bản mạnh nhất
 

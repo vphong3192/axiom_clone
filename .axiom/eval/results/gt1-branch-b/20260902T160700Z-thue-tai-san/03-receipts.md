@@ -32,8 +32,21 @@ kế thừa nguyên trần đó, không nâng cấp bất kỳ claim nào lên A
   OECD từ thuế tài sản riêng). Bài chỉ nói "như ở OECD" ở mức mô tả khái niệm (có thuế
   tài sản đánh trên giá trị), không đưa số so sánh.
 - Tỷ lệ BĐS trong tổng tài sản hộ gia đình VN (kiểu số liệu balance-sheet) — research
-  xác nhận không tìm được số trực tiếp; bài chỉ dùng tỷ lệ hộ sở hữu nhà (90%), đúng
-  chỉ tiêu research có, không lẫn với tỷ trọng tài sản thế chấp ngân hàng (73%).
+  xác nhận không tìm được số trực tiếp.
+
+## Sửa sau FIX-IT (round 1)
+Bản nháp đầu bị lỗi: câu mở đầu "Phía ủng hộ" viết "Bất động sản chiếm phần lớn tài
+sản hộ gia đình Việt Nam" như một sự thật, rồi gắn `[B, thitruongtaichinhtiente.vn]`
+ngay cạnh — nhưng nguồn đó chỉ chứng minh tỷ lệ *hộ sở hữu nhà* (90%), không chứng
+minh tỷ trọng bất động sản *trong tổng tài sản*. Đây đúng là chỉ tiêu research ghi
+"không tìm được số trực tiếp" và cấm dùng tỷ lệ sở hữu nhà thay thế — quy tắc đã biết
+(xem gạch đầu dòng phía trên) nhưng câu đó lọt qua, khiến bài mâu thuẫn với chính
+receipts của nó. Đã sửa: bỏ mệnh đề "chiếm phần lớn tài sản hộ gia đình" và kết luận
+"đánh đúng nơi của cải tập trung" rút ra từ đó; giữ lại đúng những gì con số 90% chứng
+minh được — cơ sở thuế rộng, chạm tới đa số hộ gia đình chứ không chỉ nhóm giàu nhiều
+bất động sản. Không thêm dòng bảng mới vì claim còn lại trùng khớp hoàn toàn với dòng
+"Tỷ lệ hộ sở hữu nhà VN ~90%" đã có. Không đổi số từ đáng kể (thay ~50 từ bằng ~51 từ
+trong đúng câu đó).
 - Lập luận "thị trường trầm lắng" (mục 5 trong research) — có nguồn B nhưng là lập
   luận ngắn hạn, trùng lặp một phần với lập luận pass-through; cắt để giữ ngân sách từ
   đúng 700–950 từ mà không làm loãng 5 lập luận có tên + 2 lập luận không tên đã yêu
@@ -49,3 +62,9 @@ bài, cắt câu nối và chi tiết phụ (không cắt claim/nguồn nào), �
 từ (thành phần markdown "#"/"##" chiếm 5 trong số đó, nên nội dung chữ thực ~905) —
 nằm trong khoảng 700–950 từ đã thống nhất. Không có claim, nguồn, hay lập luận nào bị
 bỏ trong quá trình rút gọn này; chỉ rút gọn văn phong.
+
+Sau sửa FIX-IT (round 1): đếm thủ công lại toàn thân bài theo cùng quy tắc (mỗi khớp
+khoảng trắng là một token, kể cả "#"/"##") ra ~911 từ — tăng đúng 1 từ so với bản
+trước sửa, vẫn trong khoảng 700–950. Không có công cụ đếm tự động (`Bash`) trong
+phiên sửa này nên con số này là đếm tay, không phải chạy script; nêu rõ để không lẫn
+với số đo bằng công cụ.
