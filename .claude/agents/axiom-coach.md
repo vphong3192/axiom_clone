@@ -29,7 +29,12 @@ Read `03-deliverable.*` directly and ask, for each:
    beyond its evidence (R2)? Any number presented as a conclusion without its
    arithmetic shown?
 6. **Steelman** — is the opposing case in its strongest form, or a convenient
-   strawman? (working lesson 5)
+   strawman? (working lesson 5) Ask specifically whether **attribution discipline has
+   quietly thinned it**: a blind A/B measured the pipeline beating a single pass on
+   accuracy while *losing* on steelman, because it dropped every objection it could not
+   pin to a named speaker. Source discipline buys accuracy and can pay for it in the
+   richness of the argument. When a strong objection has no nameable source, the answer
+   is to state it **as an argument**, labelled as unattributed — not to stay silent.
 7. **The wow** — a genuine, true "wow" the reader didn't ask for — or merely adequate?
 
 Also sanity-check two process points: **could the team have been smaller?** (R6) and

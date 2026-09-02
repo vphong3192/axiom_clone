@@ -99,6 +99,20 @@ quả *đúng*: dây chuyền từ chối chứng nhận thay vì giả một ch
 **Việc GT-2/GT-3 vẫn còn nợ:** so v9 vs v10 vẫn chưa chạy. Nhưng giờ đã có baseline chi
 phí thật cho v10 để so, thay vì hai bên cùng là ước tính.
 
+## Đã chạy (2026-08→09)
+
+| Task | Kết quả | Ghi chú |
+|---|---|---|
+| **GT-3** (chống over-build, ca dễ) | **ĐẠT** | triage mù chọn `direct`, 0 subagent, công bố việc bỏ Cổng 0 |
+| **GT-3b** (ca lưỡng lự — quy tắc "phân vân chọn lane thấp") | **ĐẠT 2/2** | cả hai nêu đích danh lane đã loại; run thật trước đó thì **không** — chỉ dẫn không hỏng, người vận hành hỏng |
+| **GT-2** (độ chính xác) | **B thắng, delta +5** (13/14 vs 8/14) | vượt ngưỡng; chi phí 6,3× token |
+| GT-1, GT-4 | chưa chạy | |
+
+**Kết luận dùng được:** pipeline đáng chi phí cho bài **công khai, nhiều dữ kiện, dễ sai
+quy kết**. Không đáng cho việc nhỏ rõ ràng (GT-3 xác nhận triage biết điều đó). Chưa đo:
+task học thuật dài (GT-1) và văn học (GT-4) — GT-4 đặc biệt đáng ngờ vì trục "wow" không
+được rubric hiện tại đo tốt.
+
 ## Giới hạn của chính eval này (khai báo)
 - Chấm tay/đơn người vẫn chủ quan; chấm mù + người chấm khác người viết prompt giúp bớt.
 - Vài golden task chưa phủ hết loại việc (học thuật vs văn học vs báo cáo). Mở rộng dần.

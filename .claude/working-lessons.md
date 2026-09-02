@@ -17,6 +17,7 @@ từ sai lầm thật. Khi một dòng thật sự liên quan tới việc đang
 11. **Subagent có thể chết giữa chừng** — kiểm mỗi nhánh ra kết quả thật, đừng tin "đã launch = xong".
 12. **Chiều rộng ≠ số agent** — song song ở tầng tool call trước, tầng agent sau cùng.
 13. **Giàn giáo phải nhỏ hơn sản phẩm** — research ≤ 2× bài, plan ≤ 1/3 bài, outline ≤ 30 dòng.
+20. **Kỷ luật nguồn có thể làm mỏng lập luận** — phản biện không truy được người nói thì nêu như lập luận, đừng bỏ.
 19. **Vòng sửa tự sinh lỗi mới** — đo được: 2/5 lỗi vòng cuối do vòng trước tạo ra.
 18. **Số agent tự khai về sản phẩm của nó là lời khai, không phải phép đo** — tính lại.
 17. **Quy tắc nằm trong văn xuôi thì bị bỏ qua** — cái gì phải cưỡng chế thì viết thành script.

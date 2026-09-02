@@ -7,7 +7,7 @@ ra từ một sai lầm thật, có ghi phiên và ngày.
 Mục lục: 1 trung lập · 2 nhãn tin cậy · 3 phép tính · 4 kinh nghiệm người dùng ·
 5 steelman · 6 cổng người · 7 chiều rộng · 8 verify nguồn · 9 fingerprint ·
 10 tool Write · 11 subagent chết · 12 chiều rộng ≠ số agent · 13 ngân sách giàn giáo ·
-14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi
+14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi · 20 kỷ luật nguồn làm mỏng lập luận
 
 ---
 
@@ -449,6 +449,34 @@ vô nghĩa nếu ngưỡng trôi lên mỗi vòng.
 
 **Kiểm tra:** lỗi vòng này có nhỏ hơn vòng trước không? Nếu cùng loại lặp lại, hoặc lỗi
 mới mọc đúng chỗ vừa sửa — dừng, đừng đặt cược vòng thứ ba.
+
+---
+
+---
+
+## Bài học 20 — Kỷ luật nguồn có thể làm mỏng lập luận
+*(Rút ra từ: eval GT-2 chấm mù, 2026-09-02)*
+
+Chấm mù cho pipeline **13/14** và một-lượt **8/14**. Nhưng có đúng một mục pipeline
+**thua**: **steelman, 1 so với 2**.
+
+Giám khảo giải thích, và lời giải thích quan trọng hơn điểm số: bản một-lượt dựng phía
+đối lập sắc hơn (lập luận rằng nội địa hoá dữ liệu có thể *làm yếu* an ninh dữ liệu vì
+phân mảnh hạ tầng cloud toàn cầu). Pipeline mỏng hơn **chính vì kỷ luật quy kết của nó**
+— nó loại mọi phản biện không gắn được vào một chủ thể có tên và có ngày.
+
+Đây không phải lỗi ngẫu nhiên. Đó là **hệ quả trực tiếp** của quy tắc làm nên phần thắng
+ở bốn mục kia. Cùng một kỷ luật vừa loại được quy kết sai cho HRW, vừa loại luôn một lập
+luận đúng chỉ vì không tra được ai nói nó đầu tiên.
+
+**Sửa:** khi research không tìm ra chủ thể có tên cho một phản biện mạnh, lựa chọn đúng
+**không phải im lặng**. Nêu lập luận đó **như một lập luận**, gắn nhãn rõ là chưa truy
+được người phát biểu — giống hệt cách đã dùng cho các khoảng trống thông tin khác ("không
+tìm thấy, không phải bằng chứng của sự im lặng"). Một lập luận không rõ tác giả vẫn là
+một lập luận cần trả lời; im lặng về nó mới là thiếu trung thực.
+
+**Kiểm tra:** phía đối lập trong bài có mỏng đi không, và nếu có — vì lập luận của họ yếu,
+hay vì tôi không tra được ai đã nói? Hai lý do đó rất khác nhau.
 
 ---
 

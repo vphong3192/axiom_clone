@@ -81,19 +81,27 @@ Four disciplines, because repair rounds are where good drafts get worse:
 1. **Prefer cutting to hedging.** A claim nothing supports is removed, not softened.
    No qualifier rescues an invented number, and a hedged version of a false statement
    is still a false statement wearing a coat.
-2. **Re-read what surrounds every edit.** Repairs land in load-bearing joints, and a
+2. **Sweep by meaning, not by string — and re-read the sentence you just wrote.** When a
+   finding names a *class* of error (an unsupported absence, an inflated grade, an
+   unnamed attribution), the other instances rarely use the same words. One measured
+   repair pass swept for `"chưa ban hành"`, `"không có … nào"` and `"bắt đầu áp dụng"`,
+   missed the variant `"chưa có … nào"` — and the surviving instance was **inside the
+   very sentence that pass had just rewritten**. A grep is a starting point, never the
+   check. The sentence you just touched is the one to re-read hardest, not the one to
+   exempt.
+3. **Re-read what surrounds every edit.** Repairs land in load-bearing joints, and a
    sentence rewritten to satisfy one finding routinely contradicts a claim forty lines
    away that you are no longer reading. In one measured run, two of five defects found
    in the final round had been *introduced by the previous round's repairs*. After each
    fix, read the passage before and after it, and search the piece for every other
    place that makes the same claim.
-3. **A repair pass should not grow the work.** Findings almost always add — a caveat, a
+4. **A repair pass should not grow the work.** Findings almost always add — a caveat, a
    data year, a restored example, both readings of a mechanism — while cuts happen only
    when ordered. Left alone this inflates the artifact every round (measured: 2,191 →
    2,704 → 2,892 → 3,203 words across three rounds). Aim for a net word change of zero
    or less; if a fix genuinely requires expansion, pay for it by cutting elsewhere and
    say so in the receipts.
-4. **Never report a number you did not measure.** Word counts especially: if you have no
+5. **Never report a number you did not measure.** Word counts especially: if you have no
    way to count, say "not measured" rather than estimating. A station once reported
    "~1,290 words" for a body of 2,191, and the orchestrator passed it to the human. Your
    report of your own output is a claim, and it will be audited.
