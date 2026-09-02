@@ -59,7 +59,13 @@ and write `04-coach.md` before returning. Ask, and answer in writing:
 - **Alternatives** — a stronger framing left on the table?
 - **Honesty** — any claim dressed up beyond its evidence (R2)? Any number stated as a
   conclusion without the arithmetic shown?
-- **Steelman** — is the opposing case in its strongest form, or a strawman?
+- **Steelman** — is the opposing case in its strongest form, or a strawman? Check
+  specifically whether **your own sourcing discipline has thinned it**: a blind A/B
+  measured this pipeline beating an unchecked single pass on accuracy while *losing* on
+  steelman, because it dropped every objection it could not pin to a named speaker. When
+  a strong objection has no nameable source, state it **as an argument**, labelled as
+  unattributed — the same treatment you give any other information gap. An argument with
+  no traceable author still has to be answered; silence about it is the dishonest option.
 - **Wow** — a true "wow" the reader didn't ask for, or merely adequate?
 
 Then apply the improvements worth making — **once**, not in circles — and note in
