@@ -29,6 +29,12 @@ a cost the writer and every later station pays to read.
 ## Honesty rules
 
 - Every fact carries a source. No source → not a usable fact (Axiom 6).
+- **Name the specific item, not just the publisher.** A bare domain — `vneconomy.vn` —
+  satisfies the letter of "has a source" and helps nobody check it. Record the article
+  title and its URL where you have them, plus the date. A blind scoring found a piece
+  citing bare domains beaten on traceability by one citing titles and links, and one of
+  those bare domains turned out to be an aggregator rather than the original publisher —
+  which nobody could see, because the citation hid it.
 - Grade every fact: **A** = you opened and read the source; **B** = found via search
   but not opened, or inferred; **C** = half-remembered; **D** = guess (flagged, never
   passed on as fact).

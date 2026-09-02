@@ -106,12 +106,25 @@ phí thật cho v10 để so, thay vì hai bên cùng là ước tính.
 | **GT-3** (chống over-build, ca dễ) | **ĐẠT** | triage mù chọn `direct`, 0 subagent, công bố việc bỏ Cổng 0 |
 | **GT-3b** (ca lưỡng lự — quy tắc "phân vân chọn lane thấp") | **ĐẠT 2/2** | cả hai nêu đích danh lane đã loại; run thật trước đó thì **không** — chỉ dẫn không hỏng, người vận hành hỏng |
 | **GT-2** (độ chính xác) | **B thắng, delta +5** (13/14 vs 8/14) | vượt ngưỡng; chi phí 6,3× token |
-| GT-1, GT-4 | chưa chạy | |
+| **GT-1** (chính sách có nguồn) | **B thắng, delta +4** (12/14 vs 8/14) | PASS sau 1 vòng sửa, 5 lượt; steelman **hoà** 2–2 (GT-2 thua 1–2) — nhưng thước đo cũng đổi giữa hai run, không tách được nguyên nhân |
+| GT-4 | chưa chạy | cần sửa rubric trước — trục "wow" không được đo |
 
-**Kết luận dùng được:** pipeline đáng chi phí cho bài **công khai, nhiều dữ kiện, dễ sai
-quy kết**. Không đáng cho việc nhỏ rõ ràng (GT-3 xác nhận triage biết điều đó). Chưa đo:
-task học thuật dài (GT-1) và văn học (GT-4) — GT-4 đặc biệt đáng ngờ vì trục "wow" không
-được rubric hiện tại đo tốt.
+**Kết luận dùng được (2 run, 2 lớp task):** pipeline thắng ở cả hai, và thắng vì **cùng
+một thứ** — kỷ luật nhận thức luận: nhãn trung thực, khai báo giới hạn, không ghép đại
+lượng không cùng cơ sở, không quy kết sai. **Không** vì viết hay hơn: mục "Substance" hoà
+2–2 ở cả hai run.
+
+→ **Dùng pipeline khi sai một quy kết hoặc một con số là tốn kém.** Không dùng khi chỉ cần
+một bài đọc được mà người đọc sẽ tự kiểm (GT-3 xác nhận triage biết điều đó).
+
+**Lỗi thiết kế eval cần tránh lần sau:** GT-1 đổi *cả* harness (bản vá bài học 20) *lẫn*
+hướng dẫn giám khảo giữa hai run → không quy được nguyên nhân cho phần steelman hoà. Chỉ
+đổi một thứ mỗi lần.
+
+**Giới hạn cứng của cả loạt:** dưới trần B (egress chặn), không phép so nào phân xử được
+bất đồng về *sự thật* — hai bản GT-1 mâu thuẫn nhau về tình trạng lập pháp và giám khảo
+không phân xử nổi. Cái đo được là **kỷ luật xử lý sự không chắc chắn**, không phải độ đúng
+tuyệt đối.
 
 ## Giới hạn của chính eval này (khai báo)
 - Chấm tay/đơn người vẫn chủ quan; chấm mù + người chấm khác người viết prompt giúp bớt.
