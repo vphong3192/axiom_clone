@@ -129,7 +129,7 @@ phí thật cho v10 để so, thay vì hai bên cùng là ước tính.
 | **GT-3b** (ca lưỡng lự — quy tắc "phân vân chọn lane thấp") | **ĐẠT 2/2** | cả hai nêu đích danh lane đã loại; run thật trước đó thì **không** — chỉ dẫn không hỏng, người vận hành hỏng |
 | **GT-2** (độ chính xác) | **B thắng, delta +5** (13/14 vs 8/14) | vượt ngưỡng; chi phí 6,3× token |
 | **GT-1** (chính sách có nguồn) | **B thắng, delta +4** (12/14 vs 8/14) | PASS sau 1 vòng sửa, 5 lượt; steelman **hoà** 2–2 (GT-2 thua 1–2) — nhưng thước đo cũng đổi giữa hai run, không tách được nguyên nhân |
-| GT-4 | chưa chạy | cần sửa rubric trước — trục "wow" không được đo |
+| **GT-4** (sáng tác) | **B thắng, delta +4** (13/14 vs 9/14) | chấm bằng Rubric B; **dự đoán của người chạy eval là B thua — sai**; phép so sạch nhất (cùng model, cùng hình thức) |
 
 **Kết luận dùng được (2 run, 2 lớp task):** pipeline thắng ở cả hai, và thắng vì **cùng
 một thứ** — kỷ luật nhận thức luận: nhãn trung thực, khai báo giới hạn, không ghép đại
@@ -138,6 +138,15 @@ lượng không cùng cơ sở, không quy kết sai. **Không** vì viết hay 
 
 → **Dùng pipeline khi sai một quy kết hoặc một con số là tốn kém.** Không dùng khi chỉ cần
 một bài đọc được mà người đọc sẽ tự kiểm (GT-3 xác nhận triage biết điều đó).
+
+**GT-4 mở rộng kết luận này và sửa nó.** Pipeline thắng cả ở task **sáng tác** (+4), nơi
+không có gì để gắn nguồn — nên "kỷ luật nhận thức luận" chưa phải mô tả đủ. Thứ thật sự
+được mua là **một trạm riêng biến yêu cầu mơ hồ thành chỉ dẫn kiểm được trước khi người
+viết đặt bút**: với bài dữ kiện đó là nguồn và mâu thuẫn giữa nguồn; với văn đó là danh
+sách cụm sáo và đặc trưng giọng đo được. Cùng một cơ chế, hai loại nội dung.
+
+**Điều kiện đi kèm:** trạm research phải được giao **đúng việc cho loại task đó**. Nếu nó
+đi kiếm nguồn cho một bài không có claim nào, nó vô dụng.
 
 **Lỗi thiết kế eval cần tránh lần sau:** GT-1 đổi *cả* harness (bản vá bài học 20) *lẫn*
 hướng dẫn giám khảo giữa hai run → không quy được nguyên nhân cho phần steelman hoà. Chỉ

@@ -7,7 +7,7 @@ ra từ một sai lầm thật, có ghi phiên và ngày.
 Mục lục: 1 trung lập · 2 nhãn tin cậy · 3 phép tính · 4 kinh nghiệm người dùng ·
 5 steelman · 6 cổng người · 7 chiều rộng · 8 verify nguồn · 9 fingerprint ·
 10 tool Write · 11 subagent chết · 12 chiều rộng ≠ số agent · 13 ngân sách giàn giáo ·
-14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi · 20 kỷ luật nguồn làm mỏng lập luận · 21 brief không giới hạn inspector
+14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi · 20 kỷ luật nguồn làm mỏng lập luận · 21 brief không giới hạn inspector · 22 plan đánh rơi đề bài
 
 ---
 
@@ -510,6 +510,35 @@ do và để inspector tự cân** — đó là khác biệt giữa cung cấp b
 
 **Kiểm tra:** trong brief có câu nào đang nói cho inspector biết **kết luận nào là được
 phép** không? Nếu có, đó là R5, dù câu đó nghe hợp lý đến đâu.
+
+---
+
+---
+
+## Bài học 22 — Plan mã hoá cách viết có thể đánh rơi đề bài
+*(Rút ra từ: eval GT-4, 2026-09-03)*
+
+Đề: **ký ức** một cơn mưa. Outline tôi viết:
+
+> "Mở bằng trạng ngữ thời gian/nơi chốn · mưa đến · một chi tiết vật chất làm trục ·
+> phố huyện vắng · mưa tạnh · kết đóng trên một ảnh tĩnh."
+
+Sáu nhịp, đều đúng về **cách viết**, và **không dòng nào nói phải có người đang nhớ**.
+Bài ra đời đúng như plan: một cảnh mưa ngôi thứ ba, không ai nhớ gì. Chấm mù: thắng năm
+trên bảy mục nghề, **thua mục bám scope**. Giám khảo gọi đúng — *"văn hay hơn, lệch đề
+một bước."*
+
+Cơ chế: plan càng cụ thể về *manner* thì càng dễ trở thành **thứ duy nhất người viết
+đọc**. Người viết thi hành plan, không thi hành đề bài. Và ở đây plan còn bịt luôn đường
+cứu: danh sách FIX-IT trong brief (vốn đã là vi phạm bài học 21) toàn điều kiện văn
+phong, nên inspector cũng không chặn.
+
+**Sửa:** outline **mở đầu bằng chính câu hỏi/đề bài**, nguyên văn, trước mọi chỉ dẫn về
+cách viết. Và inspection plan luôn kiểm "bài có trả lời đúng thứ được hỏi không" như một
+mục độc lập với mọi mục về văn phong.
+
+**Kiểm tra:** nếu ai đó chỉ đọc outline mà không đọc đề, họ có viết ra đúng thứ được yêu
+cầu không? Nếu không, outline đang thiếu cái quan trọng nhất.
 
 ---
 

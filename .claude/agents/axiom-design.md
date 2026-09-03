@@ -19,7 +19,12 @@ Read `00-brief.md` and `01-research.md`, then extend `00-brief.md` with a plan
 covering:
 
 1. **The blueprint.** What ships, its outline, section-by-section word budget,
-   concrete enough that someone else could follow it (Axioms 3, 4).
+   concrete enough that someone else could follow it (Axioms 3, 4). **Open the outline
+   with the commission itself, in the user's own words**, before any instruction about
+   how to write it. A plan detailed about manner becomes the only thing the writer
+   reads, and it can carry every craft rule while quietly dropping the subject: one
+   measured run specified six structural beats for a piece about *a memory* and never
+   said anyone had to be remembering. The result executed the plan and missed the ask.
 2. **The assembly team.** Default **one** pass. Fan out only when the deliverable
    genuinely decomposes into parts that can be written separately *and* it is long
    (roughly >3000 words) — each part earns its place in one sentence, with a `slug`
