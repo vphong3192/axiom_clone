@@ -221,7 +221,11 @@ the maker's model shares its blind spots, and the independent check is the point
   assembly sonnet, inspector opus. Raising assembly → opus means moving the inspector
   to a different model.
 - **literary / creative:** assembly **fable**, inspector opus or sonnet (anything but
-  fable), coach opus.
+  fable), coach opus. **If `fable` is unavailable** (it can return 429 "requires usage
+  credits"), fall back to the strongest available maker and say so in the brief — this
+  fallback is the opposite of the inspector's, where a weaker substitute is acceptable
+  and the maker's own model never is. Do not silently drop the creative task onto a
+  default: name the substitute, because voice is exactly what the model choice was for.
 
 **If the inspector's model is unavailable** (rate limit, outage): never fall back to
 the maker's model — a checker sharing the maker's blind spots is the one thing this
