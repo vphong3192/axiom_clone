@@ -224,12 +224,16 @@ the maker's model shares its blind spots, and the independent check is the point
 - **`full` / `high-stakes`, analytical:** coach opus (taste-heavy, cheap output),
   assembly sonnet, inspector opus. Raising assembly → opus means moving the inspector
   to a different model.
-- **literary / creative:** assembly **fable**, inspector opus or sonnet (anything but
-  fable), coach opus. **If `fable` is unavailable** (it can return 429 "requires usage
-  credits"), fall back to the strongest available maker and say so in the brief — this
-  fallback is the opposite of the inspector's, where a weaker substitute is acceptable
-  and the maker's own model never is. Do not silently drop the creative task onto a
-  default: name the substitute, because voice is exactly what the model choice was for.
+- **literary / creative:** assembly **opus** — the strongest available maker — with the
+  inspector on a *different* model (sonnet), since maker ≠ inspector still binds and
+  raising the maker forces the checker to move. Coach opus.
+
+  **Do not reach for `fable` unless the user names it.** It is a specialist creative
+  model, it is not always entitled on an account (it can return 429 "requires usage
+  credits"), and a station that dies on a gated model has produced nothing. Default to
+  the strongest model that is actually available; use `fable` only on an explicit
+  request, and if it then fails, fall back to opus and say so in the brief rather than
+  silently substituting — voice is the whole reason a model was specified.
 
 **If the inspector's model is unavailable** (rate limit, outage): never fall back to
 the maker's model — a checker sharing the maker's blind spots is the one thing this
