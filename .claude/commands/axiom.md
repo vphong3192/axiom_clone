@@ -98,6 +98,12 @@ because the topic has several themes. When you do:
   context: `cat <run>/01-research-*.md > <run>/01-research.md`;
 - then read only each strand's `## Open conflicts / gaps` section and reconcile those
   at the top of the canonical file. Flag conflicts; never silently pick a side.
+- **Tell each strand to return almost nothing** — path, egress status, one line. A
+  subagent's return message enters your context whether you want it or not, so it
+  bypasses the whole `cat`-merge discipline: a measured two-strand run leaked ~800
+  words in that way. Strands also write to each other through the conflicts section
+  when told it is the only part that gets read, which is worth encouraging: in that
+  run each flagged something the other needed to check.
 
 Do not proceed until `01-research.md` exists and holds sourced, graded facts, then run
 `.axiom/bin/budget.sh <run-dir>` — research is the artifact likeliest to sprawl, and a

@@ -7,7 +7,7 @@ ra từ một sai lầm thật, có ghi phiên và ngày.
 Mục lục: 1 trung lập · 2 nhãn tin cậy · 3 phép tính · 4 kinh nghiệm người dùng ·
 5 steelman · 6 cổng người · 7 chiều rộng · 8 verify nguồn · 9 fingerprint ·
 10 tool Write · 11 subagent chết · 12 chiều rộng ≠ số agent · 13 ngân sách giàn giáo ·
-14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi · 20 kỷ luật nguồn làm mỏng lập luận · 21 brief không giới hạn inspector · 22 plan đánh rơi đề bài
+14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi · 20 kỷ luật nguồn làm mỏng lập luận · 21 brief không giới hạn inspector · 22 plan đánh rơi đề bài · 23 tóm tắt subagent vòng qua phép gộp
 
 ---
 
@@ -539,6 +539,35 @@ mục độc lập với mọi mục về văn phong.
 
 **Kiểm tra:** nếu ai đó chỉ đọc outline mà không đọc đề, họ có viết ra đúng thứ được yêu
 cầu không? Nếu không, outline đang thiếu cái quan trọng nhất.
+
+---
+
+---
+
+## Bài học 23 — Tóm tắt của subagent vòng qua mọi kỷ luật gộp
+*(Rút ra từ: test fan-out, 2026-09-03)*
+
+v10 thiết kế phép gộp fan-out để giữ context orchestrator mỏng: nối strand bằng `cat`,
+**chỉ đọc mục `## Open conflicts`**, không kéo toàn văn vào. Trên giấy nó kín.
+
+Chạy thật thì: **mỗi subagent tự động trả một bản tóm tắt vào context orchestrator.**
+Run 2 strand đã rò ~800 từ theo đường đó, trước khi tôi mở bất kỳ file nào. Phần tiết
+kiệm vẫn thật (tránh được 3.279 từ toàn văn) nhưng nhỏ hơn thiết kế tưởng — và với 7
+nhánh như AXIOM gốc, riêng tóm tắt đã ~2.800 từ, tức phần lớn cái mà cơ chế sinh ra để
+tránh.
+
+**Sửa:** strand trong fan-out được dặn trả về **gần như không gì** — đường dẫn, trạng
+thái egress, một dòng nói mục xung đột có gì không được bỏ sót. Phát hiện để trong file,
+nơi phép gộp thật sự tìm.
+
+**Thứ nảy sinh ngoài thiết kế, đáng giữ:** khi được dặn "mục xung đột là phần duy nhất
+được đọc", hai strand **viết cho nhau** qua mục đó — `intl` yêu cầu kiểm xem nhánh dữ
+liệu có nêu định nghĩa trước khi trích số không; `vn` hỏi nhánh kia có cần số hiệu văn
+bản không. Không ai bảo chúng làm vậy. Mục xung đột trở thành kênh liên lạc giữa các
+nhánh, không chỉ là chỗ đổ rác.
+
+**Kiểm tra:** cơ chế nào hứa giữ context mỏng — nó có tính cả đường trả về của subagent
+không? Nếu không, phần tiết kiệm đang bị tính thừa.
 
 ---
 
