@@ -37,3 +37,30 @@ pipeline làm hỏng văn — và nếu inspector đòi chúng, đó là lỗi c
 
 - Egress: BLOCKED (2026-09-03T02:03:24Z)
 - Truth-ceiling for this run: **B**
+
+---
+
+## Plan (inline — lane `normal`)
+
+### Outline (thân bài 350–480 từ, một mạch, không chia mục)
+Mở bằng trạng ngữ thời gian/nơi chốn · mưa đến · một chi tiết vật chất đứng làm trục
+(mái, đèn, chum, chõng tre) · phố huyện vắng · mưa tạnh · kết đóng trên **một ảnh tĩnh**,
+không câu tổng kết, không rút ra bài học.
+
+### House style (từ research, kiểm được)
+Mệnh đề dài 15–25 âm tiết nối bằng phẩy; thỉnh thoảng **một** câu ngắn để đổi nhịp.
+**Cảm xúc nằm trong đồ vật, không gọi tên** — "tôi buồn" gần như phải vắng mặt.
+
+### Cấm (research đã liệt kê)
+"mưa rơi tí tách" và biến thể · "ký ức ùa về" · mưa được nhân hoá thành khóc/buồn ·
+"gột rửa tâm hồn" · mở bài kiểu "Có những cơn mưa..." · lạm dụng danh từ trừu tượng
+("hoài niệm", "ký ức") thay cho đồ vật cụ thể.
+
+### Lằn ranh
+Không câu nào của Thạch Lam được lọt vào bài. Research có ghi hai câu nhớ được — chúng
+ở đó để **tránh**, không phải để dùng.
+
+### Inspection plan
+Một trục `whole`. **KHÔNG đòi bảng nhãn, không đòi trần B trong bài** — văn sáng tác
+không có claim để gắn nhãn. FIX-IT chỉ khi: chi tiết sai thời đại · lọt câu của tác giả
+thật · rơi vào danh sách cấm · lệch giọng đã giao · ngoài dải 350–480 từ.
