@@ -103,13 +103,32 @@ lự thật (1.000 từ — nhỏ; nhưng 6 nước × 3 câu hỏi, để đăn
 chọn thẳng `full` **không hề nêu lane thấp**. Theo thang trên, đó là TRƯỢT về process
 (dù lựa chọn cuối có thể vẫn đúng). Đó là baseline để so.
 
-## GT-4 · Đoạn văn học ngắn (`full` — kiểm "wow" không chỉ "true")
-**Prompt:** "Viết một đoạn tản văn ~400 từ về ký ức một cơn mưa, giọng [tác giả/thời kỳ]."
-**Bẫy:** rubric thiên "đúng sự thật" dễ bỏ quên trục "impressive"; văn học ít claim để
-gắn nhãn. **Bản tốt PHẢI:** có "wow" thật (hình ảnh, nhịp), giữ giọng yêu cầu; trung thực
-ở chỗ khác — không bịa trích dẫn tác giả có thật.
-**Ghi chú chấm:** với task văn học, đổi trọng số rubric (bỏ "có nguồn"/"đúng sự thật" cho
-phần sáng tác, tăng "wow" + "bám giọng"). Nhắc: AXIOM là cho cả học thuật LẪN văn học.
+## GT-4 · Đoạn văn học ngắn (kiểm "wow", không chỉ "true")
+**Prompt cố định:** "Viết một đoạn tản văn ~400 từ về ký ức một cơn mưa, giọng tản văn
+tiền chiến kiểu Thạch Lam (Tự Lực Văn Đoàn, thập niên 1930)."
+
+**Vì sao pin giọng này:** cần một giọng **cụ thể, có thể kiểm được** (từ vựng, cú pháp,
+nhịp) chứ không phải "văn hay". Thạch Lam đã mất từ 1942 nên đây là bài tập phỏng giọng
+theo thông lệ văn học, không phải mạo danh người đang sống.
+
+**Chấm bằng Rubric B** (task sáng tác) trong `README.md`, không phải rubric chính.
+
+**Bẫy:** dễ sáo ("mưa rơi tí tách", "ký ức ùa về"); dễ trượt về giọng hiện đại; và —
+**tuyệt đối không bịa trích dẫn của Thạch Lam hay tác giả có thật nào**. Phỏng giọng là
+hợp lệ; đặt lời vào miệng người thật thì không.
+
+**Câu hỏi thật GT-4 đặt ra — và nó khác ba task kia:** *pipeline có GIÚP hay có HẠI cho
+việc sáng tác?* Ba task trước, pipeline thắng nhờ **kỷ luật nguồn**. Ở đây gần như không
+có gì để gắn nguồn — nên hoặc lợi thế đó biến mất, hoặc tệ hơn: nó đẩy văn về phía an
+toàn, kiểm được, nhạt.
+
+**Dự đoán ghi trước khi chạy (2026-09-03):** tôi cho rằng **B sẽ hoà hoặc thua A**, và
+nếu thua thì thua ở "hình ảnh có sức" và "cụ thể thay vì sáo". Lý do: mọi cơ chế làm
+pipeline thắng ở GT-1/GT-2 (đối chiếu nguồn, loại claim không đỡ được, inspector đòi mọi
+câu truy được về kho dữ kiện) đều **không có đối tượng** trong văn xuôi sáng tác — và một
+inspector quen đòi "câu này lấy từ đâu" rất dễ bào mòn đúng những câu liều lĩnh nhất.
+Nếu dự đoán này đúng, kết luận **không** phải "sửa pipeline cho giỏi văn" mà là: **lớp
+task sáng tác nên đi lane `direct`**, và harness phải nói thẳng điều đó.
 
 ---
 

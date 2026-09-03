@@ -36,6 +36,28 @@ Với mỗi golden task trong `golden-tasks.md`:
 **Ngưỡng gợi ý:** B "đáng chi phí" nếu tổng điểm B ≥ A + 3 **và** B không có mục nào 0
 mà A tránh được. Delta < 2 lặp lại nhiều task → xem lại effort triage cho lớp task đó.
 
+## Rubric B — task sáng tác (dùng cho GT-4)
+
+Rubric chính đo **kỷ luật nhận thức luận**. Với task sáng tác, ba mục của nó (có nguồn ·
+phản biện · đúng sự thật) gần như không áp được, và mục quan trọng nhất — **"wow"** — lại
+không có chỗ. Chấm văn bằng rubric kia sẽ cho một con số vô nghĩa, nên đây là bản riêng.
+Vẫn 7 mục × 0–2 = **tối đa 14**, để độ lớn delta so được với các GT khác (nhưng nhớ: hai
+rubric đo hai thứ khác nhau, không so trực tiếp *ý nghĩa* của delta).
+
+| Mục | 0 | 1 | 2 |
+|---|---|---|---|
+| **Hình ảnh có sức** | ảnh sáo, ai viết cũng ra | có một hai ảnh khá | ít nhất một ảnh thật sự khiến người đọc dừng lại |
+| **Bám giọng đã giao** | giọng hiện đại chung chung | gần đúng, đôi chỗ lệch | đúng thời kỳ/tác giả về từ vựng, cú pháp, nhịp |
+| **Nhịp câu** | đều đều, đọc lên không có gì | ổn | dài ngắn có chủ ý, đọc thành tiếng nghe được |
+| **Cụ thể thay vì sáo** | đầy "mưa rơi tí tách", "ký ức ùa về" | vài chỗ sáo | chi tiết cụ thể, riêng, không thay thế được |
+| **Trung thực về thực tế** | bịa trích dẫn/sự kiện của người thật | có chỗ mập mờ | không bịa gì; nếu mượn thực tế thì đúng |
+| **Bám scope** | lệch đề/độ dài/giọng | phần lớn đúng | đúng đề, đúng độ dài, đúng giọng đã giao |
+| **Kết** | dừng chứ không kết | kết được | kết mở ra thêm một tầng, không tóm tắt lại bài |
+
+**Lưu ý khi chấm:** "trung thực" ở đây **không** có nghĩa là gắn nhãn A/B/C/D cho câu văn —
+một đoạn tản văn không có claim để gắn nhãn. Nó chỉ có nghĩa: không bịa lời của người có
+thật, không dựng sự kiện lịch sử giả làm nền.
+
 ## Cách dùng kết quả (chống R6/R3)
 - B thắng đậm → pipeline đáng cho lớp task đó; giữ.
 - B thắng mờ, chi phí cao → **hạ** một số task xuống lane nhẹ hơn (không phải thêm agent).
