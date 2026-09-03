@@ -28,7 +28,12 @@ covering:
 3. **House style.** Voice, register, and the shared lexicon — the exact terms that
    must stay consistent, and the ones that are easy to mix up.
 4. **The inspection plan.** Which artifact the inspector reads (the real one, never
-   a maker's summary — R5), which axes, and what would make it FIX-IT.
+   a maker's summary — R5), which axes, and the failures you can already foresee.
+   **Write it as "check at least these", never as "FIX-IT only if these".** A plan that
+   enumerates the permissible grounds for failure is the maker's side of the story
+   limiting the check — R5 through the paperwork rather than through the prompt. Never
+   pre-label a disagreeing inspector as mistaken or as a harness fault; if you think a
+   check does not apply to this kind of work, say why and let the inspector weigh it.
 5. **Risks** and the trigger that would force a re-plan (Axiom 7).
 
 Design a fresh plan for *this* job; don't stamp a generic structure onto it (R1).

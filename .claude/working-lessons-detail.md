@@ -7,7 +7,7 @@ ra từ một sai lầm thật, có ghi phiên và ngày.
 Mục lục: 1 trung lập · 2 nhãn tin cậy · 3 phép tính · 4 kinh nghiệm người dùng ·
 5 steelman · 6 cổng người · 7 chiều rộng · 8 verify nguồn · 9 fingerprint ·
 10 tool Write · 11 subagent chết · 12 chiều rộng ≠ số agent · 13 ngân sách giàn giáo ·
-14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi · 20 kỷ luật nguồn làm mỏng lập luận
+14 giàn giáo lỗi thời · 15 hỏi scope trước · 16 biên nhận ở file riêng · 17 quy tắc phải là script · 18 lời khai ≠ phép đo · 19 vòng sửa sinh lỗi · 20 kỷ luật nguồn làm mỏng lập luận · 21 brief không giới hạn inspector
 
 ---
 
@@ -477,6 +477,39 @@ một lập luận cần trả lời; im lặng về nó mới là thiếu trung
 
 **Kiểm tra:** phía đối lập trong bài có mỏng đi không, và nếu có — vì lập luận của họ yếu,
 hay vì tôi không tra được ai đã nói? Hai lý do đó rất khác nhau.
+
+---
+
+---
+
+## Bài học 21 — Brief không được giới hạn thứ inspector được phép tìm
+*(Rút ra từ: eval GT-4, 2026-09-03 — và người vi phạm là orchestrator)*
+
+Trong `00-brief.md` của GT-4 tôi viết mục inspection plan như sau:
+
+> "FIX-IT **chỉ khi**: chi tiết sai thời đại · lọt câu của tác giả thật · rơi vào danh
+> sách cấm · lệch giọng đã giao · ngoài dải 350–480 từ."
+
+Và ở một chỗ khác: *"nếu inspector đòi bảng nhãn, đó là **lỗi của harness**, không phải
+của bài."*
+
+Inspector gọi tên chính xác: **một văn bản do chính dây chuyền đang bị kiểm sản xuất ra
+thì không thể giới hạn thứ người kiểm được phép tìm.** Nó tìm thấy một lỗi thật (research
+vượt ngân sách 1.120/800) **nằm ngoài danh sách** — và nếu nó tuân theo danh sách, lỗi đó
+đã lọt.
+
+Cay đắng hơn: tôi vi phạm điều này **ngay trong lượt tôi tự khen** là đã không cầm tay chỉ
+việc trong prompt của inspector. Tôi không gài trong prompt — tôi **chuyển việc gài vào
+brief**. Cùng một hành vi, đổi vị trí, và khó thấy hơn nhiều vì brief trông như tài liệu
+trung lập của quy trình.
+
+**Sửa:** inspection plan viết ở dạng **"kiểm ít nhất những điều này"**, không bao giờ ở
+dạng "chỉ FIX-IT nếu". Không bao giờ dán nhãn trước cho một inspector bất đồng là "sai"
+hay "lỗi harness". Nếu thật sự nghĩ một mục kiểm không áp được cho loại việc này, **nêu lý
+do và để inspector tự cân** — đó là khác biệt giữa cung cấp bối cảnh và ra lệnh cho quan toà.
+
+**Kiểm tra:** trong brief có câu nào đang nói cho inspector biết **kết luận nào là được
+phép** không? Nếu có, đó là R5, dù câu đó nghe hợp lý đến đâu.
 
 ---
 

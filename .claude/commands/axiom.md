@@ -109,6 +109,10 @@ If research reports the task is broader than triaged, **upgrade the lane and say
 
 - **`normal`:** write the plan into `00-brief.md` yourself — outline with a word
   budget per section, house style, inspection plan. Keep it ≤ N/3.
+  **The inspection plan says "check at least these", never "FIX-IT only if these".**
+  You are on the maker's side of this line; bounding the inspector from the brief is R5
+  no matter how reasonable the bound looks, and pre-labelling a disagreeing inspector as
+  a harness fault is the same move with the volume up.
 - **`full` / `high-stakes`:** delegate `axiom-design`.
 
 **Outline gate (human).** Present **≤30 lines**: structure, angle, target length,
